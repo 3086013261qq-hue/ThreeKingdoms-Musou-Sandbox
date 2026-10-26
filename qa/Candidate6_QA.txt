@@ -1,0 +1,27 @@
+Candidate6 QA PASS
+
+Candidate5 JSON SHA256: 6ca0a5342f099800ef762c01c1a34029126a2dfa84533ce29777cff6199d9e3f
+Candidate5 PNG  SHA256: 4bb48135658c39b1149b5d0eafae49bbf3f152f3f82afa129a759f61f77258b2
+Candidate6 JSON SHA256: 00ccedb502a95ef703d65ed428b4d04b5c5b091696d55a5ff09ba7cfeb7d9876
+Candidate6 PNG  SHA256: e171dd7d98e64beef64b2630887ce5ee5c4d9b76c286b0302404eb41cf010f79
+
+Candidate6 JSON size: 1436255 bytes
+Candidate6 PNG  size: 4976778 bytes
+
+WORLD BOOK SOURCE FIXES:
+- 002 female-world hard rules synced to formal source: PASS
+- 009 appearance/character authority is a real constant blue worldbook entry: PASS
+- 91/91 character entries contain their own names as keys: PASS
+- 91/91 character entries are recursively activatable: PASS
+- character entries still prevent further recursion: PASS
+- Candidate5 post-history 91-row appearance index removed: PASS
+
+REGRESSION:
+- 刘备 151cm / 粉红 / 双马尾 / 翠绿: PASS
+- 张飞 175cm / 黑褐 / 双丸子 / 琥珀黑: PASS
+- 关羽 183cm / 深青 / 超长高马尾 / 墨绿: PASS
+- Candidate4 faction beautifier inherited: PASS
+- PNG IDAT image layer unchanged: PASS
+IDAT SHA256: 3eac43b4e91b88a5f23358bd814323bb436bd966dad3a5537c4a72389b1aec02
+- embedded chara == Candidate6 JSON: PASS
+- embedded ccv3 == Candidate6 JSON: PASS

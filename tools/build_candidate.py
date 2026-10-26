@@ -60,7 +60,9 @@ def assemble():
  for idx in [17,18]:
   e=base(idx);e['content']='';result.append(embed.convert_entry(e,len(result)))
  for i,x in enumerate(formal):
-  add(19,'角色:'+x['name'],read(x['character_source']),299-i,x['ability_keywords'],source=x['character_source'])
+  out=add(19,'角色:'+x['name'],read(x['character_source']),299-i,x['ability_keywords'],source=x['character_source'])
+  if x['name'] not in out['keys']: out['keys'].insert(0,x['name'])
+  out['extensions'].update(excludeRecursion=False,exclude_recursion=False,preventRecursion=True,prevent_recursion=True)
  for idx in [20,21]:
   e=base(idx);e['content']='';result.append(embed.convert_entry(e,len(result)))
  for i,x in enumerate(eggs):
@@ -75,7 +77,7 @@ def assemble():
  for e,p in zip(copy.deepcopy(mvu['data']['character_book']['entries']),prompt_paths):
   e['content']=read(p);result.append(e)
  data=copy.deepcopy(mvu['data']);greetings=load('card/openings.json')
- data.update(name='三国无双姬',description='',personality='',scenario='',first_mes=greetings[0],alternate_greetings=greetings[1:],mes_example='',system_prompt='',post_history_instructions=read('mvu/prompts/faction-output.txt')+'\n'+read('mvu/prompts/appearance-index.v1.txt'),creator='多娜',character_version='1.0.0-candidate1',tags=['三国无双姬','咩咩制卡','沙盒'],creator_notes='Candidate1：待真实 Android / SillyTavern 实机验收。需要酒馆助手并启用卡内脚本和正则。内嵌世界书自动绑定；时间线MAIN01默认开启，MAIN02～MAIN10内嵌且关闭，按咩咩原生时间线多选一使用，不由MVU推进。')
+ data.update(name='三国无双姬',description='',personality='',scenario='',first_mes=greetings[0],alternate_greetings=greetings[1:],mes_example='',system_prompt='',post_history_instructions=read('mvu/prompts/faction-output.txt'),creator='多娜',character_version='1.0.0-candidate1',tags=['三国无双姬','咩咩制卡','沙盒'],creator_notes='Candidate1：待真实 Android / SillyTavern 实机验收。需要酒馆助手并启用卡内脚本和正则。内嵌世界书自动绑定；时间线MAIN01默认开启，MAIN02～MAIN10内嵌且关闭，按咩咩原生时间线多选一使用，不由MVU推进。')
  data['character_book']={'name':'三国无双姬世界书','entries':result}
  scripts=data['extensions']['tavern_helper']['scripts']
  scripts[0]['content']=read('mvu/runtime/MVU.js').strip()
