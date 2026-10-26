@@ -1,0 +1,39 @@
+{
+  "version": "0.1",
+  "status": "complete",
+  "batch": "location-batch03-final20",
+  "source_index": "worldbook/locations/LOCATION_INDEX.v0.1.md",
+  "order_range": [60, 41],
+  "entry_format": "<地点:名称>介绍:...</地点:名称>",
+  "all_locations_complete": true,
+  "entries": [
+    {"name":"夷陵·猇亭","source":"worldbook/locations/041_夷陵·猇亭.md","order_hint":60,"keywords":["夷陵","猇亭","夷陵猇亭"]},
+    {"name":"白帝城","source":"worldbook/locations/042_白帝城.md","order_hint":59,"keywords":["白帝城","白帝"]},
+    {"name":"南中","source":"worldbook/locations/043_南中.md","order_hint":58,"keywords":["南中","南中地区"]},
+    {"name":"泸水","source":"worldbook/locations/044_泸水.md","order_hint":57,"keywords":["泸水","泸水河"]},
+    {"name":"街亭","source":"worldbook/locations/045_街亭.md","order_hint":56,"keywords":["街亭","街亭古道"]},
+    {"name":"陈仓","source":"worldbook/locations/046_陈仓.md","order_hint":55,"keywords":["陈仓","陈仓城"]},
+    {"name":"祁山","source":"worldbook/locations/047_祁山.md","order_hint":54,"keywords":["祁山","祁山堡"]},
+    {"name":"木门道","source":"worldbook/locations/048_木门道.md","order_hint":53,"keywords":["木门道","木门峡谷"]},
+    {"name":"上方谷","source":"worldbook/locations/049_上方谷.md","order_hint":52,"keywords":["上方谷"]},
+    {"name":"五丈原","source":"worldbook/locations/050_五丈原.md","order_hint":51,"keywords":["五丈原"]},
+    {"name":"铁笼山","source":"worldbook/locations/051_铁笼山.md","order_hint":50,"keywords":["铁笼山"]},
+    {"name":"剑阁","source":"worldbook/locations/052_剑阁.md","order_hint":49,"keywords":["剑阁","剑门关","剑门"]},
+    {"name":"阴平道","source":"worldbook/locations/053_阴平道.md","order_hint":48,"keywords":["阴平道","阴平古道"]},
+    {"name":"江油","source":"worldbook/locations/054_江油.md","order_hint":47,"keywords":["江油","江油关"]},
+    {"name":"绵竹","source":"worldbook/locations/055_绵竹.md","order_hint":46,"keywords":["绵竹","绵竹关"]},
+    {"name":"沓中","source":"worldbook/locations/056_沓中.md","order_hint":45,"keywords":["沓中","沓中屯田"]},
+    {"name":"石头城","source":"worldbook/locations/057_石头城.md","order_hint":44,"keywords":["石头城","石城"]},
+    {"name":"荆州地区","source":"worldbook/locations/058_荆州地区.md","order_hint":43,"keywords":["荆州地区","荆襄","荆州"]},
+    {"name":"益州·西川","source":"worldbook/locations/059_益州·西川.md","order_hint":42,"keywords":["益州","西川","益州西川"]},
+    {"name":"江东","source":"worldbook/locations/060_江东.md","order_hint":41,"keywords":["江东","江东地区"]}
+  ],
+  "rules": [
+    "地点正文只写稳定客观空间资料，不写剧情结果或动态归属",
+    "街亭、木门道、铁笼山、沓中等采用可核实的区域地理口径，不把地方传说细节当唯一史实",
+    "泸水、上方谷等现代对应存在争议的地点只保留《三国演义》所需的稳定空间功能，不锁定唯一现代坐标",
+    "宏观区域卡荆州地区、益州西川、江东只描述跨城域地形水系与交通，不覆盖具体城池卡的局部细节",
+    "不修改人物、能力、蓝灯绿灯、时间线或武道等级",
+    "本批完成后地点工程60/60封版"
+  ]
+}
