@@ -1,0 +1,26 @@
+Candidate5 QA PASS
+
+Candidate4 JSON SHA256: 599b444a6c95dcf39d522ff9a51a65cafb4df71911fbc4909efc49a8748d8362
+Candidate4 PNG  SHA256: 223b3e1c8d8afe152e6c29b8dd622de5357df825d274f233fe97bbc595e2ef86
+Candidate5 JSON SHA256: 6ca0a5342f099800ef762c01c1a34029126a2dfa84533ce29777cff6199d9e3f
+Candidate5 PNG  SHA256: 4bb48135658c39b1149b5d0eafae49bbf3f152f3f82afa129a759f61f77258b2
+Appearance index SHA256: f3066c5bafdbad56359fa0f6b651d677667357a434b11f1841503ea3a332e5f0
+
+Candidate5 JSON size: 1464020 bytes
+Candidate5 PNG  size: 5055762 bytes
+Appearance index rows: 91
+
+PNG image layer (all IDAT chunks): UNCHANGED
+IDAT SHA256: 3eac43b4e91b88a5f23358bd814323bb436bd966dad3a5537c4a72389b1aec02
+Embedded chara == Candidate5 JSON object: PASS
+Embedded ccv3 == Candidate5 JSON object: PASS
+
+Appearance authority checks:
+- 91/91 character entries parsed into compact authority index: PASS
+- 刘备 anchor 151cm / 粉红 / 双马尾 / 翠绿: PASS
+- 张飞 anchor 175cm / 黑褐 / 双丸子 / 琥珀黑: PASS
+- 关羽 anchor 183cm / 深青 / 超长高马尾 / 墨绿: PASS
+- Original-stock appearance override explicitly forbidden: PASS
+- Invented weight/BWH values explicitly forbidden: PASS
+- Scene clothing may adapt, immutable visual anchors may not: PASS
+- Candidate4 female-world and faction-affinity fixes inherited unchanged: PASS
