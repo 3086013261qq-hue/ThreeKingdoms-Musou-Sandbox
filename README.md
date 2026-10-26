@@ -14,6 +14,17 @@
 - 人物表现：参考《真·三国无双》式英雄化、华丽化、强战力表现
 - 世界设定：核心人物全员娘化
 
+## 正式资料生产顺序
+1. 核心设定
+2. 人物
+3. 时间线
+4. 地点
+5. MVU / 完整装配 / 构建
+
+核心设定采用蓝灯 / 绿灯两层：
+- 蓝灯：少量全局常驻总设定；
+- 绿灯：具体展开、角色能力、特殊兵器、阵营机制等关键词触发条目。
+
 ## 咩咩全栈资料分区
 正式世界书资料仅维护四类：
 1. 核心设定
@@ -26,7 +37,8 @@
 ## 仓库目录
 - `docs/`：施工规范与交接单
 - `sources/`：资料来源、检索索引与来源说明
-- `worldbook/settings/`：核心设定与角色能力配套
+- `worldbook/settings/blue-global/`：蓝灯常驻总设定
+- `worldbook/settings/green-triggered/`：绿灯关键词触发展开设定
 - `worldbook/characters/main/`：主要角色
 - `worldbook/characters/other/`：其他角色
 - `worldbook/locations/`：地点
