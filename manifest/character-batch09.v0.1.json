@@ -1,0 +1,38 @@
+{
+  "version":"0.1",
+  "status":"complete",
+  "batch":"character-batch09-final-formal9-plus-easter2",
+  "source_roster":"manifest/character-roster.v0.3.json",
+  "formal_appearance":"manifest/appearance/other.v0.1.json",
+  "formal_entries":9,
+  "easter_egg_entries":2,
+  "formal_progress":"89/89",
+  "bonus_easter_eggs":"2/2",
+  "formal_character_order_range":[220,212],
+  "formal_ability_order_range":[250,242],
+  "easter_character_orders":[102,101],
+  "easter_ability_orders":[120,119],
+  "ability_activation":"green-triggered",
+  "formal":[
+    {"name":"袁术","character_source":"worldbook/characters/main/081_袁术.md","character_order_hint":220,"ability_source":"worldbook/settings/green-triggered/characters/081_袁术·能力.md","ability_order_hint":250,"ability_keywords":["袁术","公路","袁公路"]},
+    {"name":"陈宫","character_source":"worldbook/characters/main/082_陈宫.md","character_order_hint":219,"ability_source":"worldbook/settings/green-triggered/characters/082_陈宫·能力.md","ability_order_hint":249,"ability_keywords":["陈宫","公台","陈公台"]},
+    {"name":"华雄","character_source":"worldbook/characters/main/083_华雄.md","character_order_hint":218,"ability_source":"worldbook/settings/green-triggered/characters/083_华雄·能力.md","ability_order_hint":248,"ability_keywords":["华雄"]},
+    {"name":"孟获","character_source":"worldbook/characters/main/084_孟获.md","character_order_hint":217,"ability_source":"worldbook/settings/green-triggered/characters/084_孟获·能力.md","ability_order_hint":247,"ability_keywords":["孟获"]},
+    {"name":"公孙瓒","character_source":"worldbook/characters/main/085_公孙瓒.md","character_order_hint":216,"ability_source":"worldbook/settings/green-triggered/characters/085_公孙瓒·能力.md","ability_order_hint":246,"ability_keywords":["公孙瓒","伯珪","公孙伯珪","白马将军"]},
+    {"name":"董白","character_source":"worldbook/characters/main/086_董白.md","character_order_hint":215,"ability_source":"worldbook/settings/green-triggered/characters/086_董白·能力.md","ability_order_hint":245,"ability_keywords":["董白"]},
+    {"name":"何太后","character_source":"worldbook/characters/main/087_何太后.md","character_order_hint":214,"ability_source":"worldbook/settings/green-triggered/characters/087_何太后·能力.md","ability_order_hint":244,"ability_keywords":["何太后"]},
+    {"name":"蔡夫人","character_source":"worldbook/characters/main/088_蔡夫人.md","character_order_hint":213,"ability_source":"worldbook/settings/green-triggered/characters/088_蔡夫人·能力.md","ability_order_hint":243,"ability_keywords":["蔡夫人"]},
+    {"name":"樊氏","character_source":"worldbook/characters/main/089_樊氏.md","character_order_hint":212,"ability_source":"worldbook/settings/green-triggered/characters/089_樊氏·能力.md","ability_order_hint":242,"ability_keywords":["樊氏"]}
+  ],
+  "easter_eggs":[
+    {"name":"多娜","aliases":["小橘猫娘"],"character_source":"worldbook/characters/easter-eggs/090_多娜.md","character_order_hint":102,"ability_source":"worldbook/settings/green-triggered/easter-eggs/090_多娜·能力.md","ability_order_hint":120,"ability_keywords":["多娜","小橘猫娘"],"attack":0,"excluded_from_formal_count":true},
+    {"name":"咩娘","aliases":["白发黑皮咩娘"],"character_source":"worldbook/characters/easter-eggs/091_咩娘.md","character_order_hint":101,"ability_source":"worldbook/settings/green-triggered/easter-eggs/091_咩娘·能力.md","ability_order_hint":119,"ability_keywords":["咩娘","白发黑皮咩娘"],"attack":0,"excluded_from_formal_count":true}
+  ],
+  "rules":[
+    "正式9人严格继承roster与other appearance anchors",
+    "多娜与咩娘为额外彩蛋，不计入89名正式人物、武道分布与阵营实力",
+    "两名彩蛋攻击力固定为0，被攻击时仅作大字Miss喜剧演出",
+    "彩蛋Miss不得被利用为挡刀、侦察、信使、诱敌、占点等正式战术资源",
+    "本批完成后正式人物生产进度为89/89"
+  ]
+}

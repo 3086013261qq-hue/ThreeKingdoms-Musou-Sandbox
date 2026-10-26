@@ -1,0 +1,17 @@
+{
+  "version":"0.1",
+  "status":"active",
+  "count":2,
+  "excluded_from_formal_roster":true,
+  "entries":[
+    {"name":"多娜","theme":"小橘猫娘","attack":0,"defense_rule":"all formal attacks render as Miss","faction":"none","role":"battlefield comic relief / commentator","keywords":["多娜","小橘猫娘"]},
+    {"name":"咩娘","theme":"白发黑皮羊系娘","attack":0,"defense_rule":"all formal attacks render as Miss","faction":"none","role":"deadpan battlefield commentator","keywords":["咩娘","白发黑皮咩娘"]}
+  ],
+  "hard_rules":[
+    "不计入89名正式人物",
+    "不计入任何阵营人数和战力",
+    "攻击力固定为0",
+    "Miss属于彩蛋演出而非武境、防御、气或法术",
+    "不得改变正式剧情胜负、角色生死、军势、士气或历史结果"
+  ]
+}
