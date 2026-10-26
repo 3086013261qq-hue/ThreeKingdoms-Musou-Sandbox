@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "kind": "worldbook-core-settings-green-triggered",
+  "activation_policy": "keyword_triggered",
+  "format": "咩咩制卡·全栈 v1.0.0 / <核心设定:名称>",
+  "entries": [
+    {
+      "id": "green-qi-001",
+      "name": "气的运行与外显",
+      "source": "worldbook/settings/green-triggered/qi-wujing/001_气的运行与外显.md",
+      "parent_blue": "blue-007",
+      "activation": "green-triggered",
+      "keywords": ["气的运行", "运气", "行气", "气势外显", "气的外显", "气性"],
+      "order_hint": 380
+    },
+    {
+      "id": "green-qi-002",
+      "name": "武境五阶",
+      "source": "worldbook/settings/green-triggered/qi-wujing/002_武境五阶.md",
+      "parent_blue": "blue-007",
+      "activation": "green-triggered",
+      "keywords": ["武境", "五阶武境", "武卒境", "武人境", "骁将境", "名将境", "无双境"],
+      "order_hint": 379
+    },
+    {
+      "id": "green-qi-003",
+      "name": "无双爆发",
+      "source": "worldbook/settings/green-triggered/qi-wujing/003_无双爆发.md",
+      "parent_blue": "blue-007",
+      "activation": "green-triggered",
+      "keywords": ["无双爆发", "无双状态", "无双乱舞", "爆发无双", "进入无双"],
+      "order_hint": 378
+    },
+    {
+      "id": "green-qi-004",
+      "name": "气的消耗与恢复",
+      "source": "worldbook/settings/green-triggered/qi-wujing/004_气的消耗与恢复.md",
+      "parent_blue": "blue-007",
+      "activation": "green-triggered",
+      "keywords": ["耗气", "气竭", "回气", "调息", "气力耗尽", "恢复气力"],
+      "order_hint": 377
+    },
+    {
+      "id": "green-qi-005",
+      "name": "越境战与克制",
+      "source": "worldbook/settings/green-triggered/qi-wujing/005_越境战与克制.md",
+      "parent_blue": "blue-007",
+      "activation": "green-triggered",
+      "keywords": ["越境战", "越境挑战", "越境取胜", "以弱胜强", "兵器克制", "武境克制"],
+      "order_hint": 376
+    }
+  ]
+}
