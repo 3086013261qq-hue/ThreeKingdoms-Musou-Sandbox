@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "status": "frozen",
+  "scope": "core-settings-first-pass",
+  "format": "咩咩制卡·全栈 v1.0.0",
+  "blue": {
+    "manifest": "manifest/blue-global-settings.v1.json",
+    "version": "1.4",
+    "entries": 8,
+    "activation": "always_on",
+    "order_range": [398, 391]
+  },
+  "green": {
+    "manifest": "manifest/green-triggered-settings.v1.json",
+    "version": "1.8",
+    "entries": 50,
+    "activation": "keyword_triggered",
+    "order_range": [380, 331]
+  },
+  "green_parent_distribution": {
+    "blue-001": 4,
+    "blue-002": 5,
+    "blue-003": 6,
+    "blue-004": 7,
+    "blue-005": 10,
+    "blue-006": 8,
+    "blue-007": 5,
+    "blue-008": 5
+  },
+  "intentional_multi_trigger_keywords": [
+    {
+      "keyword": "政治联姻",
+      "entries": ["green-faction-005", "green-family-005"],
+      "reason": "同时加载阵营外交后果与家庭婚姻后果，属于有意的双层语义触发"
+    }
+  ],
+  "next_stage": "characters",
+  "freeze_rules": [
+    "不得从零重做核心设定",
+    "不得把绿灯细节整体提升为蓝灯常驻",
+    "人物阶段新增能力时使用角色同名绿灯能力条目，不修改角色正文模板",
+    "确需修改核心设定时必须同步更新对应正文、manifest 与 QA"
+  ]
+}
