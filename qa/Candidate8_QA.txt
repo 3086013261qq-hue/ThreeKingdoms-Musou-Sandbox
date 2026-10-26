@@ -1,0 +1,26 @@
+Candidate8 QA PASS
+
+Candidate7 JSON SHA256: 26e0eb303991cb4cbcd6950d2112fd048ebbbab136c8974551833943d21f4f54
+Candidate7 PNG  SHA256: db381be02a9f4350454b48f9a8b331fd0b82a4bb8604c83ef01d0ab3375a4f7b
+Candidate8 JSON SHA256: fac14b0388a7002ceb12c9c8930dca5f8f1ab463c91d985afda9491eead10448
+Candidate8 PNG  SHA256: 0c7f02c642b3e3d591369185ae927267151249828d7dc2355f226bab35f0ffa5
+
+Candidate8 JSON size: 1437918 bytes
+Candidate8 PNG  size: 4869690 bytes
+
+VISUAL ANCHOR BLUE-LIGHT:
+- 89/89 formal character compact anchors: PASS
+- Anchor format = name | height | hair color+style: PASS
+- Liu Bei 151 / pink twin tails: PASS
+- Zhang Fei 175 / black-brown double buns: PASS
+- Guan Yu 183 / deep-teal extra-long high ponytail: PASS
+- Original canon is identity/relationship/story skeleton only, not appearance: PASS
+- Character recursion remains closed 91/91: PASS
+
+REGRESSION:
+- Candidate7 full-female hard rule inherited: PASS
+- Candidate7 faction beautifier inherited: PASS
+- PNG IDAT image layer unchanged: PASS
+IDAT SHA256: 3eac43b4e91b88a5f23358bd814323bb436bd966dad3a5537c4a72389b1aec02
+- embedded chara == Candidate8 JSON: PASS
+- embedded ccv3 == Candidate8 JSON: PASS
