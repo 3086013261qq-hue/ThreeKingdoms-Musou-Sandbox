@@ -1,0 +1,38 @@
+{
+  "version": "0.1",
+  "status": "complete",
+  "batch": "location-batch02-core20",
+  "source_index": "worldbook/locations/LOCATION_INDEX.v0.1.md",
+  "order_range": [80, 61],
+  "entry_format": "<地点:名称>介绍:...</地点:名称>",
+  "entries": [
+    {"name":"涿郡","source":"worldbook/locations/021_涿郡.md","order_hint":80,"keywords":["涿郡","涿县","涿州"]},
+    {"name":"陈留","source":"worldbook/locations/022_陈留.md","order_hint":79,"keywords":["陈留","陈留郡"]},
+    {"name":"汜水关","source":"worldbook/locations/023_汜水关.md","order_hint":78,"keywords":["汜水关","汜水"]},
+    {"name":"虎牢关","source":"worldbook/locations/024_虎牢关.md","order_hint":77,"keywords":["虎牢关","虎牢"]},
+    {"name":"官渡","source":"worldbook/locations/025_官渡.md","order_hint":76,"keywords":["官渡","官渡口"]},
+    {"name":"乌巢","source":"worldbook/locations/026_乌巢.md","order_hint":75,"keywords":["乌巢"]},
+    {"name":"白马","source":"worldbook/locations/027_白马.md","order_hint":74,"keywords":["白马津","白马城","白马县"]},
+    {"name":"延津","source":"worldbook/locations/028_延津.md","order_hint":73,"keywords":["延津","延津渡"]},
+    {"name":"博望坡","source":"worldbook/locations/029_博望坡.md","order_hint":72,"keywords":["博望坡","博望"]},
+    {"name":"长坂坡","source":"worldbook/locations/030_长坂坡.md","order_hint":71,"keywords":["长坂坡","长坂"]},
+    {"name":"赤壁","source":"worldbook/locations/031_赤壁.md","order_hint":70,"keywords":["赤壁","赤壁江面"]},
+    {"name":"华容道","source":"worldbook/locations/032_华容道.md","order_hint":69,"keywords":["华容道"]},
+    {"name":"濡须口","source":"worldbook/locations/033_濡须口.md","order_hint":68,"keywords":["濡须口","濡须"]},
+    {"name":"逍遥津","source":"worldbook/locations/034_逍遥津.md","order_hint":67,"keywords":["逍遥津"]},
+    {"name":"瓦口隘","source":"worldbook/locations/035_瓦口隘.md","order_hint":66,"keywords":["瓦口隘","瓦口关"]},
+    {"name":"天荡山","source":"worldbook/locations/036_天荡山.md","order_hint":65,"keywords":["天荡山"]},
+    {"name":"定军山","source":"worldbook/locations/037_定军山.md","order_hint":64,"keywords":["定军山"]},
+    {"name":"葭萌关","source":"worldbook/locations/038_葭萌关.md","order_hint":63,"keywords":["葭萌关","葭萌"]},
+    {"name":"樊城","source":"worldbook/locations/039_樊城.md","order_hint":62,"keywords":["樊城"]},
+    {"name":"麦城","source":"worldbook/locations/040_麦城.md","order_hint":61,"keywords":["麦城"]}
+  ],
+  "rules": [
+    "地点正文只写稳定客观空间资料，不写剧情结果或动态归属",
+    "地点关键词使用正式地名与明确稳定别名，不使用过宽泛裸词",
+    "汜水关与虎牢关按《三国演义》独立场景触发保留两张地点卡，但不宣称其历史上必为完全独立的两处关隘",
+    "赤壁、华容道、瓦口隘等存在现代定位争议的地点只保留稳定地貌与交通功能，不宣称唯一考古坐标",
+    "不修改人物、能力、蓝灯绿灯、时间线或武道等级",
+    "后续Batch03继续从order 60向下分配"
+  ]
+}
