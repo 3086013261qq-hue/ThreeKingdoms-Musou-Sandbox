@@ -68,21 +68,22 @@ jobs:
           assert not missing, missing
           assert len(rows) == 91
 
-          header = '''<appearance_authority_contract>
-【人物外貌最高优先级】
-本卡的角色人物条目与下方“角色外貌总索引”是世界内真实外貌的唯一权威。三国演义、史料、游戏原型、模型先验记忆只可提供剧情/身份/事件骨架，不得用原作经典相貌描写覆盖本卡设定。
-
-硬规则：
-1. 任何已列入索引的角色一旦进入正文、平行线、回忆、状态栏或幕后推演，必须以索引/角色条目的发色、发型、瞳色、身高体型、胸部与标志性配饰为准；若完整角色条目已触发，以完整角色条目补充细节，但不得与索引冲突。
-2. 禁止从原作套回经典男性化或原版相貌模板。尤其禁止把刘备写成“双耳垂肩/双手过膝”，把张飞写成“豹头环眼/燕颔虎须/黑脸虬髯”，把关羽写成“面如重枣/长髯/美髯公”等，除非这些特征本身明确存在于本卡角色条目。
-3. 不得自行编造角色条目没有提供的身高、体重、三围、胸围数值、发色、发型或眼色。状态栏若无数值，只写本卡已有的定性字段，例如“151cm、娇小结实、胸部偏小”，禁止补成虚构的56kg或86/62/90。
-4. 场景服装允许因时代阶段、天气、贫富、军旅状态而作合理换装，但人物不可变的视觉锚点（身高体型、发色发型、瞳色、胸部层级、核心轮廓与标志配饰）必须保持；换装也不得退回原作默认造型。
-5. 原著原文若被明确引用，可在“引用文本”中保留原句；世界内实际人物的外貌描写仍必须按本卡设定重写。
-6. 同一角色在<story_scene>、<parallel_line>与<special_status>之间必须外貌一致，禁止正文一套、状态栏另一套。
-
-【角色外貌总索引】
-'''
-          contract = header + '\n'.join(rows) + '\n</appearance_authority_contract>\n'
+          header_lines = [
+              '<appearance_authority_contract>',
+              '【人物外貌最高优先级】',
+              '本卡的角色人物条目与下方“角色外貌总索引”是世界内真实外貌的唯一权威。三国演义、史料、游戏原型、模型先验记忆只可提供剧情/身份/事件骨架，不得用原作经典相貌描写覆盖本卡设定。',
+              '',
+              '硬规则：',
+              '1. 任何已列入索引的角色一旦进入正文、平行线、回忆、状态栏或幕后推演，必须以索引/角色条目的发色、发型、瞳色、身高体型、胸部与标志性配饰为准；若完整角色条目已触发，以完整角色条目补充细节，但不得与索引冲突。',
+              '2. 禁止从原作套回经典男性化或原版相貌模板。尤其禁止把刘备写成“双耳垂肩/双手过膝”，把张飞写成“豹头环眼/燕颔虎须/黑脸虬髯”，把关羽写成“面如重枣/长髯/美髯公”等，除非这些特征本身明确存在于本卡角色条目。',
+              '3. 不得自行编造角色条目没有提供的身高、体重、三围、胸围数值、发色、发型或眼色。状态栏若无数值，只写本卡已有的定性字段，例如“151cm、娇小结实、胸部偏小”，禁止补成虚构的56kg或86/62/90。',
+              '4. 场景服装允许因时代阶段、天气、贫富、军旅状态而作合理换装，但人物不可变的视觉锚点（身高体型、发色发型、瞳色、胸部层级、核心轮廓与标志配饰）必须保持；换装也不得退回原作默认造型。',
+              '5. 原著原文若被明确引用，可在“引用文本”中保留原句；世界内实际人物的外貌描写仍必须按本卡设定重写。',
+              '6. 同一角色在<story_scene>、<parallel_line>与<special_status>之间必须外貌一致，禁止正文一套、状态栏另一套。',
+              '',
+              '【角色外貌总索引】',
+          ]
+          contract = '\n'.join(header_lines + rows + ['</appearance_authority_contract>',''])
           index_txt.parent.mkdir(parents=True, exist_ok=True)
           index_txt.write_text(contract, encoding='utf-8')
 
@@ -97,7 +98,6 @@ jobs:
           )
           out_json.write_text(json.dumps(card, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
-          # Persist the same authority layer into the normal source assembler for future rebuilds.
           build = Path('tools/build_candidate.py')
           text = build.read_text(encoding='utf-8')
           old = "post_history_instructions=read('mvu/prompts/faction-output.txt'),creator='多娜'"
@@ -105,7 +105,6 @@ jobs:
           assert old in text, 'build_candidate.py patch anchor missing'
           build.write_text(text.replace(old,new,1), encoding='utf-8')
 
-          # Re-embed Candidate5 card JSON into the existing Candidate4 PNG without touching image IDAT.
           compact = json.dumps(card, ensure_ascii=False).encode('utf-8')
           payload = base64.b64encode(compact)
           png = src_png.read_bytes()
@@ -136,7 +135,6 @@ jobs:
           out_png.write_bytes(out)
           assert idat_before.hexdigest() == idat_after.hexdigest()
 
-          # Decode both embedded payloads and prove they equal the Candidate5 JSON object.
           def embedded(path):
               b = Path(path).read_bytes(); pos=8; got={}
               while pos < len(b):
@@ -149,6 +147,11 @@ jobs:
               return got
           emb = embedded(out_png)
           assert emb['chara'] == card and emb['ccv3'] == card
+
+          joined='\n'.join(rows)
+          assert '刘备｜151cm' in joined and '发色:粉红' in joined and '发型:双马尾' in joined and '瞳色:翠绿' in joined
+          assert '张飞｜175cm' in joined and '发色:黑褐' in joined and '发型:双丸子' in joined and '瞳色:琥珀黑' in joined
+          assert '关羽｜183cm' in joined and '发色:深青' in joined and '发型:超长高马尾' in joined and '瞳色:墨绿' in joined
 
           def sha256(p): return hashlib.sha256(Path(p).read_bytes()).hexdigest()
           qa = [
@@ -167,19 +170,14 @@ jobs:
               'Embedded ccv3 == Candidate5 JSON object: PASS','',
               'Appearance authority checks:',
               '- 91/91 character entries parsed into compact authority index: PASS',
-              '- 刘备 anchor must remain 151cm / 粉红 / 双马尾 / 翠绿: PASS',
-              '- 张飞 anchor must remain 175cm / 黑褐 / 双丸子 / 琥珀黑: PASS',
-              '- 关羽 anchor must remain 183cm / 深青 / 超长高马尾 / 墨绿: PASS',
-              '- Original-stock appearance override is explicitly forbidden: PASS',
-              '- Invented weight/BWH values are explicitly forbidden: PASS',
+              '- 刘备 anchor 151cm / 粉红 / 双马尾 / 翠绿: PASS',
+              '- 张飞 anchor 175cm / 黑褐 / 双丸子 / 琥珀黑: PASS',
+              '- 关羽 anchor 183cm / 深青 / 超长高马尾 / 墨绿: PASS',
+              '- Original-stock appearance override explicitly forbidden: PASS',
+              '- Invented weight/BWH values explicitly forbidden: PASS',
               '- Scene clothing may adapt, immutable visual anchors may not: PASS',
-              '- Candidate4 female-world and faction-affinity fixes are inherited unchanged: PASS'
+              '- Candidate4 female-world and faction-affinity fixes inherited unchanged: PASS'
           ]
-          # Verify the three user-reported anchors from the actual generated contract.
-          joined='\n'.join(rows)
-          assert '刘备｜151cm' in joined and '发色:粉红' in joined and '发型:双马尾' in joined and '瞳色:翠绿' in joined
-          assert '张飞｜175cm' in joined and '发色:黑褐' in joined and '发型:双丸子' in joined and '瞳色:琥珀黑' in joined
-          assert '关羽｜183cm' in joined and '发色:深青' in joined and '发型:超长高马尾' in joined and '瞳色:墨绿' in joined
           qa_txt.write_text('\n'.join(qa)+'\n',encoding='utf-8')
           PY
       - name: Commit Candidate5 and clean one-shot files
