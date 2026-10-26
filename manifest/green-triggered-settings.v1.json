@@ -1,5 +1,5 @@
 {
-  "version": "1.4",
+  "version": "1.5",
   "kind": "worldbook-core-settings-green-triggered",
   "activation_policy": "keyword_triggered",
   "format": "咩咩制卡·全栈 v1.0.0 / <核心设定:名称>",
@@ -318,6 +318,60 @@
       "activation": "green-triggered",
       "keywords": ["有序撤退", "追击", "断后", "诈退", "溃退", "撤军", "断后战"],
       "order_hint": 346
+    },
+    {
+      "id": "green-family-001",
+      "name": "妻妻婚姻与配偶关系",
+      "source": "worldbook/settings/green-triggered/family/001_妻妻婚姻与配偶关系.md",
+      "parent_blue": "blue-003",
+      "activation": "green-triggered",
+      "keywords": ["妻妻婚姻", "妻妻配偶", "妻妻成婚", "婚书", "配偶关系", "再婚", "守寡"],
+      "order_hint": 345
+    },
+    {
+      "id": "green-family-002",
+      "name": "生育与血脉",
+      "source": "worldbook/settings/green-triggered/family/002_生育与血脉.md",
+      "parent_blue": "blue-003",
+      "activation": "green-triggered",
+      "keywords": ["双母血脉", "双母受孕", "双母生育", "孕母", "血亲母亲", "血脉结合", "共同孕育"],
+      "order_hint": 344
+    },
+    {
+      "id": "green-family-003",
+      "name": "宗族与继承",
+      "source": "worldbook/settings/green-triggered/family/003_宗族与继承.md",
+      "parent_blue": "blue-003",
+      "activation": "green-triggered",
+      "keywords": ["宗族继承", "家族继承", "继承顺位", "嫡系", "旁支", "过继", "承嗣", "宗祧"],
+      "order_hint": 343
+    },
+    {
+      "id": "green-family-004",
+      "name": "母亲与亲属称谓",
+      "source": "worldbook/settings/green-triggered/family/004_母亲与亲属称谓.md",
+      "parent_blue": "blue-003",
+      "activation": "green-triggered",
+      "keywords": ["双母称谓", "母亲称谓", "阿母", "娘亲", "大母", "二母", "亲属称谓"],
+      "order_hint": 342
+    },
+    {
+      "id": "green-family-005",
+      "name": "政治联姻",
+      "source": "worldbook/settings/green-triggered/family/005_政治联姻.md",
+      "parent_blue": "blue-003",
+      "activation": "green-triggered",
+      "keywords": ["政治联姻", "婚盟", "联姻婚约", "家族联姻", "婚约联盟", "联姻关系"],
+      "order_hint": 341
+    },
+    {
+      "id": "green-family-006",
+      "name": "子嗣归属与家族抚养",
+      "source": "worldbook/settings/green-triggered/family/006_子嗣归属与家族抚养.md",
+      "parent_blue": "blue-003",
+      "activation": "green-triggered",
+      "keywords": ["子嗣归属", "家族抚养", "子嗣抚养", "寄养", "过继抚养", "继承子嗣", "家族教育"],
+      "order_hint": 340
     }
   ]
 }
