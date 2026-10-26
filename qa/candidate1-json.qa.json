@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "source_commit": "2846bce0dfb82bfe7c6623e204c4304d16eb9875",
+  "spec": "chara_card_v3",
+  "spec_version": "3.0",
+  "bytes": 1411614,
+  "sha256": "c5868df2d76d8eb5c638c2541173fd6a6d266533797cb7eced3ca08a1b6e8a14",
+  "entries": 332,
+  "formal_characters": 89,
+  "formal_abilities": 89,
+  "blue_settings": 8,
+  "green_settings": 50,
+  "locations": 60,
+  "timeline_volumes": 10,
+  "fixed_nodes": 1121,
+  "source_payload_equality": "310/310 byte exact",
+  "json_qa_command": "python qa/tests/data_qa.py build/三国无双姬_v1.0.0-candidate1.json",
+  "real_android_sillytavern": "NOT_TESTED"
+}
