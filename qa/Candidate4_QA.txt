@@ -1,0 +1,32 @@
+Candidate4 QA PASS
+
+Candidate3 JSON SHA256: 79cfddf77d403df63c9b89ba80bd7f712f58a567ec9aa5357dded069963ee3a7
+Candidate3 PNG  SHA256: 73d5509bd243013a00dd6e245c516d57a4d8ed7731c071ced14e6b359d287bd5
+Candidate4 JSON SHA256: 599b444a6c95dcf39d522ff9a51a65cafb4df71911fbc4909efc49a8748d8362
+Candidate4 PNG  SHA256: 223b3e1c8d8afe152e6c29b8dd622de5357df825d274f233fe97bbc595e2ef86
+
+Candidate4 JSON size: 1430249 bytes
+Candidate4 PNG  size: 4965706 bytes
+
+PNG image layer (all IDAT chunks): UNCHANGED
+IDAT SHA256: 3eac43b4e91b88a5f23358bd814323bb436bd966dad3a5537c4a72389b1aec02
+Embedded chara == Candidate4 JSON object: PASS
+Embedded ccv3 == Candidate4 JSON object: PASS
+
+Logical JSON diff paths:
+- data.character_book.entries[28].content
+- data.character_version
+- data.creator_notes
+- data.extensions.regex_scripts[2].findRegex
+- data.extensions.regex_scripts[2].id
+- data.extensions.regex_scripts[2].replaceString
+- data.extensions.regex_scripts[2].runOnEdit
+- data.extensions.regex_scripts[2].scriptName
+- data.extensions.regex_scripts[2].substituteRegex
+
+Expected fixes:
+- No male humans may be generated.
+- Human pronouns must use 她/她们.
+- Male-coded human facial traits such as 胡须/胡茬 are prohibited.
+- Futanari characters remain female in identity/pronouns/social classification.
+- <faction_affinity> is no longer hidden; it is rendered as a black-gold 三国 module.
