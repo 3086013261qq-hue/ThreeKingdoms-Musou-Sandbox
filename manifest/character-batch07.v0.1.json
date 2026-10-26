@@ -1,0 +1,30 @@
+{
+  "version":"0.1",
+  "status":"complete",
+  "batch":"character-batch07-iconic-women-wei-shu10",
+  "source_roster":"manifest/character-roster.v0.3.json",
+  "appearance":["manifest/appearance/wei.v0.1.json","manifest/appearance/shu.v0.1.json"],
+  "character_order_range":[240,231],
+  "ability_order_range":[270,261],
+  "ability_activation":"green-triggered",
+  "entries":[
+    {"name":"曹丕","character_source":"worldbook/characters/main/061_曹丕.md","character_order_hint":240,"ability_source":"worldbook/settings/green-triggered/characters/061_曹丕·能力.md","ability_order_hint":270,"ability_keywords":["曹丕","子桓","曹子桓"]},
+    {"name":"甄姬","character_source":"worldbook/characters/main/062_甄姬.md","character_order_hint":239,"ability_source":"worldbook/settings/green-triggered/characters/062_甄姬·能力.md","ability_order_hint":269,"ability_keywords":["甄姬","甄宓"]},
+    {"name":"蔡文姬","character_source":"worldbook/characters/main/063_蔡文姬.md","character_order_hint":238,"ability_source":"worldbook/settings/green-triggered/characters/063_蔡文姬·能力.md","ability_order_hint":268,"ability_keywords":["蔡文姬","蔡琰","文姬"]},
+    {"name":"卞夫人","character_source":"worldbook/characters/main/064_卞夫人.md","character_order_hint":237,"ability_source":"worldbook/settings/green-triggered/characters/064_卞夫人·能力.md","ability_order_hint":267,"ability_keywords":["卞夫人"]},
+    {"name":"曹节","character_source":"worldbook/characters/main/065_曹节.md","character_order_hint":236,"ability_source":"worldbook/settings/green-triggered/characters/065_曹节·能力.md","ability_order_hint":266,"ability_keywords":["曹节"]},
+    {"name":"邹氏","character_source":"worldbook/characters/main/066_邹氏.md","character_order_hint":235,"ability_source":"worldbook/settings/green-triggered/characters/066_邹氏·能力.md","ability_order_hint":265,"ability_keywords":["邹氏"]},
+    {"name":"鲍三娘","character_source":"worldbook/characters/main/067_鲍三娘.md","character_order_hint":234,"ability_source":"worldbook/settings/green-triggered/characters/067_鲍三娘·能力.md","ability_order_hint":264,"ability_keywords":["鲍三娘"]},
+    {"name":"关银屏","character_source":"worldbook/characters/main/068_关银屏.md","character_order_hint":233,"ability_source":"worldbook/settings/green-triggered/characters/068_关银屏·能力.md","ability_order_hint":263,"ability_keywords":["关银屏"]},
+    {"name":"夏侯姬","character_source":"worldbook/characters/main/069_夏侯姬.md","character_order_hint":232,"ability_source":"worldbook/settings/green-triggered/characters/069_夏侯姬·能力.md","ability_order_hint":262,"ability_keywords":["夏侯姬"]},
+    {"name":"甘夫人","character_source":"worldbook/characters/main/070_甘夫人.md","character_order_hint":231,"ability_source":"worldbook/settings/green-triggered/characters/070_甘夫人·能力.md","ability_order_hint":261,"ability_keywords":["甘夫人"]}
+  ],
+  "rules":[
+    "人物正文继续使用chara-v1加项目四字段",
+    "外貌严格继承魏蜀appearance anchors",
+    "名姬女杰不得降格为花瓶",
+    "甄姬与蔡文姬的音乐能力不得魔法化或精神控制化",
+    "邹氏的魅惑仅是社交与信息判断，不具超自然效果",
+    "人物与能力编号连续承接Batch06"
+  ]
+}
