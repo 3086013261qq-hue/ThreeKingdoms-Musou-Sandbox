@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "real_android_sillytavern": "NOT_TESTED",
+  "optimized_cover": {
+    "dimensions": [
+      768,
+      1024
+    ],
+    "bytes": 1847207,
+    "master_unchanged": true,
+    "resample": "LANCZOS",
+    "crop": false
+  },
+  "candidate_json": {
+    "bytes": 1411614,
+    "sha256": "c5868df2d76d8eb5c638c2541173fd6a6d266533797cb7eced3ca08a1b6e8a14"
+  },
+  "candidate_png": {
+    "bytes": 4901642,
+    "sha256": "b75c092f002ba69d11bf606f01a6cc25bd9b07274d61db75e84b5d46cb46d66c",
+    "chara_and_ccv3_equal_candidate_json": true,
+    "all_chunk_crc_valid": true,
+    "pixel_chunks_equal_optimized_cover": true,
+    "entries": 332
+  }
+}
