@@ -1,0 +1,29 @@
+{
+  "version": "0.1",
+  "status": "complete",
+  "batch": "character-batch04-shu-core10",
+  "source_roster": "manifest/character-roster.v0.3.json",
+  "appearance": "manifest/appearance/shu.v0.1.json",
+  "character_order_range": [270,261],
+  "ability_order_range": [300,291],
+  "ability_activation": "green-triggered",
+  "entries": [
+    {"name":"黄忠","character_source":"worldbook/characters/main/031_黄忠.md","character_order_hint":270,"ability_source":"worldbook/settings/green-triggered/characters/031_黄忠·能力.md","ability_order_hint":300,"ability_keywords":["黄忠","汉升","黄汉升"]},
+    {"name":"魏延","character_source":"worldbook/characters/main/032_魏延.md","character_order_hint":269,"ability_source":"worldbook/settings/green-triggered/characters/032_魏延·能力.md","ability_order_hint":299,"ability_keywords":["魏延","文长","魏文长"]},
+    {"name":"庞统","character_source":"worldbook/characters/main/033_庞统.md","character_order_hint":268,"ability_source":"worldbook/settings/green-triggered/characters/033_庞统·能力.md","ability_order_hint":298,"ability_keywords":["庞统","士元","庞士元","凤雏"]},
+    {"name":"徐庶","character_source":"worldbook/characters/main/034_徐庶.md","character_order_hint":267,"ability_source":"worldbook/settings/green-triggered/characters/034_徐庶·能力.md","ability_order_hint":297,"ability_keywords":["徐庶","元直","徐元直"]},
+    {"name":"法正","character_source":"worldbook/characters/main/035_法正.md","character_order_hint":266,"ability_source":"worldbook/settings/green-triggered/characters/035_法正·能力.md","ability_order_hint":296,"ability_keywords":["法正","孝直","法孝直"]},
+    {"name":"姜维","character_source":"worldbook/characters/main/036_姜维.md","character_order_hint":265,"ability_source":"worldbook/settings/green-triggered/characters/036_姜维·能力.md","ability_order_hint":295,"ability_keywords":["姜维","伯约","姜伯约"]},
+    {"name":"刘禅","character_source":"worldbook/characters/main/037_刘禅.md","character_order_hint":264,"ability_source":"worldbook/settings/green-triggered/characters/037_刘禅·能力.md","ability_order_hint":294,"ability_keywords":["刘禅","公嗣","刘公嗣","蜀汉后主"]},
+    {"name":"关平","character_source":"worldbook/characters/main/038_关平.md","character_order_hint":263,"ability_source":"worldbook/settings/green-triggered/characters/038_关平·能力.md","ability_order_hint":293,"ability_keywords":["关平"]},
+    {"name":"黄月英","character_source":"worldbook/characters/main/039_黄月英.md","character_order_hint":262,"ability_source":"worldbook/settings/green-triggered/characters/039_黄月英·能力.md","ability_order_hint":292,"ability_keywords":["黄月英","月英"]},
+    {"name":"星彩","character_source":"worldbook/characters/main/040_星彩.md","character_order_hint":261,"ability_source":"worldbook/settings/green-triggered/characters/040_星彩·能力.md","ability_order_hint":291,"ability_keywords":["星彩"]}
+  ],
+  "rules": [
+    "人物正文继续使用chara-v1加项目四字段",
+    "外貌严格继承蜀汉appearance anchors",
+    "能力绿灯保持个人专属，不复制核心公共机制",
+    "军师与机关能力不得写成法术、现代科技或超自然预知",
+    "人物与能力编号连续承接Batch03"
+  ]
+}
