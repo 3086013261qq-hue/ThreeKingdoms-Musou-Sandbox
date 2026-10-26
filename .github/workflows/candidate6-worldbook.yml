@@ -42,6 +42,10 @@ jobs:
           chars=[e for e in entries if str(e.get('comment','')).startswith('角色:')]
           assert len(chars)==91, len(chars)
           for e in chars:
+              name=e['comment'].split(':',1)[1]
+              keys=e.setdefault('keys',[])
+              if name not in keys:
+                  keys.insert(0,name)
               ext=e.setdefault('extensions',{})
               ext['excludeRecursion']=False
               ext['exclude_recursion']=False
@@ -72,17 +76,17 @@ jobs:
           phi=re.sub(r'\n*<appearance_authority_contract>[\s\S]*?</appearance_authority_contract>\s*','\n',phi).strip()
           card['data']['post_history_instructions']=phi
           card['data']['character_version']='1.0.0-candidate6'
-          card['data']['creator_notes']='Candidate6：正式世界书返工。将女性硬规则同步回002正式源；新增009人物外貌权威蓝灯；91个人物绿灯允许被时间线/其他世界书递归召回，但自身阻止继续递归；移除Candidate5无效的post-history 91人常驻索引。继承Candidate4/5其余修复，待Android/SillyTavern实机验收。'
+          card['data']['creator_notes']='Candidate6：正式世界书返工。将女性硬规则同步回002正式源；新增009人物外貌权威蓝灯；91个人物绿灯强制含本名key并允许被时间线/其他世界书递归召回，但自身阻止继续递归；移除Candidate5无效的post-history 91人常驻索引。继承Candidate4/5其余修复，待Android/SillyTavern实机验收。'
           out_json.write_text(json.dumps(card,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
-          # Persist recursion behavior and remove Candidate5 post-history index from normal assembler.
+          # Persist the same behavior into the normal assembler.
           bp=Path('tools/build_candidate.py')
           text=bp.read_text(encoding='utf-8')
           old_phi="post_history_instructions=read('mvu/prompts/faction-output.txt')+'\\n'+read('mvu/prompts/appearance-index.v1.txt'),creator='多娜'"
           if old_phi in text:
               text=text.replace(old_phi,"post_history_instructions=read('mvu/prompts/faction-output.txt'),creator='多娜'",1)
           old_char="  add(19,'角色:'+x['name'],read(x['character_source']),299-i,x['ability_keywords'],source=x['character_source'])"
-          new_char="  out=add(19,'角色:'+x['name'],read(x['character_source']),299-i,x['ability_keywords'],source=x['character_source'])\n  out['extensions'].update(excludeRecursion=False,exclude_recursion=False,preventRecursion=True,prevent_recursion=True)"
+          new_char="  out=add(19,'角色:'+x['name'],read(x['character_source']),299-i,x['ability_keywords'],source=x['character_source'])\n  if x['name'] not in out['keys']: out['keys'].insert(0,x['name'])\n  out['extensions'].update(excludeRecursion=False,exclude_recursion=False,preventRecursion=True,prevent_recursion=True)"
           assert old_char in text, 'character recursion patch anchor missing'
           text=text.replace(old_char,new_char,1)
           bp.write_text(text,encoding='utf-8')
@@ -108,7 +112,6 @@ jobs:
           assert seen=={b'chara',b'ccv3'}
           out_png.write_bytes(out); assert before.hexdigest()==after.hexdigest()
 
-          # Decode and validate embedded card.
           def embedded(path):
               b=Path(path).read_bytes(); pos=8; got={}
               while pos<len(b):
@@ -120,20 +123,17 @@ jobs:
               return got
           emb=embedded(out_png); assert emb['chara']==card and emb['ccv3']==card
 
-          # Specific regression checks.
           assert '<appearance_authority_contract>' not in card['data']['post_history_instructions']
           assert next(e for e in entries if e.get('comment')=='核心设定:人物外貌与角色设定权威')['constant'] is True
+          assert all(e['comment'].split(':',1)[1] in e.get('keys',[]) for e in chars)
+          assert all(e['extensions'].get('excludeRecursion') is False and e['extensions'].get('exclude_recursion') is False for e in chars)
+          assert all(e['extensions'].get('preventRecursion') is True and e['extensions'].get('prevent_recursion') is True for e in chars)
           for name, anchors in {
               '刘备':['151cm','发色:粉红','发型:双马尾','瞳色:翠绿'],
               '张飞':['175cm','发色:黑褐','发型:双丸子','瞳色:琥珀黑'],
               '关羽':['183cm','发色:深青','发型:超长高马尾','瞳色:墨绿']
           }.items():
               e=next(e for e in chars if e.get('comment')=='角色:'+name)
-              assert name in e.get('keys',[])
-              assert e['extensions'].get('excludeRecursion') is False
-              assert e['extensions'].get('exclude_recursion') is False
-              assert e['extensions'].get('preventRecursion') is True
-              assert e['extensions'].get('prevent_recursion') is True
               for a in anchors: assert a in e['content'], (name,a)
           assert any(x.get('id')=='tkm-faction-beautify' for x in card['data']['extensions']['regex_scripts'])
 
@@ -149,6 +149,7 @@ jobs:
               'WORLD BOOK SOURCE FIXES:',
               '- 002 female-world hard rules synced to formal source: PASS',
               '- 009 appearance/character authority is a real constant blue worldbook entry: PASS',
+              '- 91/91 character entries contain their own names as keys: PASS',
               '- 91/91 character entries are recursively activatable: PASS',
               '- character entries still prevent further recursion: PASS',
               '- Candidate5 post-history 91-row appearance index removed: PASS','',
