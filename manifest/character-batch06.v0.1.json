@@ -1,0 +1,31 @@
+{
+  "version":"0.1",
+  "status":"complete",
+  "batch":"character-batch06-jin-core10",
+  "source_roster":"manifest/character-roster.v0.3.json",
+  "appearance":"manifest/appearance/jin.v0.1.json",
+  "character_order_range":[250,241],
+  "ability_order_range":[280,271],
+  "ability_activation":"green-triggered",
+  "entries":[
+    {"name":"司马师","character_source":"worldbook/characters/main/051_司马师.md","character_order_hint":250,"ability_source":"worldbook/settings/green-triggered/characters/051_司马师·能力.md","ability_order_hint":280,"ability_keywords":["司马师","子元","司马子元"]},
+    {"name":"司马昭","character_source":"worldbook/characters/main/052_司马昭.md","character_order_hint":249,"ability_source":"worldbook/settings/green-triggered/characters/052_司马昭·能力.md","ability_order_hint":279,"ability_keywords":["司马昭","子上","司马子上"]},
+    {"name":"邓艾","character_source":"worldbook/characters/main/053_邓艾.md","character_order_hint":248,"ability_source":"worldbook/settings/green-triggered/characters/053_邓艾·能力.md","ability_order_hint":278,"ability_keywords":["邓艾","士载","邓士载"]},
+    {"name":"钟会","character_source":"worldbook/characters/main/054_钟会.md","character_order_hint":247,"ability_source":"worldbook/settings/green-triggered/characters/054_钟会·能力.md","ability_order_hint":277,"ability_keywords":["钟会","士季","钟士季"]},
+    {"name":"诸葛诞","character_source":"worldbook/characters/main/055_诸葛诞.md","character_order_hint":246,"ability_source":"worldbook/settings/green-triggered/characters/055_诸葛诞·能力.md","ability_order_hint":276,"ability_keywords":["诸葛诞","公休","诸葛公休"]},
+    {"name":"夏侯霸","character_source":"worldbook/characters/main/056_夏侯霸.md","character_order_hint":245,"ability_source":"worldbook/settings/green-triggered/characters/056_夏侯霸·能力.md","ability_order_hint":275,"ability_keywords":["夏侯霸","仲权","夏侯仲权"]},
+    {"name":"郭淮","character_source":"worldbook/characters/main/057_郭淮.md","character_order_hint":244,"ability_source":"worldbook/settings/green-triggered/characters/057_郭淮·能力.md","ability_order_hint":274,"ability_keywords":["郭淮","伯济","郭伯济"]},
+    {"name":"王元姬","character_source":"worldbook/characters/main/058_王元姬.md","character_order_hint":243,"ability_source":"worldbook/settings/green-triggered/characters/058_王元姬·能力.md","ability_order_hint":273,"ability_keywords":["王元姬"]},
+    {"name":"张春华","character_source":"worldbook/characters/main/059_张春华.md","character_order_hint":242,"ability_source":"worldbook/settings/green-triggered/characters/059_张春华·能力.md","ability_order_hint":272,"ability_keywords":["张春华"]},
+    {"name":"辛宪英","character_source":"worldbook/characters/main/060_辛宪英.md","character_order_hint":241,"ability_source":"worldbook/settings/green-triggered/characters/060_辛宪英·能力.md","ability_order_hint":271,"ability_keywords":["辛宪英"]}
+  ],
+  "rules":[
+    "人物正文继续使用chara-v1加项目四字段",
+    "外貌严格继承晋appearance anchors",
+    "钟会飞剑不得写成念力御剑",
+    "郭淮连弩炮属于机械弩具而非火药枪炮",
+    "张春华钢丝爪必须遵循实体丝索与手动控制",
+    "邓艾作为晋唯一无双保持山地奇袭与重枪特色",
+    "人物与能力编号连续承接Batch05"
+  ]
+}
