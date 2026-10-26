@@ -1,0 +1,27 @@
+{
+  "version":"0.1",
+  "status":"complete",
+  "batch":"location-batch01-core10",
+  "source_index":"worldbook/locations/LOCATION_INDEX.v0.1.md",
+  "order_range":[100,91],
+  "entry_format":"<地点:名称>介绍:...</地点:名称>",
+  "entries":[
+    {"name":"洛阳","source":"worldbook/locations/001_洛阳.md","order_hint":100,"keywords":["洛阳"]},
+    {"name":"长安","source":"worldbook/locations/002_长安.md","order_hint":99,"keywords":["长安"]},
+    {"name":"许都","source":"worldbook/locations/003_许都.md","order_hint":98,"keywords":["许都","许昌"]},
+    {"name":"邺城","source":"worldbook/locations/004_邺城.md","order_hint":97,"keywords":["邺城"]},
+    {"name":"成都","source":"worldbook/locations/005_成都.md","order_hint":96,"keywords":["成都"]},
+    {"name":"建业","source":"worldbook/locations/006_建业.md","order_hint":95,"keywords":["建业","秣陵"]},
+    {"name":"襄阳","source":"worldbook/locations/007_襄阳.md","order_hint":94,"keywords":["襄阳"]},
+    {"name":"江陵","source":"worldbook/locations/008_江陵.md","order_hint":93,"keywords":["江陵"]},
+    {"name":"合肥","source":"worldbook/locations/009_合肥.md","order_hint":92,"keywords":["合肥"]},
+    {"name":"汉中","source":"worldbook/locations/010_汉中.md","order_hint":91,"keywords":["汉中"]}
+  ],
+  "rules":[
+    "地点正文只写稳定客观空间资料，不写剧情结果或动态归属",
+    "地点关键词使用正式地名与明确稳定别名，不使用过宽泛裸词",
+    "地形、水系、交通、城防、城区结构与资源是主要描述维度",
+    "不修改人物、能力、蓝灯绿灯、时间线或武道等级",
+    "后续Batch继续从order 90向下连续分配"
+  ]
+}
