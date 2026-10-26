@@ -1,5 +1,5 @@
 {
-  "version": "1.4",
+  "version": "1.5",
   "kind": "worldbook-core-settings-blue-global",
   "activation_policy": "always_on",
   "format": "咩咩制卡·全栈 v1.0.0 / <核心设定:名称>",
@@ -67,6 +67,14 @@
       "activation": "blue-global",
       "keywords": [],
       "order_hint": 391
+    },
+    {
+      "id": "blue-009",
+      "name": "人物外貌与角色设定权威",
+      "source": "worldbook/settings/blue-global/009_人物外貌与角色设定权威.md",
+      "activation": "blue-global",
+      "keywords": [],
+      "order_hint": 390
     }
   ]
 }

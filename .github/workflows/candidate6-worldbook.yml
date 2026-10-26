@@ -1,0 +1,175 @@
+name: Candidate6 worldbook recursion publisher
+
+'on':
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    if: github.event.head_commit.message == 'Prepare Candidate6 worldbook publish'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Build Candidate6 from Candidate5
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, base64, hashlib, zlib, copy, re
+          from pathlib import Path
+
+          src_json=Path('build/三国无双姬_v1.0.0-candidate5.json')
+          src_png=Path('build/三国无双姬_v1.0.0-candidate5.png')
+          out_json=Path('build/三国无双姬_v1.0.0-candidate6.json')
+          out_png=Path('build/三国无双姬_v1.0.0-candidate6.png')
+          qa=Path('qa/Candidate6_QA.txt')
+          female_src=Path('worldbook/settings/blue-global/002_女性世界与老年御姐化.md').read_text(encoding='utf-8')
+          authority_src=Path('worldbook/settings/blue-global/009_人物外貌与角色设定权威.md').read_text(encoding='utf-8')
+
+          card=json.loads(src_json.read_text(encoding='utf-8'))
+          entries=card['data']['character_book']['entries']
+
+          female=next(e for e in entries if e.get('comment')=='核心设定:女性世界与老年御姐化')
+          female['content']=female_src
+
+          chars=[e for e in entries if str(e.get('comment','')).startswith('角色:')]
+          assert len(chars)==91, len(chars)
+          for e in chars:
+              ext=e.setdefault('extensions',{})
+              ext['excludeRecursion']=False
+              ext['exclude_recursion']=False
+              ext['preventRecursion']=True
+              ext['prevent_recursion']=True
+
+          existing=[e for e in entries if e.get('comment')=='核心设定:人物外貌与角色设定权威']
+          assert not existing
+          authority=copy.deepcopy(female)
+          authority['id']=max(int(e.get('id',0)) for e in entries)+1
+          authority['comment']='核心设定:人物外貌与角色设定权威'
+          authority['content']=authority_src
+          authority['keys']=[]
+          authority['secondary_keys']=[]
+          authority['constant']=True
+          authority['selective']=False
+          authority['insertion_order']=390
+          authority['enabled']=True
+          aext=authority.setdefault('extensions',{})
+          aext['tkm_source']='worldbook/settings/blue-global/009_人物外貌与角色设定权威.md'
+          aext['excludeRecursion']=True
+          aext['exclude_recursion']=True
+          aext['preventRecursion']=True
+          aext['prevent_recursion']=True
+          entries.append(authority)
+
+          phi=card['data'].get('post_history_instructions','')
+          phi=re.sub(r'\n*<appearance_authority_contract>[\s\S]*?</appearance_authority_contract>\s*','\n',phi).strip()
+          card['data']['post_history_instructions']=phi
+          card['data']['character_version']='1.0.0-candidate6'
+          card['data']['creator_notes']='Candidate6：正式世界书返工。将女性硬规则同步回002正式源；新增009人物外貌权威蓝灯；91个人物绿灯允许被时间线/其他世界书递归召回，但自身阻止继续递归；移除Candidate5无效的post-history 91人常驻索引。继承Candidate4/5其余修复，待Android/SillyTavern实机验收。'
+          out_json.write_text(json.dumps(card,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          # Persist recursion behavior and remove Candidate5 post-history index from normal assembler.
+          bp=Path('tools/build_candidate.py')
+          text=bp.read_text(encoding='utf-8')
+          old_phi="post_history_instructions=read('mvu/prompts/faction-output.txt')+'\\n'+read('mvu/prompts/appearance-index.v1.txt'),creator='多娜'"
+          if old_phi in text:
+              text=text.replace(old_phi,"post_history_instructions=read('mvu/prompts/faction-output.txt'),creator='多娜'",1)
+          old_char="  add(19,'角色:'+x['name'],read(x['character_source']),299-i,x['ability_keywords'],source=x['character_source'])"
+          new_char="  out=add(19,'角色:'+x['name'],read(x['character_source']),299-i,x['ability_keywords'],source=x['character_source'])\n  out['extensions'].update(excludeRecursion=False,exclude_recursion=False,preventRecursion=True,prevent_recursion=True)"
+          assert old_char in text, 'character recursion patch anchor missing'
+          text=text.replace(old_char,new_char,1)
+          bp.write_text(text,encoding='utf-8')
+
+          compact=json.dumps(card,ensure_ascii=False).encode('utf-8')
+          payload=base64.b64encode(compact)
+          png=src_png.read_bytes(); assert png[:8]==b'\x89PNG\r\n\x1a\n'
+          def chunk(t,d):
+              body=t+d
+              return len(d).to_bytes(4,'big')+body+(zlib.crc32(body)&0xffffffff).to_bytes(4,'big')
+          out=bytearray(png[:8]); pos=8; before=hashlib.sha256(); after=hashlib.sha256(); seen=set()
+          while pos<len(png):
+              n=int.from_bytes(png[pos:pos+4],'big'); t=png[pos+4:pos+8]; d=png[pos+8:pos+8+n]
+              whole=png[pos:pos+12+n]
+              if t==b'tEXt':
+                  key,_,val=d.partition(b'\x00')
+                  if key in (b'chara',b'ccv3'):
+                      whole=chunk(b'tEXt',key+b'\x00'+payload); seen.add(key)
+              if t==b'IDAT': before.update(d)
+              out.extend(whole)
+              if t==b'IDAT': after.update(d)
+              pos+=12+n
+          assert seen=={b'chara',b'ccv3'}
+          out_png.write_bytes(out); assert before.hexdigest()==after.hexdigest()
+
+          # Decode and validate embedded card.
+          def embedded(path):
+              b=Path(path).read_bytes(); pos=8; got={}
+              while pos<len(b):
+                  n=int.from_bytes(b[pos:pos+4],'big'); t=b[pos+4:pos+8]; d=b[pos+8:pos+8+n]
+                  if t==b'tEXt':
+                      k,_,v=d.partition(b'\x00')
+                      if k in (b'chara',b'ccv3'): got[k.decode()]=json.loads(base64.b64decode(v))
+                  pos+=12+n
+              return got
+          emb=embedded(out_png); assert emb['chara']==card and emb['ccv3']==card
+
+          # Specific regression checks.
+          assert '<appearance_authority_contract>' not in card['data']['post_history_instructions']
+          assert next(e for e in entries if e.get('comment')=='核心设定:人物外貌与角色设定权威')['constant'] is True
+          for name, anchors in {
+              '刘备':['151cm','发色:粉红','发型:双马尾','瞳色:翠绿'],
+              '张飞':['175cm','发色:黑褐','发型:双丸子','瞳色:琥珀黑'],
+              '关羽':['183cm','发色:深青','发型:超长高马尾','瞳色:墨绿']
+          }.items():
+              e=next(e for e in chars if e.get('comment')=='角色:'+name)
+              assert name in e.get('keys',[])
+              assert e['extensions'].get('excludeRecursion') is False
+              assert e['extensions'].get('exclude_recursion') is False
+              assert e['extensions'].get('preventRecursion') is True
+              assert e['extensions'].get('prevent_recursion') is True
+              for a in anchors: assert a in e['content'], (name,a)
+          assert any(x.get('id')=='tkm-faction-beautify' for x in card['data']['extensions']['regex_scripts'])
+
+          def sha(p): return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+          report=[
+              'Candidate6 QA PASS','',
+              f'Candidate5 JSON SHA256: {sha(src_json)}',
+              f'Candidate5 PNG  SHA256: {sha(src_png)}',
+              f'Candidate6 JSON SHA256: {sha(out_json)}',
+              f'Candidate6 PNG  SHA256: {sha(out_png)}','',
+              f'Candidate6 JSON size: {out_json.stat().st_size} bytes',
+              f'Candidate6 PNG  size: {out_png.stat().st_size} bytes','',
+              'WORLD BOOK SOURCE FIXES:',
+              '- 002 female-world hard rules synced to formal source: PASS',
+              '- 009 appearance/character authority is a real constant blue worldbook entry: PASS',
+              '- 91/91 character entries are recursively activatable: PASS',
+              '- character entries still prevent further recursion: PASS',
+              '- Candidate5 post-history 91-row appearance index removed: PASS','',
+              'REGRESSION:',
+              '- 刘备 151cm / 粉红 / 双马尾 / 翠绿: PASS',
+              '- 张飞 175cm / 黑褐 / 双丸子 / 琥珀黑: PASS',
+              '- 关羽 183cm / 深青 / 超长高马尾 / 墨绿: PASS',
+              '- Candidate4 faction beautifier inherited: PASS',
+              '- PNG IDAT image layer unchanged: PASS',
+              f'IDAT SHA256: {before.hexdigest()}',
+              '- embedded chara == Candidate6 JSON: PASS',
+              '- embedded ccv3 == Candidate6 JSON: PASS'
+          ]
+          qa.write_text('\n'.join(report)+'\n',encoding='utf-8')
+          PY
+      - name: Commit Candidate6 and clean one-shot files
+        shell: bash
+        run: |
+          rm -f .candidate6-trigger .github/workflows/candidate6-worldbook.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'Fix worldbook character recursion and publish Candidate6'
+          git push origin HEAD:main
