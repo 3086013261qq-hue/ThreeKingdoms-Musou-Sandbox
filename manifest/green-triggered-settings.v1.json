@@ -1,5 +1,5 @@
 {
-  "version": "1.3",
+  "version": "1.4",
   "kind": "worldbook-core-settings-green-triggered",
   "activation_policy": "keyword_triggered",
   "format": "咩咩制卡·全栈 v1.0.0 / <核心设定:名称>",
@@ -255,6 +255,69 @@
       "activation": "green-triggered",
       "keywords": ["无双乱舞", "终结技", "无双终结", "决胜技", "无双杀招"],
       "order_hint": 353
+    },
+    {
+      "id": "green-battlefield-001",
+      "name": "攻城与守城",
+      "source": "worldbook/settings/green-triggered/battlefield/001_攻城与守城.md",
+      "parent_blue": "blue-004",
+      "activation": "green-triggered",
+      "keywords": ["攻城战", "守城战", "攻城", "守城", "城防", "围城", "攻城器械"],
+      "order_hint": 352
+    },
+    {
+      "id": "green-battlefield-002",
+      "name": "先登夺旗",
+      "source": "worldbook/settings/green-triggered/battlefield/002_先登夺旗.md",
+      "parent_blue": "blue-004",
+      "activation": "green-triggered",
+      "keywords": ["先登", "先登夺旗", "夺旗", "立旗", "夺门", "斩关", "登城先登"],
+      "order_hint": 351
+    },
+    {
+      "id": "green-battlefield-003",
+      "name": "战阵压制",
+      "source": "worldbook/settings/green-triggered/battlefield/003_战阵压制.md",
+      "parent_blue": "blue-004",
+      "activation": "green-triggered",
+      "keywords": ["战阵压制", "阵压强者", "长兵阵", "盾阵", "军阵压制", "阵型压迫"],
+      "order_hint": 350
+    },
+    {
+      "id": "green-battlefield-004",
+      "name": "围攻强者",
+      "source": "worldbook/settings/green-triggered/battlefield/004_围攻强者.md",
+      "parent_blue": "blue-004",
+      "activation": "green-triggered",
+      "keywords": ["围攻强者", "围攻名将", "围攻无双", "围杀名将", "轮换围攻", "封锁强者"],
+      "order_hint": 349
+    },
+    {
+      "id": "green-battlefield-005",
+      "name": "士气崩溃",
+      "source": "worldbook/settings/green-triggered/battlefield/005_士气崩溃.md",
+      "parent_blue": "blue-004",
+      "activation": "green-triggered",
+      "keywords": ["士气崩溃", "军心崩溃", "全军溃败", "军心动摇", "士气低落", "军旗倒下"],
+      "order_hint": 348
+    },
+    {
+      "id": "green-battlefield-006",
+      "name": "战场伤亡与救治",
+      "source": "worldbook/settings/green-triggered/battlefield/006_战场伤亡与救治.md",
+      "parent_blue": "blue-004",
+      "activation": "green-triggered",
+      "keywords": ["战场救治", "战场伤亡", "军医", "伤兵", "重伤后送", "战伤", "伤兵营"],
+      "order_hint": 347
+    },
+    {
+      "id": "green-battlefield-007",
+      "name": "撤退追击与断后",
+      "source": "worldbook/settings/green-triggered/battlefield/007_撤退追击与断后.md",
+      "parent_blue": "blue-004",
+      "activation": "green-triggered",
+      "keywords": ["有序撤退", "追击", "断后", "诈退", "溃退", "撤军", "断后战"],
+      "order_hint": 346
     }
   ]
 }
