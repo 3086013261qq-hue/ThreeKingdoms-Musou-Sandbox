@@ -1,10 +1,11 @@
 {
-  "version":"0.1",
+  "version":"0.2",
   "status":"complete",
-  "batch":"location-batch01-core10",
+  "batch":"location-batch01-core20",
   "source_index":"worldbook/locations/LOCATION_INDEX.v0.1.md",
-  "order_range":[100,91],
+  "order_range":[100,81],
   "entry_format":"<地点:名称>介绍:...</地点:名称>",
+  "production_plan":"3_batches_x_20",
   "entries":[
     {"name":"洛阳","source":"worldbook/locations/001_洛阳.md","order_hint":100,"keywords":["洛阳"]},
     {"name":"长安","source":"worldbook/locations/002_长安.md","order_hint":99,"keywords":["长安"]},
@@ -15,13 +16,25 @@
     {"name":"襄阳","source":"worldbook/locations/007_襄阳.md","order_hint":94,"keywords":["襄阳"]},
     {"name":"江陵","source":"worldbook/locations/008_江陵.md","order_hint":93,"keywords":["江陵"]},
     {"name":"合肥","source":"worldbook/locations/009_合肥.md","order_hint":92,"keywords":["合肥"]},
-    {"name":"汉中","source":"worldbook/locations/010_汉中.md","order_hint":91,"keywords":["汉中"]}
+    {"name":"汉中","source":"worldbook/locations/010_汉中.md","order_hint":91,"keywords":["汉中"]},
+    {"name":"徐州","source":"worldbook/locations/011_徐州.md","order_hint":90,"keywords":["徐州"]},
+    {"name":"下邳","source":"worldbook/locations/012_下邳.md","order_hint":89,"keywords":["下邳","下邳城"]},
+    {"name":"濮阳","source":"worldbook/locations/013_濮阳.md","order_hint":88,"keywords":["濮阳"]},
+    {"name":"宛城","source":"worldbook/locations/014_宛城.md","order_hint":87,"keywords":["宛城"]},
+    {"name":"新野","source":"worldbook/locations/015_新野.md","order_hint":86,"keywords":["新野"]},
+    {"name":"柴桑","source":"worldbook/locations/016_柴桑.md","order_hint":85,"keywords":["柴桑"]},
+    {"name":"南徐","source":"worldbook/locations/017_南徐.md","order_hint":84,"keywords":["南徐","京口"]},
+    {"name":"寿春","source":"worldbook/locations/018_寿春.md","order_hint":83,"keywords":["寿春"]},
+    {"name":"襄平","source":"worldbook/locations/019_襄平.md","order_hint":82,"keywords":["襄平"]},
+    {"name":"武昌","source":"worldbook/locations/020_武昌.md","order_hint":81,"keywords":["武昌","鄂县"]}
   ],
   "rules":[
     "地点正文只写稳定客观空间资料，不写剧情结果或动态归属",
     "地点关键词使用正式地名与明确稳定别名，不使用过宽泛裸词",
     "地形、水系、交通、城防、城区结构与资源是主要描述维度",
+    "南徐按演义称呼对应京口一带处理，不误写为东汉正式南徐州",
+    "三国武昌按鄂县旧地即今鄂州一带处理，不与今武汉武昌区混同",
     "不修改人物、能力、蓝灯绿灯、时间线或武道等级",
-    "后续Batch继续从order 90向下连续分配"
+    "后续Batch02从order 80向下连续分配"
   ]
 }
