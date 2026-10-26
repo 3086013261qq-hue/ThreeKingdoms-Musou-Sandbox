@@ -1,0 +1,21 @@
+{
+  "version":"0.1",
+  "status":"draft",
+  "source_roster":"manifest/character-roster.v0.3.json",
+  "spec":"docs/004_人物外貌生成与记忆点规范_v1.0.md",
+  "columns":["name","height_cm","body_type","hair_color","hair_style","eye_color","silhouette_memory","detail_memory","outfit_direction"],
+  "height_bands":{"极矮":7,"娇小":13,"偏矮":17,"中等":21,"高挑":20,"极高":11},
+  "files":[
+    {"faction":"曹魏","path":"manifest/appearance/wei.v0.1.json","count":20},
+    {"faction":"蜀汉","path":"manifest/appearance/shu.v0.1.json","count":21},
+    {"faction":"孙吴","path":"manifest/appearance/wu.v0.1.json","count":19},
+    {"faction":"晋","path":"manifest/appearance/jin.v0.1.json","count":13},
+    {"faction":"群雄/汉室/地方","path":"manifest/appearance/other.v0.1.json","count":16}
+  ],
+  "rules":[
+    "后续人物正文不得重新随机本清单已固定的基础外貌锚点",
+    "如需改动先更新对应分表、总索引与QA",
+    "实际年龄仍由制卡锚点决定，外貌不得抹除年龄感",
+    "胸部与更细身材字段在确认成年制卡锚点后按人物特点补齐，不与武道等级机械绑定"
+  ]
+}
