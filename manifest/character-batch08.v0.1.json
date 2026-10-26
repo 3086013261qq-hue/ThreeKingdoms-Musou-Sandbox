@@ -1,0 +1,31 @@
+{
+  "version":"0.1",
+  "status":"complete",
+  "batch":"character-batch08-iconic-women-faction-tail10",
+  "source_roster":"manifest/character-roster.v0.3.json",
+  "appearance":["manifest/appearance/shu.v0.1.json","manifest/appearance/wu.v0.1.json","manifest/appearance/jin.v0.1.json","manifest/appearance/other.v0.1.json"],
+  "character_order_range":[230,221],
+  "ability_order_range":[260,251],
+  "ability_activation":"green-triggered",
+  "entries":[
+    {"name":"糜夫人","character_source":"worldbook/characters/main/071_糜夫人.md","character_order_hint":230,"ability_source":"worldbook/settings/green-triggered/characters/071_糜夫人·能力.md","ability_order_hint":260,"ability_keywords":["糜夫人"]},
+    {"name":"凌统","character_source":"worldbook/characters/main/072_凌统.md","character_order_hint":229,"ability_source":"worldbook/settings/green-triggered/characters/072_凌统·能力.md","ability_order_hint":259,"ability_keywords":["凌统","公绩","凌公绩"]},
+    {"name":"吴国太","character_source":"worldbook/characters/main/073_吴国太.md","character_order_hint":228,"ability_source":"worldbook/settings/green-triggered/characters/073_吴国太·能力.md","ability_order_hint":258,"ability_keywords":["吴国太"]},
+    {"name":"孙鲁班","character_source":"worldbook/characters/main/074_孙鲁班.md","character_order_hint":227,"ability_source":"worldbook/settings/green-triggered/characters/074_孙鲁班·能力.md","ability_order_hint":257,"ability_keywords":["孙鲁班","大虎"]},
+    {"name":"孙鲁育","character_source":"worldbook/characters/main/075_孙鲁育.md","character_order_hint":226,"ability_source":"worldbook/settings/green-triggered/characters/075_孙鲁育·能力.md","ability_order_hint":256,"ability_keywords":["孙鲁育","小虎"]},
+    {"name":"羊徽瑜","character_source":"worldbook/characters/main/076_羊徽瑜.md","character_order_hint":225,"ability_source":"worldbook/settings/green-triggered/characters/076_羊徽瑜·能力.md","ability_order_hint":255,"ability_keywords":["羊徽瑜"]},
+    {"name":"夏侯徽","character_source":"worldbook/characters/main/077_夏侯徽.md","character_order_hint":224,"ability_source":"worldbook/settings/green-triggered/characters/077_夏侯徽·能力.md","ability_order_hint":254,"ability_keywords":["夏侯徽"]},
+    {"name":"貂蝉","character_source":"worldbook/characters/main/078_貂蝉.md","character_order_hint":223,"ability_source":"worldbook/settings/green-triggered/characters/078_貂蝉·能力.md","ability_order_hint":253,"ability_keywords":["貂蝉"]},
+    {"name":"吕玲绮","character_source":"worldbook/characters/main/079_吕玲绮.md","character_order_hint":222,"ability_source":"worldbook/settings/green-triggered/characters/079_吕玲绮·能力.md","ability_order_hint":252,"ability_keywords":["吕玲绮"]},
+    {"name":"祝融","character_source":"worldbook/characters/main/080_祝融.md","character_order_hint":221,"ability_source":"worldbook/settings/green-triggered/characters/080_祝融·能力.md","ability_order_hint":251,"ability_keywords":["祝融"]}
+  ],
+  "rules":[
+    "人物正文继续使用chara-v1加项目四字段",
+    "外貌严格继承对应appearance anchors",
+    "貂蝉的魅力和离间不得写成精神控制",
+    "吕玲绮必须与吕布的纯力量无双风格分离",
+    "祝融投掷兵器必须真实回收或补充",
+    "羊徽瑜未入武境且能力条目保持非战斗内政定位",
+    "人物与能力编号连续承接Batch07"
+  ]
+}
