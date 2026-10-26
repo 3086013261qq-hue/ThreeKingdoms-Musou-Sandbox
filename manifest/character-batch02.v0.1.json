@@ -1,0 +1,30 @@
+{
+  "version":"0.1",
+  "status":"complete",
+  "batch":"character-batch02-core-and-wushuang10",
+  "source_roster":"manifest/character-roster.v0.3.json",
+  "appearance":"manifest/character-appearance-anchors.v0.1.json",
+  "character_order_range":[290,281],
+  "ability_order_range":[320,311],
+  "ability_activation":"green-triggered",
+  "entries":[
+    {"name":"孙坚","character_source":"worldbook/characters/main/011_孙坚.md","character_order_hint":290,"ability_source":"worldbook/settings/green-triggered/characters/011_孙坚·能力.md","ability_order_hint":320,"ability_keywords":["孙坚","文台","孙文台","江东猛虎"]},
+    {"name":"孙策","character_source":"worldbook/characters/main/012_孙策.md","character_order_hint":289,"ability_source":"worldbook/settings/green-triggered/characters/012_孙策·能力.md","ability_order_hint":319,"ability_keywords":["孙策","伯符","孙伯符","小霸王"]},
+    {"name":"董卓","character_source":"worldbook/characters/main/013_董卓.md","character_order_hint":288,"ability_source":"worldbook/settings/green-triggered/characters/013_董卓·能力.md","ability_order_hint":318,"ability_keywords":["董卓","仲颖","董仲颖","董太师"]},
+    {"name":"袁绍","character_source":"worldbook/characters/main/014_袁绍.md","character_order_hint":287,"ability_source":"worldbook/settings/green-triggered/characters/014_袁绍·能力.md","ability_order_hint":317,"ability_keywords":["袁绍","本初","袁本初"]},
+    {"name":"张角","character_source":"worldbook/characters/main/015_张角.md","character_order_hint":286,"ability_source":"worldbook/settings/green-triggered/characters/015_张角·能力.md","ability_order_hint":316,"ability_keywords":["张角","天公将军","大贤良师"]},
+    {"name":"典韦","character_source":"worldbook/characters/main/016_典韦.md","character_order_hint":285,"ability_source":"worldbook/settings/green-triggered/characters/016_典韦·能力.md","ability_order_hint":315,"ability_keywords":["典韦","恶来","古之恶来"]},
+    {"name":"许褚","character_source":"worldbook/characters/main/017_许褚.md","character_order_hint":284,"ability_source":"worldbook/settings/green-triggered/characters/017_许褚·能力.md","ability_order_hint":314,"ability_keywords":["许褚","仲康","许仲康","虎痴"]},
+    {"name":"张辽","character_source":"worldbook/characters/main/018_张辽.md","character_order_hint":283,"ability_source":"worldbook/settings/green-triggered/characters/018_张辽·能力.md","ability_order_hint":313,"ability_keywords":["张辽","文远","张文远"]},
+    {"name":"马超","character_source":"worldbook/characters/main/019_马超.md","character_order_hint":282,"ability_source":"worldbook/settings/green-triggered/characters/019_马超·能力.md","ability_order_hint":312,"ability_keywords":["马超","孟起","马孟起","锦马超"]},
+    {"name":"太史慈","character_source":"worldbook/characters/main/020_太史慈.md","character_order_hint":281,"ability_source":"worldbook/settings/green-triggered/characters/020_太史慈·能力.md","ability_order_hint":311,"ability_keywords":["太史慈","子义","太史子义"]}
+  ],
+  "rules":[
+    "人物正文继续使用chara-v1加项目四字段",
+    "角色姓名保留原名，性别固定为女",
+    "外貌字段必须继承appearance anchors，不重新随机",
+    "同名能力绿灯只写个人战斗与统帅特色，不复制公共核心设定",
+    "能力触发使用正式姓名、字和明确称号，不使用高频裸姓氏",
+    "无双人物必须保持战斗方式差异，不得统一写成爆气猛攻模板"
+  ]
+}
