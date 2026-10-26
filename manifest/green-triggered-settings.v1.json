@@ -1,5 +1,5 @@
 {
-  "version": "1.6",
+  "version": "1.7",
   "kind": "worldbook-core-settings-green-triggered",
   "activation_policy": "keyword_triggered",
   "format": "咩咩制卡·全栈 v1.0.0 / <核心设定:名称>",
@@ -49,6 +49,10 @@
     {"id":"green-female-002","name":"武姬体魄与力量表现","source":"worldbook/settings/green-triggered/female-world/002_武姬体魄与力量表现.md","parent_blue":"blue-002","activation":"green-triggered","keywords":["武姬体魄","武姬力量","女性强者体魄","高武体魄","武姬身材","女性力量表现"],"order_hint":338},
     {"id":"green-female-003","name":"年龄阶段与成熟感","source":"worldbook/settings/green-triggered/female-world/003_年龄阶段与成熟感.md","parent_blue":"blue-002","activation":"green-triggered","keywords":["年龄阶段","年龄感","成熟感","中年气质","年龄变化","人物年龄感"],"order_hint":337},
     {"id":"green-female-004","name":"老年御姐化","source":"worldbook/settings/green-triggered/female-world/004_老年御姐化.md","parent_blue":"blue-002","activation":"green-triggered","keywords":["老年御姐","老年御姐化","威严美妇","老练女将","高龄武姬","白发御姐"],"order_hint":336},
-    {"id":"green-female-005","name":"甲胄服饰与女性身体适配","source":"worldbook/settings/green-triggered/female-world/005_甲胄服饰与女性身体适配.md","parent_blue":"blue-002","activation":"green-triggered","keywords":["女性甲胄","女武将甲胄","甲胄适配","女性战甲","骑装适配","女性军装"],"order_hint":335}
+    {"id":"green-female-005","name":"甲胄服饰与女性身体适配","source":"worldbook/settings/green-triggered/female-world/005_甲胄服饰与女性身体适配.md","parent_blue":"blue-002","activation":"green-triggered","keywords":["女性甲胄","女武将甲胄","甲胄适配","女性战甲","骑装适配","女性军装"],"order_hint":335},
+    {"id":"green-world-001","name":"高武与城郭防务","source":"worldbook/settings/green-triggered/world-tone/001_高武与城郭防务.md","parent_blue":"blue-001","activation":"green-triggered","keywords":["高武城防","强者城防","关隘防强者","城郭防务","城门防务","防强者工事"],"order_hint":334},
+    {"id":"green-world-002","name":"驿传交通与行军速度","source":"worldbook/settings/green-triggered/world-tone/002_驿传交通与行军速度.md","parent_blue":"blue-001","activation":"green-triggered","keywords":["驿传交通","驿站传令","行军速度","换马传令","军情递送","大军行军"],"order_hint":333},
+    {"id":"green-world-003","name":"武人与常人的社会距离","source":"worldbook/settings/green-triggered/world-tone/003_武人与常人的社会距离.md","parent_blue":"blue-001","activation":"green-triggered","keywords":["武人与常人","强者与百姓","高武者地位","武人社会地位","名将社会地位","强者社会关系"],"order_hint":332},
+    {"id":"green-world-004","name":"乱世治安与地方秩序","source":"worldbook/settings/green-triggered/world-tone/004_乱世治安与地方秩序.md","parent_blue":"blue-001","activation":"green-triggered","keywords":["乱世治安","地方秩序","乡里治安","地方巡防","流民盗匪","地方安定"],"order_hint":331}
   ]
 }
