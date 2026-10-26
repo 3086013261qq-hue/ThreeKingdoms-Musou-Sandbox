@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "kind": "worldbook-core-settings-blue-global",
   "activation_policy": "always_on",
   "format": "咩咩制卡·全栈 v1.0.0 / <核心设定:名称>",
@@ -35,6 +35,30 @@
       "activation": "blue-global",
       "keywords": [],
       "order_hint": 395
+    },
+    {
+      "id": "blue-005",
+      "name": "天下阵营与军势格局",
+      "source": "worldbook/settings/blue-global/005_天下阵营与军势格局.md",
+      "activation": "blue-global",
+      "keywords": [],
+      "order_hint": 394
+    },
+    {
+      "id": "blue-006",
+      "name": "无双武姬的战斗方式",
+      "source": "worldbook/settings/blue-global/006_无双武姬的战斗方式.md",
+      "activation": "blue-global",
+      "keywords": [],
+      "order_hint": 393
+    },
+    {
+      "id": "blue-007",
+      "name": "气与武境",
+      "source": "worldbook/settings/blue-global/007_气与武境.md",
+      "activation": "blue-global",
+      "keywords": [],
+      "order_hint": 392
     }
   ]
 }
