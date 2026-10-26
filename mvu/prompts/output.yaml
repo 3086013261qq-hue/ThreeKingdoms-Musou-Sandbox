@@ -1,0 +1,12 @@
+---
+变量输出格式:
+  rule:
+    - 本卡没有可写MVU路径，禁止生成第二套阵营值或89人好感。
+    - 如运行环境要求MVU更新格式，只输出一个UpdateVariable块及空JSONPatch数组，不与咩咩原生好感重复结算。
+    - 可用操作仅add、replace、remove、move；路径不带stat_data前缀；本卡没有任何需要执行的操作。
+    - 正常扮演回复仍必须按卡级指令在末尾输出完整faction_affinity块。
+  format: |-
+    <UpdateVariable>
+    <Analysis>No card-owned persistent variables changed.</Analysis>
+    <JSONPatch>[]</JSONPatch>
+    </UpdateVariable>

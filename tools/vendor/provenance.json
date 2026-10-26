@@ -1,0 +1,17 @@
+{
+  "toolkit": "咩咩制卡·全栈 v1.0.0",
+  "origin_library_id": "libfile_4fd3744d1a0c81919fe13de4daea830e",
+  "vendor_sha256": {
+    "tools/vendor/worldbook-template.json": "4b8fb1dae9a53a1b240d0af8644d9a26e1f1330f96d9619accec62652db07b5b",
+    "tools/vendor/mvu-card-template.json": "0de2ccd1e2684f0a61f22c84c470da77e479ddcd724673752620ac898cad79a5",
+    "tools/vendor/embed_worldbook.py": "3fdff131c6035bedb504fd3776c1fda8133213eab1c87b1e0534cac76c7c5b70",
+    "tools/vendor/package_card.py": "0c2baeb7ceb5a92a31ba56520017f4dcaeda864f4f3ec6baee19c3cd4e36b72f"
+  },
+  "native_affinity_contract": {
+    "preset": "咩咩预设 - ver 0.9.0.json",
+    "library_id": "libfile_cef5a674452c8191bd341a4a1feabee0",
+    "read_only": true,
+    "tag": "affinity",
+    "line": "角色名 💞好感: 数值｜🤝信任: 数值｜🔗关系: 社会关系名词"
+  }
+}

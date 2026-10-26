@@ -1,0 +1,3952 @@
+[
+  {
+    "source": "timeline/MAIN01_黄巾乱起·董卓乱政.md",
+    "sha256": "7ccef58df16f2dac7f99d64f252ab9f21814394574501425fb157c121efd01fa",
+    "comment": "时间线-MAIN01-黄巾乱起·董卓乱政",
+    "order": 454,
+    "keys": [],
+    "constant": true,
+    "enabled": true
+  },
+  {
+    "source": "timeline/MAIN02_群雄逐鹿·吕布覆亡.md",
+    "sha256": "f5cdf9e291cd7287f76cc601eac8a6b7a2b42fe68df36b94442221b50567f87b",
+    "comment": "时间线-MAIN02-群雄逐鹿·吕布覆亡",
+    "order": 454,
+    "keys": [],
+    "constant": true,
+    "enabled": false
+  },
+  {
+    "source": "timeline/MAIN03_官渡争锋·河北归曹.md",
+    "sha256": "ddf89ea3e88984075384d1a64c819182e83480f0cb817037d0e2fe5801278c6a",
+    "comment": "时间线-MAIN03-官渡争锋·河北归曹",
+    "order": 454,
+    "keys": [],
+    "constant": true,
+    "enabled": false
+  },
+  {
+    "source": "timeline/MAIN04_卧龙出山·赤壁大战.md",
+    "sha256": "f708a7b5c0fdd68b7924946ae1401a417885fcea2c9b0fafc5b924e24441cd11",
+    "comment": "时间线-MAIN04-卧龙出山·赤壁大战",
+    "order": 454,
+    "keys": [],
+    "constant": true,
+    "enabled": false
+  },
+  {
+    "source": "timeline/MAIN05_荆州西川·益州入手.md",
+    "sha256": "46371bc25d540b175cf269dc15fe5642b37bbfa029dceb6001b85d39ae7d027b",
+    "comment": "时间线-MAIN05-荆州西川·益州入手",
+    "order": 454,
+    "keys": [],
+    "constant": true,
+    "enabled": false
+  },
+  {
+    "source": "timeline/MAIN06_汉中王·荆州陷落.md",
+    "sha256": "e82f42604f6b05474a9e31faaefc2c11f38c84d8001353ec2962a2f943795a13",
+    "comment": "时间线-MAIN06-汉中王·荆州陷落",
+    "order": 454,
+    "keys": [],
+    "constant": true,
+    "enabled": false
+  },
+  {
+    "source": "timeline/MAIN07_夷陵白帝·七擒孟获.md",
+    "sha256": "e0a14eb341f0f3b07e29479a61cdde011b95aee6ab2638935f1d7fcbe9f00e0a",
+    "comment": "时间线-MAIN07-夷陵白帝·七擒孟获",
+    "order": 454,
+    "keys": [],
+    "constant": true,
+    "enabled": false
+  },
+  {
+    "source": "timeline/MAIN08_武侯北伐·五丈原.md",
+    "sha256": "4f6e4298a990e8e13b29da6cfcce0cd95835586713dc4d5746804bb79f6ab5bb",
+    "comment": "时间线-MAIN08-武侯北伐·五丈原",
+    "order": 454,
+    "keys": [],
+    "constant": true,
+    "enabled": false
+  },
+  {
+    "source": "timeline/MAIN09_司马掌魏·姜维鏖兵.md",
+    "sha256": "2d91586edbdc5e56b881e89611efe6b003ec91d3b2889f8adec93965956caf9c",
+    "comment": "时间线-MAIN09-司马掌魏·姜维鏖兵",
+    "order": 454,
+    "keys": [],
+    "constant": true,
+    "enabled": false
+  },
+  {
+    "source": "timeline/MAIN10_蜀汉终局·三分归晋.md",
+    "sha256": "62bb36577e5df655f1ca899df6b262b02c4ffee68dd0af5d3a865d9b9640bbce",
+    "comment": "时间线-MAIN10-蜀汉终局·三分归晋",
+    "order": 454,
+    "keys": [],
+    "constant": true,
+    "enabled": false
+  },
+  {
+    "source": "worldbook/settings/blue-global/001_三国无双姬世界基调.md",
+    "sha256": "d99738f3d490e1b4e393c7f70736a0d63f544e5dbfe0f4bd2bbb58ab7a0bcc24",
+    "comment": "核心设定:三国无双姬世界基调",
+    "order": 398,
+    "keys": [],
+    "constant": true,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/blue-global/002_女性世界与老年御姐化.md",
+    "sha256": "aa90531cc6b8f69eb798f56125c86a0a6e8c01626448d9b9e7eb772f27436586",
+    "comment": "核心设定:女性世界与老年御姐化",
+    "order": 397,
+    "keys": [],
+    "constant": true,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/blue-global/003_妻妻社会与家族结构.md",
+    "sha256": "c60f6467d2a9c6266fb368a16445073d94dac4c7d3d0a783a5e84a5f9df34a27",
+    "comment": "核心设定:妻妻社会与家族结构",
+    "order": 396,
+    "keys": [],
+    "constant": true,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/blue-global/004_无双武人与战场法则.md",
+    "sha256": "02b5063f4d0cdae7e79f27257a0b4e10c70f6e0da9ee55d17c2d1283fe868500",
+    "comment": "核心设定:无双武人与战场法则",
+    "order": 395,
+    "keys": [],
+    "constant": true,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/blue-global/005_天下阵营与军势格局.md",
+    "sha256": "0005412807de5be845c47b558b1fbffaf3872dd8e784e2ce5e76c560e6512986",
+    "comment": "核心设定:天下阵营与军势格局",
+    "order": 394,
+    "keys": [],
+    "constant": true,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/blue-global/006_无双武姬的战斗方式.md",
+    "sha256": "bf43b6e1b37e1ec55f0ec34932536628ace6e0ef7f7826baef6af5c3fdbc6222",
+    "comment": "核心设定:无双武姬的战斗方式",
+    "order": 393,
+    "keys": [],
+    "constant": true,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/blue-global/007_气与武境.md",
+    "sha256": "1c325c3bfb72796d864ae1f5b1cbe47c76c2e6a8ff7a0b52c0cd7fd67a111180",
+    "comment": "核心设定:气与武境",
+    "order": 392,
+    "keys": [],
+    "constant": true,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/blue-global/008_文武并立与军师之道.md",
+    "sha256": "49bb5acb867876f056b172dab1e4e59d3192597f3d8b47da90b933653a61614a",
+    "comment": "核心设定:文武并立与军师之道",
+    "order": 391,
+    "keys": [],
+    "constant": true,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/qi-wujing/001_气的运行与外显.md",
+    "sha256": "aca2178c8068a86f982826e39315b909aa39e65406a6584e31ed3adc54826a40",
+    "comment": "核心设定:气的运行与外显",
+    "order": 380,
+    "keys": [
+      "气的运行",
+      "行气",
+      "气息运转",
+      "气机运行",
+      "气势外显",
+      "气的外显"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/qi-wujing/002_武境五阶.md",
+    "sha256": "e55965954296bf022d8c800eae04d4071d82620dd24eea8e686f79f0278fde2c",
+    "comment": "核心设定:武境五阶",
+    "order": 379,
+    "keys": [
+      "武境",
+      "五阶武境",
+      "武卒境",
+      "武人境",
+      "骁将境",
+      "名将境",
+      "无双境"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/qi-wujing/003_无双爆发.md",
+    "sha256": "8bda286614d376dbb3b138d5252d0c826f843da71d482d0fba22cae43b9c53d0",
+    "comment": "核心设定:无双爆发",
+    "order": 378,
+    "keys": [
+      "无双爆发",
+      "无双状态",
+      "爆发无双",
+      "进入无双",
+      "无双蓄势"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/qi-wujing/004_气的消耗与恢复.md",
+    "sha256": "687a9e2418484816938a561b79eb7557d67ff54d8fcce96a6dce1bcc3d9611fc",
+    "comment": "核心设定:气的消耗与恢复",
+    "order": 377,
+    "keys": [
+      "耗气",
+      "气竭",
+      "回气",
+      "调息",
+      "气力耗尽",
+      "恢复气力"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/qi-wujing/005_越境战与克制.md",
+    "sha256": "5ab51f9bdf3fcd737c3d345d26889fae841bb7b034f49342767c910dea81e6fc",
+    "comment": "核心设定:越境战与克制",
+    "order": 376,
+    "keys": [
+      "越境战",
+      "越境挑战",
+      "越境取胜",
+      "以弱胜强",
+      "兵器克制",
+      "武境克制"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/junshi/001_军师之气.md",
+    "sha256": "38746cdfc77cf941137d999395135f4c1752aa576ce17aa1fcdd490705fcb99d",
+    "comment": "核心设定:军师之气",
+    "order": 375,
+    "keys": [
+      "军师之气",
+      "谋士之气",
+      "军师气感",
+      "军师气场",
+      "定心行气"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/junshi/002_阵法与军势.md",
+    "sha256": "014c7ba79f1a57a79557c626b954553f3f78636d6131da3e4ba156c93e9ae5fe",
+    "comment": "核心设定:阵法与军势",
+    "order": 374,
+    "keys": [
+      "军阵",
+      "阵法",
+      "变阵",
+      "阵型",
+      "军势压迫",
+      "军势运转"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/junshi/003_情报与谋略.md",
+    "sha256": "2faf257c652e6350a487150e2b34faef0ceba688e3a649db7ac01d579067fa98",
+    "comment": "核心设定:情报与谋略",
+    "order": 373,
+    "keys": [
+      "情报网",
+      "谍报",
+      "细作",
+      "探马情报",
+      "斥候情报",
+      "情报误判"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/junshi/004_计策成立条件.md",
+    "sha256": "0b87f9e2835359f7ae97a92e3b353d708b7a2998ec316aff639455243c734fe8",
+    "comment": "核心设定:计策成立条件",
+    "order": 372,
+    "keys": [
+      "计策条件",
+      "计策成立",
+      "计策失败",
+      "伏兵条件",
+      "火攻条件",
+      "诱敌条件",
+      "离间条件"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/junshi/005_军师亲临战场.md",
+    "sha256": "e5965a158c7ce80d5848198d538f572e65304f87e7fdd49876759d42dd61f10a",
+    "comment": "核心设定:军师亲临战场",
+    "order": 371,
+    "keys": [
+      "军师参战",
+      "军师上阵",
+      "军师亲临战场",
+      "军师亲征",
+      "军师护身",
+      "军师近战"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/factions/001_归附转阵营与忠诚.md",
+    "sha256": "fc4ca67f035c8b2a8e7898650a9b5e5c103edc1d5c14cff051ca480fbcb57688",
+    "comment": "核心设定:归附转阵营与忠诚",
+    "order": 370,
+    "keys": [
+      "转阵营",
+      "归附",
+      "择主",
+      "投降归顺",
+      "降将",
+      "忠诚冲突",
+      "改换门庭"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/factions/002_主君将领与军师关系.md",
+    "sha256": "4b1f0331c22d63279734e33662d84c8bb4f9bc4eb27b3c54c61865a299abcf0b",
+    "comment": "核心设定:主君将领与军师关系",
+    "order": 369,
+    "keys": [
+      "主君与将领",
+      "君臣关系",
+      "主从关系",
+      "功臣关系",
+      "主君与军师",
+      "阵营内斗"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/factions/003_军制兵种与军团.md",
+    "sha256": "ae0bcbd969c86acc8eaa1e258379a78b5ce9e0fa15cab9ef071f5b8edeb25a7a",
+    "comment": "核心设定:军制兵种与军团",
+    "order": 368,
+    "keys": [
+      "军制",
+      "兵种",
+      "军团编制",
+      "精锐军团",
+      "亲卫军",
+      "骑兵军团",
+      "水军编制"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/factions/004_粮草后勤与地盘.md",
+    "sha256": "48ce6c1ab5ca3ddeedd5b817985fd5406818955199565cc8337a03d328996283",
+    "comment": "核心设定:粮草后勤与地盘",
+    "order": 367,
+    "keys": [
+      "粮草后勤",
+      "粮道",
+      "断粮",
+      "烧仓",
+      "辎重",
+      "地盘经营",
+      "补给线"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/factions/005_联盟外交与临时共同体.md",
+    "sha256": "255908b7da5535350ae8219d14b1cd4a66b0140fdcbd5e58fa24f31162970093",
+    "comment": "核心设定:联盟外交与临时共同体",
+    "order": 366,
+    "keys": [
+      "诸侯联盟",
+      "临时联盟",
+      "外交盟约",
+      "联军",
+      "借兵",
+      "借道",
+      "政治联姻",
+      "背盟"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/factions/006_曹魏势力.md",
+    "sha256": "ff69f73ca5ed81e687a1cd585576e0dc83beded774d514e4aaa5fa20892670d5",
+    "comment": "核心设定:曹魏势力",
+    "order": 365,
+    "keys": [
+      "曹魏",
+      "魏军",
+      "魏势力",
+      "曹操军",
+      "曹氏势力",
+      "魏国阵营"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/factions/007_蜀汉势力.md",
+    "sha256": "6bd18f124f43a8eb6d20d3726b8748dbaf00ee492e920d3f32208332f63fbf26",
+    "comment": "核心设定:蜀汉势力",
+    "order": 364,
+    "keys": [
+      "蜀汉",
+      "蜀军",
+      "蜀势力",
+      "刘备军",
+      "刘氏势力",
+      "蜀国阵营"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/factions/008_孙吴势力.md",
+    "sha256": "8ae3bd250a3b69dff6216674b05cbcd73147abea81ad2ac887f7a3eaa36a4c1b",
+    "comment": "核心设定:孙吴势力",
+    "order": 363,
+    "keys": [
+      "孙吴",
+      "东吴",
+      "吴军",
+      "吴势力",
+      "孙权军",
+      "江东军",
+      "江东势力"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/factions/009_晋势力.md",
+    "sha256": "8202848a600598fddf939ea76faf8a9d3fac22e543df981200f97cc6418df887",
+    "comment": "核心设定:晋势力",
+    "order": 362,
+    "keys": [
+      "晋军",
+      "晋势力",
+      "司马氏",
+      "司马家",
+      "晋国阵营",
+      "西晋"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/factions/010_群雄诸侯.md",
+    "sha256": "c1cfdfd146f9bc74c4347b4c8725a16ac66a376228949b3f937a12d35e57e084",
+    "comment": "核心设定:群雄诸侯",
+    "order": 361,
+    "keys": [
+      "群雄",
+      "诸侯势力",
+      "地方军阀",
+      "群雄阵营",
+      "诸侯割据",
+      "地方诸侯"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/combat/001_兵器类别与战斗距离.md",
+    "sha256": "598385977e9e689017f9794233d4c6c93fe3379c9b3000c42a2a059caaaf1076",
+    "comment": "核心设定:兵器类别与战斗距离",
+    "order": 360,
+    "keys": [
+      "战斗距离",
+      "兵器距离",
+      "长兵",
+      "短兵",
+      "长柄兵器",
+      "贴身战"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/combat/002_骑战与马上武艺.md",
+    "sha256": "d9ff530603053ee98e440918c653d03bdf8c0d662ad3c8138668d1c93d9a7ef0",
+    "comment": "核心设定:骑战与马上武艺",
+    "order": 359,
+    "keys": [
+      "骑战",
+      "马上武艺",
+      "马上作战",
+      "骑将",
+      "冲锋骑战",
+      "回马"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/combat/003_弓战与投射武艺.md",
+    "sha256": "18f021e71efb54a699343eab626dccd64970a2f07ca06724ed9c23ce6ed055d2",
+    "comment": "核心设定:弓战与投射武艺",
+    "order": 358,
+    "keys": [
+      "弓战",
+      "骑射",
+      "远射",
+      "投射武艺",
+      "投枪",
+      "飞刀",
+      "飞轮"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/combat/004_重兵器与巨型兵装.md",
+    "sha256": "0e92eac86a82236e1db05e212201f8cb5794eab859ae4944ccb794fe738950d1",
+    "comment": "核心设定:重兵器与巨型兵装",
+    "order": 357,
+    "keys": [
+      "重兵器",
+      "巨型兵器",
+      "大斧",
+      "重锤",
+      "巨刀",
+      "重型兵装"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/combat/005_奇门兵器与特殊操控.md",
+    "sha256": "040ff162998303af2c81682198b5113bde5078a7ae9a5222db7717ac3fc59037",
+    "comment": "核心设定:奇门兵器与特殊操控",
+    "order": 356,
+    "keys": [
+      "奇门兵器",
+      "链刃",
+      "钩爪",
+      "节鞭",
+      "双钺",
+      "伞刃",
+      "特殊兵器"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/combat/006_双持连段与连续攻防.md",
+    "sha256": "e38453c88f99414d7fbced1107ed57eafd6b0065b5b3d73324fd9f61352ec3a9",
+    "comment": "核心设定:双持连段与连续攻防",
+    "order": 355,
+    "keys": [
+      "双持",
+      "双兵",
+      "连段",
+      "连续攻防",
+      "连击",
+      "双武器"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/combat/007_破阵与斩将.md",
+    "sha256": "65e2f911167d5ff077ded231a0f80102a35eaa983938308a48e8d10f68e9a245",
+    "comment": "核心设定:破阵与斩将",
+    "order": 354,
+    "keys": [
+      "破阵",
+      "斩将",
+      "冲阵",
+      "阵中斩将",
+      "突破军阵",
+      "突入敌阵"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/combat/008_无双乱舞与终结技.md",
+    "sha256": "befb27059455cba2339189620774088679c2f1556da0b479202d068e106f334b",
+    "comment": "核心设定:无双乱舞与终结技",
+    "order": 353,
+    "keys": [
+      "无双乱舞",
+      "终结技",
+      "无双终结",
+      "决胜技",
+      "无双杀招"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/battlefield/001_攻城与守城.md",
+    "sha256": "39914b5b6d57801fa1a44856b46696e1025e0ca03e432e290fdbee6d6aab299a",
+    "comment": "核心设定:攻城与守城",
+    "order": 352,
+    "keys": [
+      "攻城战",
+      "守城战",
+      "城防攻守",
+      "围城战",
+      "攻城器械",
+      "城门攻防",
+      "城头攻防"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/battlefield/002_先登夺旗.md",
+    "sha256": "dc1407c26cb0200ac389dc35fd6aa5179801045bf74694c8a292aabeb40fb0c0",
+    "comment": "核心设定:先登夺旗",
+    "order": 351,
+    "keys": [
+      "先登",
+      "先登夺旗",
+      "夺旗",
+      "立旗",
+      "夺门",
+      "斩关",
+      "登城先登"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/battlefield/003_战阵压制.md",
+    "sha256": "c46f9c8772b3bc55e09ca4fe9e656b49a2b0de2d77051cc7b95d6d18dade0bb3",
+    "comment": "核心设定:战阵压制",
+    "order": 350,
+    "keys": [
+      "战阵压制",
+      "阵压强者",
+      "长兵阵",
+      "盾阵",
+      "军阵压制",
+      "阵型压迫"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/battlefield/004_围攻强者.md",
+    "sha256": "d22e4fffbc8435f103d24670c4332eb00d67997e00fdb29687fd5255f6532fce",
+    "comment": "核心设定:围攻强者",
+    "order": 349,
+    "keys": [
+      "围攻强者",
+      "围攻名将",
+      "围攻无双",
+      "围杀名将",
+      "轮换围攻",
+      "封锁强者"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/battlefield/005_士气崩溃.md",
+    "sha256": "98fb49f996d4e25dc1209d0c770676fbcf3900edc50029be55322cd8f1bd06ec",
+    "comment": "核心设定:士气崩溃",
+    "order": 348,
+    "keys": [
+      "士气崩溃",
+      "军心崩溃",
+      "全军溃败",
+      "军心动摇",
+      "士气低落",
+      "军旗倒下"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/battlefield/006_战场伤亡与救治.md",
+    "sha256": "2faa8c637c0150958a4d004f6c738e5d70cfba46ec8a003ed6e64f5dabbd7133",
+    "comment": "核心设定:战场伤亡与救治",
+    "order": 347,
+    "keys": [
+      "战场救治",
+      "战场伤亡",
+      "军医",
+      "伤兵",
+      "重伤后送",
+      "战伤",
+      "伤兵营"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/battlefield/007_撤退追击与断后.md",
+    "sha256": "84cb91f631b05d72b718f872b257cfeca24e4630fd0e8d6e4f1efc6069ffb8f6",
+    "comment": "核心设定:撤退追击与断后",
+    "order": 346,
+    "keys": [
+      "有序撤退",
+      "追击战",
+      "断后战",
+      "诈退",
+      "溃退",
+      "撤军",
+      "断后掩护"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/family/001_妻妻婚姻与配偶关系.md",
+    "sha256": "cd8dcd305209456e9abafe319e649e9b7b8b6e0fe193d3f1c19cb81966be2e4a",
+    "comment": "核心设定:妻妻婚姻与配偶关系",
+    "order": 345,
+    "keys": [
+      "妻妻婚姻",
+      "妻妻配偶",
+      "妻妻成婚",
+      "婚书",
+      "配偶关系",
+      "再婚",
+      "守寡"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/family/002_生育与血脉.md",
+    "sha256": "47aa803939cc517c8268ec076a12562780afa9046c8746381a7c084b32d94543",
+    "comment": "核心设定:生育与血脉",
+    "order": 344,
+    "keys": [
+      "双母血脉",
+      "双母受孕",
+      "双母生育",
+      "孕母",
+      "血亲母亲",
+      "血脉结合",
+      "共同孕育"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/family/003_宗族与继承.md",
+    "sha256": "16e522b7d009e0b2ae245abe60b01de41d13c2111bbe351da58839bb812b964e",
+    "comment": "核心设定:宗族与继承",
+    "order": 343,
+    "keys": [
+      "宗族继承",
+      "家族继承",
+      "继承顺位",
+      "嫡系",
+      "旁支",
+      "过继",
+      "承嗣",
+      "宗祧"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/family/004_母亲与亲属称谓.md",
+    "sha256": "dccbf9467d793afff4e1bdf041503eb3682b33bb28e1efaa5875df0c8814f55e",
+    "comment": "核心设定:母亲与亲属称谓",
+    "order": 342,
+    "keys": [
+      "双母称谓",
+      "母亲称谓",
+      "阿母",
+      "娘亲",
+      "大母",
+      "二母",
+      "亲属称谓"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/family/005_政治联姻.md",
+    "sha256": "36f848cd0b65c6e9a9e7109a51a8f2aa3fff8102ebe73f7bf89f4b89c1d89166",
+    "comment": "核心设定:政治联姻",
+    "order": 341,
+    "keys": [
+      "政治联姻",
+      "婚盟",
+      "联姻婚约",
+      "家族联姻",
+      "婚约联盟",
+      "联姻关系"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/family/006_子嗣归属与家族抚养.md",
+    "sha256": "d92a808cc4d089dddda92ba50462ae5781dab4c5ecd5e89133285e7554171a65",
+    "comment": "核心设定:子嗣归属与家族抚养",
+    "order": 340,
+    "keys": [
+      "子嗣归属",
+      "家族抚养",
+      "子嗣抚养",
+      "寄养",
+      "过继抚养",
+      "继承子嗣",
+      "家族教育"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/female-world/001_女性体态差异.md",
+    "sha256": "0cc0904edc69df41ef3da842303727d4d00441f3669ea972d0df977284fe5782",
+    "comment": "核心设定:女性体态差异",
+    "order": 339,
+    "keys": [
+      "女性体态",
+      "体态差异",
+      "身材差异",
+      "体型差异",
+      "身高差异",
+      "胸围差异"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/female-world/002_武姬体魄与力量表现.md",
+    "sha256": "ab2aec239193d632597736350f0e7b12029ed3f9a0101ca0336a7fbe4ce7c6c6",
+    "comment": "核心设定:武姬体魄与力量表现",
+    "order": 338,
+    "keys": [
+      "武姬体魄",
+      "武姬力量",
+      "女性强者体魄",
+      "高武体魄",
+      "武姬身材",
+      "女性力量表现"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/female-world/003_年龄阶段与成熟感.md",
+    "sha256": "c04bbb1c16260c9d68d161f8efedc240d0ad7df4d6f85b45adb363bdb22cb562",
+    "comment": "核心设定:年龄阶段与成熟感",
+    "order": 337,
+    "keys": [
+      "年龄阶段",
+      "年龄感",
+      "成熟感",
+      "中年气质",
+      "年龄变化",
+      "人物年龄感"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/female-world/004_老年御姐化.md",
+    "sha256": "cdd6d6805e0326a3c283ece6494eb8cc40012a60a0885f27b8a986613792be17",
+    "comment": "核心设定:老年御姐化",
+    "order": 336,
+    "keys": [
+      "老年御姐",
+      "老年御姐化",
+      "威严美妇",
+      "老练女将",
+      "高龄武姬",
+      "白发御姐"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/female-world/005_甲胄服饰与女性身体适配.md",
+    "sha256": "63a9d30524803a941968728da2123820fc947f947c8db67c04964f600b54c168",
+    "comment": "核心设定:甲胄服饰与女性身体适配",
+    "order": 335,
+    "keys": [
+      "女性甲胄",
+      "女武将甲胄",
+      "甲胄适配",
+      "女性战甲",
+      "骑装适配",
+      "女性军装"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/world-tone/001_高武与城郭防务.md",
+    "sha256": "b1a344417bdb4d82442ba5ff8985c591e10e6a7827d25857019c805179c91606",
+    "comment": "核心设定:高武与城郭防务",
+    "order": 334,
+    "keys": [
+      "高武城防",
+      "强者城防",
+      "关隘防强者",
+      "城郭防务",
+      "城门防务",
+      "防强者工事"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/world-tone/002_驿传交通与行军速度.md",
+    "sha256": "68c1bde15534f7bca3dbf56d76df696bf6c74b63530dcc43b88f88a209669319",
+    "comment": "核心设定:驿传交通与行军速度",
+    "order": 333,
+    "keys": [
+      "驿传交通",
+      "驿站传令",
+      "行军速度",
+      "换马传令",
+      "军情递送",
+      "大军行军"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/world-tone/003_武人与常人的社会距离.md",
+    "sha256": "6025e9b39ebf396d5f0f5e89d0e1250cdc9bf64634408b663ffd08b03f43002c",
+    "comment": "核心设定:武人与常人的社会距离",
+    "order": 332,
+    "keys": [
+      "武人与常人",
+      "强者与百姓",
+      "高武者地位",
+      "武人社会地位",
+      "名将社会地位",
+      "强者社会关系"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/world-tone/004_乱世治安与地方秩序.md",
+    "sha256": "bc534e7ace587c060f22627d22562ae037a4999e6fd8b9656ff05ac702ea5b40",
+    "comment": "核心设定:乱世治安与地方秩序",
+    "order": 331,
+    "keys": [
+      "乱世治安",
+      "地方秩序",
+      "乡里治安",
+      "地方巡防",
+      "流民盗匪",
+      "地方安定"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/001_曹操·能力.md",
+    "sha256": "78ca1423adf60311ac2b7b7ba21a25c3cc18270c3a57036c7094899f080ce13c",
+    "comment": "核心设定:曹操·能力",
+    "order": 330,
+    "keys": [
+      "曹操",
+      "孟德",
+      "曹孟德",
+      "魏王",
+      "魏武"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/002_刘备·能力.md",
+    "sha256": "773abe03a07da14d7f321a01eea7dfc59f500a257fa4ac5b80dad9be4db6f83b",
+    "comment": "核心设定:刘备·能力",
+    "order": 330,
+    "keys": [
+      "刘备",
+      "玄德",
+      "刘玄德",
+      "刘皇叔"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/003_孙权·能力.md",
+    "sha256": "e4bdd24ee94c907e5322f2b508cd5d309e209c187eea38ccb6d7830513a1c61e",
+    "comment": "核心设定:孙权·能力",
+    "order": 330,
+    "keys": [
+      "孙权",
+      "仲谋",
+      "孙仲谋",
+      "吴侯"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/004_吕布·能力.md",
+    "sha256": "74999d0ecdcf3143ada48eda9bf182c064b445cb8b2e9806aba5c04192f78571",
+    "comment": "核心设定:吕布·能力",
+    "order": 330,
+    "keys": [
+      "吕布",
+      "奉先",
+      "吕奉先",
+      "飞将"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/005_关羽·能力.md",
+    "sha256": "a8f5768fd4553ad413e15d1bc0c102f2c3aa0f097522829d4a23a79ecff43ce4",
+    "comment": "核心设定:关羽·能力",
+    "order": 329,
+    "keys": [
+      "关羽",
+      "云长",
+      "关云长",
+      "关二将军"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/006_张飞·能力.md",
+    "sha256": "cbd5597129f669bdb574d1b82aad5d6799e1d5ed7317b3c5617f2ff43f049e0e",
+    "comment": "核心设定:张飞·能力",
+    "order": 329,
+    "keys": [
+      "张飞",
+      "翼德",
+      "张翼德"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/007_赵云·能力.md",
+    "sha256": "ca2e520855ff6c7b0dac89b295c45a948eff10676095662deac36a03dd2cd41f",
+    "comment": "核心设定:赵云·能力",
+    "order": 329,
+    "keys": [
+      "赵云",
+      "子龙",
+      "赵子龙"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/008_诸葛亮·能力.md",
+    "sha256": "d81c8b69b589b223a544e87f04b3d7d545a8a89b21fe6989a15068bc243ec8e5",
+    "comment": "核心设定:诸葛亮·能力",
+    "order": 328,
+    "keys": [
+      "诸葛亮",
+      "孔明",
+      "诸葛孔明",
+      "卧龙"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/009_周瑜·能力.md",
+    "sha256": "2696c31334355c6e197dbb22fff14b72ee9f419f22f4ec802ca49f62a5e8d276",
+    "comment": "核心设定:周瑜·能力",
+    "order": 328,
+    "keys": [
+      "周瑜",
+      "公瑾",
+      "周公瑾",
+      "大都督"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/010_司马懿·能力.md",
+    "sha256": "f31474d77a4692f9c7aade974673415be213537deb4d10f6c79c0ae86e40609b",
+    "comment": "核心设定:司马懿·能力",
+    "order": 328,
+    "keys": [
+      "司马懿",
+      "仲达",
+      "司马仲达"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/011_孙坚·能力.md",
+    "sha256": "19a67b36d21d1a2977cb318b65066eba8238a71d5b3e8df98f6dfc09770eb4a1",
+    "comment": "核心设定:孙坚·能力",
+    "order": 327,
+    "keys": [
+      "孙坚",
+      "文台",
+      "孙文台",
+      "江东猛虎"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/012_孙策·能力.md",
+    "sha256": "88de6b9440470c1de6e6d24695e6f8f41c746e9cf5efa6259ec523830f672cd2",
+    "comment": "核心设定:孙策·能力",
+    "order": 327,
+    "keys": [
+      "孙策",
+      "伯符",
+      "孙伯符",
+      "小霸王"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/013_董卓·能力.md",
+    "sha256": "ca4c8e69d2206d2c62454d02b1fffe5b4154f061dc4fc447a0b7b5548df5aa3a",
+    "comment": "核心设定:董卓·能力",
+    "order": 327,
+    "keys": [
+      "董卓",
+      "仲颖",
+      "董仲颖",
+      "董太师"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/014_袁绍·能力.md",
+    "sha256": "ee7a7c9d5f5c8722db2230e7a3b29ff57e4b3b761ecf7972ae4888a10d2d0d52",
+    "comment": "核心设定:袁绍·能力",
+    "order": 326,
+    "keys": [
+      "袁绍",
+      "本初",
+      "袁本初"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/015_张角·能力.md",
+    "sha256": "615ce9cbb9665fea34ee3cfd4589ae2009878caa2f8016c16ec23e6fe71f599a",
+    "comment": "核心设定:张角·能力",
+    "order": 326,
+    "keys": [
+      "张角",
+      "天公将军",
+      "大贤良师"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/016_典韦·能力.md",
+    "sha256": "449478754f9b1e7033163e86b5bd1e4a0a4819d59d8f037f2aee719828278d15",
+    "comment": "核心设定:典韦·能力",
+    "order": 326,
+    "keys": [
+      "典韦",
+      "恶来",
+      "古之恶来"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/017_许褚·能力.md",
+    "sha256": "de87455435886da2f17972ff6b7da7ce86bbfd6e820888a17befa96657595c4f",
+    "comment": "核心设定:许褚·能力",
+    "order": 326,
+    "keys": [
+      "许褚",
+      "仲康",
+      "许仲康",
+      "虎痴"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/018_张辽·能力.md",
+    "sha256": "ae46b4d43fc970a368b0859ba686095ed69dcf38a04d6a4a2ffc55f9c7919105",
+    "comment": "核心设定:张辽·能力",
+    "order": 325,
+    "keys": [
+      "张辽",
+      "文远",
+      "张文远"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/019_马超·能力.md",
+    "sha256": "4e7149f1b6a67003048fac9151cd37407caf8cee3cced1b992813411fc6dd5d0",
+    "comment": "核心设定:马超·能力",
+    "order": 325,
+    "keys": [
+      "马超",
+      "孟起",
+      "马孟起",
+      "锦马超"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/020_太史慈·能力.md",
+    "sha256": "9f76a8ae97919f65235866d9a0cb0e1e1f626a2488ba4f796eeec2368f75138f",
+    "comment": "核心设定:太史慈·能力",
+    "order": 325,
+    "keys": [
+      "太史慈",
+      "子义",
+      "太史子义"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/021_夏侯惇·能力.md",
+    "sha256": "37f9b0f3884a63abfd67ad03467ad970a49f4d6441dc573697dacceeefe6ca93",
+    "comment": "核心设定:夏侯惇·能力",
+    "order": 324,
+    "keys": [
+      "夏侯惇",
+      "元让",
+      "夏侯元让"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/022_夏侯渊·能力.md",
+    "sha256": "9838e4f0905b8c2e3cdb46f2d7a3aea7a447d53849b823b4fca9c1ed6a2f12c8",
+    "comment": "核心设定:夏侯渊·能力",
+    "order": 324,
+    "keys": [
+      "夏侯渊",
+      "妙才",
+      "夏侯妙才"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/023_徐晃·能力.md",
+    "sha256": "558d7b99a6fad85ad6cb717c8271024216b3738c2808d6590719e020c43a09d8",
+    "comment": "核心设定:徐晃·能力",
+    "order": 324,
+    "keys": [
+      "徐晃",
+      "公明",
+      "徐公明"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/024_张郃·能力.md",
+    "sha256": "93bb01e8f80e01ce4436f3a13c3ff8b486c47fe771012d27f1528729634d7bf7",
+    "comment": "核心设定:张郃·能力",
+    "order": 323,
+    "keys": [
+      "张郃",
+      "儁乂",
+      "张儁乂"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/025_曹仁·能力.md",
+    "sha256": "d6e59c98085110f32f583781f73a4dc0fa7f0816371d02ff9ef628d0f368d5a4",
+    "comment": "核心设定:曹仁·能力",
+    "order": 323,
+    "keys": [
+      "曹仁",
+      "子孝",
+      "曹子孝"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/026_郭嘉·能力.md",
+    "sha256": "79ca3078ab46d327979986347d9eec2d5c6749c7f256529c823fb455676f7c2c",
+    "comment": "核心设定:郭嘉·能力",
+    "order": 323,
+    "keys": [
+      "郭嘉",
+      "奉孝",
+      "郭奉孝"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/027_荀彧·能力.md",
+    "sha256": "393914e60a6ea4f0921d7d33d9164c28e69d8029c686cd6fa16de07e50b18685",
+    "comment": "核心设定:荀彧·能力",
+    "order": 322,
+    "keys": [
+      "荀彧",
+      "文若",
+      "荀文若"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/028_贾诩·能力.md",
+    "sha256": "9e3e6459d790cd754041349eb07d261c330ae35ae0d6f4598dbac98de1350960",
+    "comment": "核心设定:贾诩·能力",
+    "order": 322,
+    "keys": [
+      "贾诩",
+      "文和",
+      "贾文和"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/029_庞德·能力.md",
+    "sha256": "c5272c686ffaf307fcf7314e3dde9284678c3767fb5a4c835c5d74868ee095a0",
+    "comment": "核心设定:庞德·能力",
+    "order": 322,
+    "keys": [
+      "庞德",
+      "令明",
+      "庞令明"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/030_王异·能力.md",
+    "sha256": "9b9cd4695e6f43beddf5768408494f2f02a643690b5197f4be697df7a8fd82ef",
+    "comment": "核心设定:王异·能力",
+    "order": 321,
+    "keys": [
+      "王异"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/031_黄忠·能力.md",
+    "sha256": "9dba3c9b06c405245f933205943c9c3930f2b3110e61a46340b40269292e1679",
+    "comment": "核心设定:黄忠·能力",
+    "order": 321,
+    "keys": [
+      "黄忠",
+      "汉升",
+      "黄汉升"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/032_魏延·能力.md",
+    "sha256": "48a8181d11c76cec7a418d067c5be0124e9b15faab7e52745ed15cf9612b4934",
+    "comment": "核心设定:魏延·能力",
+    "order": 321,
+    "keys": [
+      "魏延",
+      "文长",
+      "魏文长"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/033_庞统·能力.md",
+    "sha256": "29646a72f65919f0df39f9f0f197b2744c16223caeb1162be781842e258efa7e",
+    "comment": "核心设定:庞统·能力",
+    "order": 321,
+    "keys": [
+      "庞统",
+      "士元",
+      "庞士元",
+      "凤雏"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/034_徐庶·能力.md",
+    "sha256": "6a26eea82a9824de9ab897f50e62b18d16376a6b197fe6d3cc5b733c35ad2f77",
+    "comment": "核心设定:徐庶·能力",
+    "order": 320,
+    "keys": [
+      "徐庶",
+      "元直",
+      "徐元直"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/035_法正·能力.md",
+    "sha256": "34824b3012a932598f260d8c752fb6983c81ca56dd0dd3640b5b289ccee18ad7",
+    "comment": "核心设定:法正·能力",
+    "order": 320,
+    "keys": [
+      "法正",
+      "孝直",
+      "法孝直"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/036_姜维·能力.md",
+    "sha256": "c301599d669ed473b20d354ed4593a5dd3d341071713e5cff6b65d99bcd63c1d",
+    "comment": "核心设定:姜维·能力",
+    "order": 320,
+    "keys": [
+      "姜维",
+      "伯约",
+      "姜伯约"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/037_刘禅·能力.md",
+    "sha256": "864a0788df13784b96bc29f3c01dde1e4a4b3f07f7af7e60c7b24b0d8de6ea58",
+    "comment": "核心设定:刘禅·能力",
+    "order": 319,
+    "keys": [
+      "刘禅",
+      "公嗣",
+      "刘公嗣",
+      "蜀汉后主"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/038_关平·能力.md",
+    "sha256": "b7a687914c748ba4a449aa2c805a8751fa16172cc324e5500298502242fb2b6a",
+    "comment": "核心设定:关平·能力",
+    "order": 319,
+    "keys": [
+      "关平"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/039_黄月英·能力.md",
+    "sha256": "39fafefe866b38986c12bb3796daa9c3d890946081f4f586a3386fa27a830962",
+    "comment": "核心设定:黄月英·能力",
+    "order": 319,
+    "keys": [
+      "黄月英",
+      "月英"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/040_星彩·能力.md",
+    "sha256": "584892c9f39b19679ea439985c643996933333163889122c05461b83ff4e54ce",
+    "comment": "核心设定:星彩·能力",
+    "order": 318,
+    "keys": [
+      "星彩"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/041_鲁肃·能力.md",
+    "sha256": "6fc51e213a26795f550b72c31cca549773c21c9a98c6f007f52cacfc30ed0ebf",
+    "comment": "核心设定:鲁肃·能力",
+    "order": 318,
+    "keys": [
+      "鲁肃",
+      "子敬",
+      "鲁子敬"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/042_吕蒙·能力.md",
+    "sha256": "e7fc7d03467bc3d4d27134394c5c7bcdc0a4847b1482819c3ce1034509117cc7",
+    "comment": "核心设定:吕蒙·能力",
+    "order": 318,
+    "keys": [
+      "吕蒙",
+      "子明",
+      "吕子明"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/043_陆逊·能力.md",
+    "sha256": "5901a58c2fd0fff8ebd2f64e44a83b3d66b572ff34fd79fcb8b68009872c6273",
+    "comment": "核心设定:陆逊·能力",
+    "order": 317,
+    "keys": [
+      "陆逊",
+      "伯言",
+      "陆伯言"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/044_甘宁·能力.md",
+    "sha256": "c8d5aeda86aa7638bb02aff69b1b81ae73e6da1096708e8ae97b8701ac6b3060",
+    "comment": "核心设定:甘宁·能力",
+    "order": 317,
+    "keys": [
+      "甘宁",
+      "兴霸",
+      "甘兴霸",
+      "锦帆"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/045_黄盖·能力.md",
+    "sha256": "3ea76d892923c8a041cd5b760001bb8963e4aa7367ab90a10ee5554b1de1073b",
+    "comment": "核心设定:黄盖·能力",
+    "order": 317,
+    "keys": [
+      "黄盖",
+      "公覆",
+      "黄公覆"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/046_周泰·能力.md",
+    "sha256": "77469bce8302c89280828c43908f7ad2b2bcddbb992d3ecbfb69fc2be58dc9ee",
+    "comment": "核心设定:周泰·能力",
+    "order": 316,
+    "keys": [
+      "周泰",
+      "幼平",
+      "周幼平"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/047_孙尚香·能力.md",
+    "sha256": "5564e0541df2fbe9db8e3141b49618c588026444072a2e5504b6332389341a31",
+    "comment": "核心设定:孙尚香·能力",
+    "order": 316,
+    "keys": [
+      "孙尚香",
+      "弓腰姬"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/048_大乔·能力.md",
+    "sha256": "be295f9d4236d514c18136fb4878395f4be0e10391a6ed2ebe6c18a4703025a5",
+    "comment": "核心设定:大乔·能力",
+    "order": 316,
+    "keys": [
+      "大乔"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/049_小乔·能力.md",
+    "sha256": "d5a70ac5e06f7e777f7ecc558329bce7d4727bf2e654a60502fbdcd3d7361da0",
+    "comment": "核心设定:小乔·能力",
+    "order": 316,
+    "keys": [
+      "小乔"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/050_练师·能力.md",
+    "sha256": "3d202ac7f574a7418ccaed41adf0335d3ab56f3278372229aa9fde17c4162a13",
+    "comment": "核心设定:练师·能力",
+    "order": 315,
+    "keys": [
+      "练师"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/051_司马师·能力.md",
+    "sha256": "448387c087de73a7d53d1d4e879bbaadde33c768c09b8de126bb4fcc8d237715",
+    "comment": "核心设定:司马师·能力",
+    "order": 315,
+    "keys": [
+      "司马师",
+      "子元",
+      "司马子元"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/052_司马昭·能力.md",
+    "sha256": "8397849489d3fa3be52902bc3c236bed2105f97e92ae659d0d2f7650bfcefec0",
+    "comment": "核心设定:司马昭·能力",
+    "order": 315,
+    "keys": [
+      "司马昭",
+      "子上",
+      "司马子上"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/053_邓艾·能力.md",
+    "sha256": "a2d425a11f4303295056e583c972b67831142dcfff23f6809a47e7c5158411db",
+    "comment": "核心设定:邓艾·能力",
+    "order": 314,
+    "keys": [
+      "邓艾",
+      "士载",
+      "邓士载"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/054_钟会·能力.md",
+    "sha256": "2e0adc814ae8dc75e39a841581956895467d2d03f080f15d3cb48132fe026bc2",
+    "comment": "核心设定:钟会·能力",
+    "order": 314,
+    "keys": [
+      "钟会",
+      "士季",
+      "钟士季"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/055_诸葛诞·能力.md",
+    "sha256": "576536b667a2ec7e923039ac60a198c2fa450ec8f542012740c2cc097593ef93",
+    "comment": "核心设定:诸葛诞·能力",
+    "order": 314,
+    "keys": [
+      "诸葛诞",
+      "公休",
+      "诸葛公休"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/056_夏侯霸·能力.md",
+    "sha256": "14d87fa790f78e5ecfad8156c735080c0e71f3c172bf164a37ecc63a6cc450f3",
+    "comment": "核心设定:夏侯霸·能力",
+    "order": 313,
+    "keys": [
+      "夏侯霸",
+      "仲权",
+      "夏侯仲权"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/057_郭淮·能力.md",
+    "sha256": "add92553dff3a5e19d4cf324ef2f0cf4a79434e83d02226cfba6ab11e411f9b9",
+    "comment": "核心设定:郭淮·能力",
+    "order": 313,
+    "keys": [
+      "郭淮",
+      "伯济",
+      "郭伯济"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/058_王元姬·能力.md",
+    "sha256": "ca8c700b383022e46ab57540d227fbcdad1b7ee6b2cb906d68367c8dab35b73f",
+    "comment": "核心设定:王元姬·能力",
+    "order": 313,
+    "keys": [
+      "王元姬"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/059_张春华·能力.md",
+    "sha256": "a24c0ee4c02e9e3d03761d6a21a2f3ae6794cecce396a37caf1646c7580efc4a",
+    "comment": "核心设定:张春华·能力",
+    "order": 312,
+    "keys": [
+      "张春华"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/060_辛宪英·能力.md",
+    "sha256": "b95878c674be49cafcfafd9725ab92e6a12adbe3d1ed5ce472a1ec55c6ac200c",
+    "comment": "核心设定:辛宪英·能力",
+    "order": 312,
+    "keys": [
+      "辛宪英"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/061_曹丕·能力.md",
+    "sha256": "b0641e2079c238ac5b7a7c1b74d58f13d732e14e7602ca46a8f558401f783bfd",
+    "comment": "核心设定:曹丕·能力",
+    "order": 312,
+    "keys": [
+      "曹丕",
+      "子桓",
+      "曹子桓"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/062_甄姬·能力.md",
+    "sha256": "84b662679cf5832f7fa7b94d9dcfa4b46c7fb17afd65edc19357be8b078e326c",
+    "comment": "核心设定:甄姬·能力",
+    "order": 312,
+    "keys": [
+      "甄姬",
+      "甄宓"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/063_蔡文姬·能力.md",
+    "sha256": "c59cfee23cf0cb6f3b4f7d6be653d3a03ef412cbf57f72a374df843065e940b8",
+    "comment": "核心设定:蔡文姬·能力",
+    "order": 311,
+    "keys": [
+      "蔡文姬",
+      "蔡琰",
+      "文姬"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/064_卞夫人·能力.md",
+    "sha256": "f7f589e22085acbe388b75211c70df303479286597bf861633b4c64fc85b76db",
+    "comment": "核心设定:卞夫人·能力",
+    "order": 311,
+    "keys": [
+      "卞夫人"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/065_曹节·能力.md",
+    "sha256": "d8c620a4122921c360679e11b73e14d73cc116113001d730f64edd3de4556fde",
+    "comment": "核心设定:曹节·能力",
+    "order": 311,
+    "keys": [
+      "曹节"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/066_邹氏·能力.md",
+    "sha256": "c69fb42b8a4f220632d47ece736bb3c7f5d9ec3790554d22402fdf81118be5fa",
+    "comment": "核心设定:邹氏·能力",
+    "order": 310,
+    "keys": [
+      "邹氏"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/067_鲍三娘·能力.md",
+    "sha256": "df550f5892ac0893b4e2e9256c444ae30beab1bcdc02c528ce37ed96e717f09b",
+    "comment": "核心设定:鲍三娘·能力",
+    "order": 310,
+    "keys": [
+      "鲍三娘"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/068_关银屏·能力.md",
+    "sha256": "61f6e6aa58176a6e67138ad7584cdf39bc2678c9d6f6c79a3194f7623c96d5ac",
+    "comment": "核心设定:关银屏·能力",
+    "order": 310,
+    "keys": [
+      "关银屏"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/069_夏侯姬·能力.md",
+    "sha256": "1cd0c22b94ed511d694f5a8cc681366d1a0634b6c408d309292a524e47738503",
+    "comment": "核心设定:夏侯姬·能力",
+    "order": 309,
+    "keys": [
+      "夏侯姬"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/070_甘夫人·能力.md",
+    "sha256": "9d6b91b262187ba518671aa2634558581f462cdd5382e144ccd04eeb2d56ef58",
+    "comment": "核心设定:甘夫人·能力",
+    "order": 309,
+    "keys": [
+      "甘夫人"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/071_糜夫人·能力.md",
+    "sha256": "44b6a80f872157339d08e95e30a33958404e1c9617865ce6750443a43e0aa9a3",
+    "comment": "核心设定:糜夫人·能力",
+    "order": 309,
+    "keys": [
+      "糜夫人"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/072_凌统·能力.md",
+    "sha256": "c350f11442b181cc830836f350509b5bbf1bb91098a3b4cd5388602a98c58e6a",
+    "comment": "核心设定:凌统·能力",
+    "order": 308,
+    "keys": [
+      "凌统",
+      "公绩",
+      "凌公绩"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/073_吴国太·能力.md",
+    "sha256": "2b4361abfe806d2dbb443421bad8303311570a60fad47a88fcb40616bd4bca4d",
+    "comment": "核心设定:吴国太·能力",
+    "order": 308,
+    "keys": [
+      "吴国太"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/074_孙鲁班·能力.md",
+    "sha256": "545d6a97c539c6572bbc517966aa588728891e55339601965701c2e01205f81d",
+    "comment": "核心设定:孙鲁班·能力",
+    "order": 308,
+    "keys": [
+      "孙鲁班",
+      "大虎"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/075_孙鲁育·能力.md",
+    "sha256": "95b722139ed6f59d533b6ad457e434b78daba1b1704ca08205f147ff246620d8",
+    "comment": "核心设定:孙鲁育·能力",
+    "order": 307,
+    "keys": [
+      "孙鲁育",
+      "小虎"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/076_羊徽瑜·能力.md",
+    "sha256": "949b0678f54652f9e0eff3c93d804b6b7def274f9965de308404d56999016026",
+    "comment": "核心设定:羊徽瑜·能力",
+    "order": 307,
+    "keys": [
+      "羊徽瑜"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/077_夏侯徽·能力.md",
+    "sha256": "56558feb9863d52907c9d827518b17727803bd22f06292d861e7eaa42be24b4a",
+    "comment": "核心设定:夏侯徽·能力",
+    "order": 307,
+    "keys": [
+      "夏侯徽"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/078_貂蝉·能力.md",
+    "sha256": "95cf393e3f4b3dcb57dc8b7f015adcd2145bdc569d8b7dc8c50994b21462d376",
+    "comment": "核心设定:貂蝉·能力",
+    "order": 307,
+    "keys": [
+      "貂蝉"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/079_吕玲绮·能力.md",
+    "sha256": "540d219a49cb796ae82c6ed74c9c401fdfba198e042ec33aa5b67839080ed90b",
+    "comment": "核心设定:吕玲绮·能力",
+    "order": 306,
+    "keys": [
+      "吕玲绮"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/080_祝融·能力.md",
+    "sha256": "7e619b7ec73d588f64039e5e7aa8eb563123aedc99a1e28b00d037237182997c",
+    "comment": "核心设定:祝融·能力",
+    "order": 306,
+    "keys": [
+      "祝融"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/081_袁术·能力.md",
+    "sha256": "5a9c9cde571e8fbd86878b776cc142085175eda96f1c4102d1f5382fcc3a1e2d",
+    "comment": "核心设定:袁术·能力",
+    "order": 306,
+    "keys": [
+      "袁术",
+      "公路",
+      "袁公路"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/082_陈宫·能力.md",
+    "sha256": "436c3298cf1e796ed247e7918c7f780da09b01c788c66a1b9673dbfb6b7762a5",
+    "comment": "核心设定:陈宫·能力",
+    "order": 305,
+    "keys": [
+      "陈宫",
+      "公台",
+      "陈公台"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/083_华雄·能力.md",
+    "sha256": "e9e7767b345b0a9c96285c6a25f3c98f8a59ba2e3c3666086c9a1a5d21c6a857",
+    "comment": "核心设定:华雄·能力",
+    "order": 305,
+    "keys": [
+      "华雄"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/084_孟获·能力.md",
+    "sha256": "ba864f50fafdfa27f198d240b6d9da6d8120342e4f4a0f4a441c8651fcf4c2d7",
+    "comment": "核心设定:孟获·能力",
+    "order": 305,
+    "keys": [
+      "孟获"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/085_公孙瓒·能力.md",
+    "sha256": "6375348ec98b619ac0d22498a73b397ca2e034cb536cf1bebc0a0b9898dc9298",
+    "comment": "核心设定:公孙瓒·能力",
+    "order": 304,
+    "keys": [
+      "公孙瓒",
+      "伯珪",
+      "公孙伯珪",
+      "白马将军"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/086_董白·能力.md",
+    "sha256": "905fa5d8fbe72ff3b59ee5fb462c6ee04664a1d64826323810b4db51a719ccbf",
+    "comment": "核心设定:董白·能力",
+    "order": 304,
+    "keys": [
+      "董白"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/087_何太后·能力.md",
+    "sha256": "7220c343571cdb39045405fd992c9520d184b17b8f8ebc34ad8b432f2bbf85f1",
+    "comment": "核心设定:何太后·能力",
+    "order": 304,
+    "keys": [
+      "何太后"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/088_蔡夫人·能力.md",
+    "sha256": "1a1d14daee648edcd69ceace2ebafb7fa3a187488cf6a7072f0eed22f53bcd49",
+    "comment": "核心设定:蔡夫人·能力",
+    "order": 303,
+    "keys": [
+      "蔡夫人"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/characters/089_樊氏·能力.md",
+    "sha256": "f077d665f3f01f8d1e74e1c6f4a9ba34afc50c1edc676ff40b5f014c9b5e64c6",
+    "comment": "核心设定:樊氏·能力",
+    "order": 303,
+    "keys": [
+      "樊氏"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/easter-eggs/090_多娜·能力.md",
+    "sha256": "0c99d6aadc8966920ea0641885fc8db7f591d673e760ab9ea0081975d3cdb5d8",
+    "comment": "核心设定:多娜·能力",
+    "order": 303,
+    "keys": [
+      "多娜",
+      "小橘猫娘"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/settings/green-triggered/easter-eggs/091_咩娘·能力.md",
+    "sha256": "66c68b2cacf99cb7062255f0538d64c612de2c89d2552861f8037fe44533d95d",
+    "comment": "核心设定:咩娘·能力",
+    "order": 302,
+    "keys": [
+      "咩娘",
+      "白发黑皮咩娘"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/001_曹操.md",
+    "sha256": "7324ab012397c044b4c44c303ea1083caa0967fc8487e486d90959b8e1459c3a",
+    "comment": "角色:曹操",
+    "order": 299,
+    "keys": [
+      "曹操",
+      "孟德",
+      "曹孟德",
+      "魏王",
+      "魏武"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/002_刘备.md",
+    "sha256": "1890802acf784ac3715eadb9d528e4f1997bf9b5632631ecdee58899a6fb67a1",
+    "comment": "角色:刘备",
+    "order": 298,
+    "keys": [
+      "刘备",
+      "玄德",
+      "刘玄德",
+      "刘皇叔"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/003_孙权.md",
+    "sha256": "bf565ce0d2d72f8a0c2eddf55e2fb43d11385dd0cd795ef359f822efed523f1d",
+    "comment": "角色:孙权",
+    "order": 297,
+    "keys": [
+      "孙权",
+      "仲谋",
+      "孙仲谋",
+      "吴侯"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/004_吕布.md",
+    "sha256": "7b363a050cbbf85147e015c089c365b7689f9e99f5a4c93cf9d57cb47defd79b",
+    "comment": "角色:吕布",
+    "order": 296,
+    "keys": [
+      "吕布",
+      "奉先",
+      "吕奉先",
+      "飞将"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/005_关羽.md",
+    "sha256": "ad50686f4b26dab9a6c52fb730bae5e93488d8ce02854c56704da025411b9631",
+    "comment": "角色:关羽",
+    "order": 295,
+    "keys": [
+      "关羽",
+      "云长",
+      "关云长",
+      "关二将军"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/006_张飞.md",
+    "sha256": "37a28e696d81d94273db11f78a49a43b4e2ae59d84b3b8daba85da571d71d7ac",
+    "comment": "角色:张飞",
+    "order": 294,
+    "keys": [
+      "张飞",
+      "翼德",
+      "张翼德"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/007_赵云.md",
+    "sha256": "6ac22c1d30b72c77cffc6997a00498e5f764dc4c12a6e940221e94878083cd60",
+    "comment": "角色:赵云",
+    "order": 293,
+    "keys": [
+      "赵云",
+      "子龙",
+      "赵子龙"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/008_诸葛亮.md",
+    "sha256": "ddf15af96be1e8a3e473517532c1f0a7d238c4bead99210b995572f37f4b7386",
+    "comment": "角色:诸葛亮",
+    "order": 292,
+    "keys": [
+      "诸葛亮",
+      "孔明",
+      "诸葛孔明",
+      "卧龙"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/009_周瑜.md",
+    "sha256": "30d643234b7de4c528adfa5255f951030fa6082248794c330b3da8b8fd2eed3a",
+    "comment": "角色:周瑜",
+    "order": 291,
+    "keys": [
+      "周瑜",
+      "公瑾",
+      "周公瑾",
+      "大都督"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/010_司马懿.md",
+    "sha256": "9c3e52745fb95a801db769683e6a3c811aedc8ff02abebc7fccc3dd3d5ffcca0",
+    "comment": "角色:司马懿",
+    "order": 290,
+    "keys": [
+      "司马懿",
+      "仲达",
+      "司马仲达"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/011_孙坚.md",
+    "sha256": "ba4132f07017068bcfdba0db48b2dd94137fa79b210e41ecb6a9a10a1e68483b",
+    "comment": "角色:孙坚",
+    "order": 289,
+    "keys": [
+      "孙坚",
+      "文台",
+      "孙文台",
+      "江东猛虎"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/012_孙策.md",
+    "sha256": "1c5fbf73aa3a910b6299d2290f6abb31517f41aadfe729306d3c533f234db954",
+    "comment": "角色:孙策",
+    "order": 288,
+    "keys": [
+      "孙策",
+      "伯符",
+      "孙伯符",
+      "小霸王"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/013_董卓.md",
+    "sha256": "2e17efabac347e5d9f221f9565b7393740ac2f57afb5a5f74de79e23191a966d",
+    "comment": "角色:董卓",
+    "order": 287,
+    "keys": [
+      "董卓",
+      "仲颖",
+      "董仲颖",
+      "董太师"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/014_袁绍.md",
+    "sha256": "e66ad871274691c09cb13dd64626a5fa0750abd69def8e2909c1ce30c7ae4a0b",
+    "comment": "角色:袁绍",
+    "order": 286,
+    "keys": [
+      "袁绍",
+      "本初",
+      "袁本初"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/015_张角.md",
+    "sha256": "0b51dc872bb4c58d076f74cdd7702e9d7ebcd20bfe34a6c0cf1451203c757e13",
+    "comment": "角色:张角",
+    "order": 285,
+    "keys": [
+      "张角",
+      "天公将军",
+      "大贤良师"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/016_典韦.md",
+    "sha256": "65c5b1f3ae4d762f6ddd29b6e6c4687c6208414d879f73ce3ab827e826437081",
+    "comment": "角色:典韦",
+    "order": 284,
+    "keys": [
+      "典韦",
+      "恶来",
+      "古之恶来"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/017_许褚.md",
+    "sha256": "f6837bf489ce165f124f6e6bb147cc60489c44cab32d57b25e27e7e5ea1b2d8d",
+    "comment": "角色:许褚",
+    "order": 283,
+    "keys": [
+      "许褚",
+      "仲康",
+      "许仲康",
+      "虎痴"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/018_张辽.md",
+    "sha256": "1c8c60ac0bce06ebc9583dc48e997b0d7abc4e0ce4d2e6a1a42fefa8e0b751e2",
+    "comment": "角色:张辽",
+    "order": 282,
+    "keys": [
+      "张辽",
+      "文远",
+      "张文远"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/019_马超.md",
+    "sha256": "7c90e8f77dd8960c2f37123960509d0b9df6501e29b38221d925dc0fe5deaa99",
+    "comment": "角色:马超",
+    "order": 281,
+    "keys": [
+      "马超",
+      "孟起",
+      "马孟起",
+      "锦马超"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/020_太史慈.md",
+    "sha256": "8f5e91dfb41149b18526825e087bd82534b0bab38309dbb43b67443ca4792d07",
+    "comment": "角色:太史慈",
+    "order": 280,
+    "keys": [
+      "太史慈",
+      "子义",
+      "太史子义"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/021_夏侯惇.md",
+    "sha256": "c5aae6f2397a176dc79c67757115073141d7926ee17e29dbf077254c9c98e537",
+    "comment": "角色:夏侯惇",
+    "order": 279,
+    "keys": [
+      "夏侯惇",
+      "元让",
+      "夏侯元让"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/022_夏侯渊.md",
+    "sha256": "76b0532bf0132393b4a78014e238acc133eebc925636b8eaa305694b6af5ff35",
+    "comment": "角色:夏侯渊",
+    "order": 278,
+    "keys": [
+      "夏侯渊",
+      "妙才",
+      "夏侯妙才"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/023_徐晃.md",
+    "sha256": "69eccedd92aa8f024dca70969f13435a90c43582394fcd93f8d12e7e3e36d3ed",
+    "comment": "角色:徐晃",
+    "order": 277,
+    "keys": [
+      "徐晃",
+      "公明",
+      "徐公明"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/024_张郃.md",
+    "sha256": "5277e916f573104e49b41bca72ffe0d15f6c9547fb0d3d023801093f065a5402",
+    "comment": "角色:张郃",
+    "order": 276,
+    "keys": [
+      "张郃",
+      "儁乂",
+      "张儁乂"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/025_曹仁.md",
+    "sha256": "5299f7591c99440925cbec7855749a6ffb3209cb171b23b0158119b312164bfe",
+    "comment": "角色:曹仁",
+    "order": 275,
+    "keys": [
+      "曹仁",
+      "子孝",
+      "曹子孝"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/026_郭嘉.md",
+    "sha256": "c73ad77f9699dfe9a9d3d428385a3c40a6614e6e39eead8f0cb898f55b914239",
+    "comment": "角色:郭嘉",
+    "order": 274,
+    "keys": [
+      "郭嘉",
+      "奉孝",
+      "郭奉孝"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/027_荀彧.md",
+    "sha256": "c1167f1cbdaa410e5c190002c3bc04d873223a7a6cb8927c7708d46ad915e097",
+    "comment": "角色:荀彧",
+    "order": 273,
+    "keys": [
+      "荀彧",
+      "文若",
+      "荀文若"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/028_贾诩.md",
+    "sha256": "08834c525327c70b3d3340c8ae7da6d59f5578d4b6c8c930b1ea7bf5e14387f2",
+    "comment": "角色:贾诩",
+    "order": 272,
+    "keys": [
+      "贾诩",
+      "文和",
+      "贾文和"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/029_庞德.md",
+    "sha256": "b76e6a34f08be6b8de0cb6a5090f1c736441314352ce8156ae61dcde92ac51a0",
+    "comment": "角色:庞德",
+    "order": 271,
+    "keys": [
+      "庞德",
+      "令明",
+      "庞令明"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/030_王异.md",
+    "sha256": "a74e511dea69be7ae13c0dcbb455ac1c245c304c1bc92cceafb124c77331716a",
+    "comment": "角色:王异",
+    "order": 270,
+    "keys": [
+      "王异"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/031_黄忠.md",
+    "sha256": "3857d364644484377fe61469e07c6a6e0532a0d7c87d87745c7b6978b90e09cf",
+    "comment": "角色:黄忠",
+    "order": 269,
+    "keys": [
+      "黄忠",
+      "汉升",
+      "黄汉升"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/032_魏延.md",
+    "sha256": "a17f6c659a89f90fb77831916dac57c7b4a4ba26b52f5e88a07cbdd0dd15f158",
+    "comment": "角色:魏延",
+    "order": 268,
+    "keys": [
+      "魏延",
+      "文长",
+      "魏文长"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/033_庞统.md",
+    "sha256": "715b08f01c748b0c35da9834eed3cf543e1eaf8edf70998f52ee44ae2f42022e",
+    "comment": "角色:庞统",
+    "order": 267,
+    "keys": [
+      "庞统",
+      "士元",
+      "庞士元",
+      "凤雏"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/034_徐庶.md",
+    "sha256": "9cb91bc74e4a50324ea9de4824b0c0b18ffca67db71479fd6d3bd4cac3797055",
+    "comment": "角色:徐庶",
+    "order": 266,
+    "keys": [
+      "徐庶",
+      "元直",
+      "徐元直"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/035_法正.md",
+    "sha256": "7a589f0c18447ad6085049e91645f8d07694241c6b5a71bc6ceb6939e58490c5",
+    "comment": "角色:法正",
+    "order": 265,
+    "keys": [
+      "法正",
+      "孝直",
+      "法孝直"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/036_姜维.md",
+    "sha256": "6353a6a7dacfe42ce3cf37dcb9f9d9418c614a5c587ccf4e1f4e047702d2af4a",
+    "comment": "角色:姜维",
+    "order": 264,
+    "keys": [
+      "姜维",
+      "伯约",
+      "姜伯约"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/037_刘禅.md",
+    "sha256": "218de00c8d31c0393a36978006a019de91c7aedf0679d9adee4c955067f29b74",
+    "comment": "角色:刘禅",
+    "order": 263,
+    "keys": [
+      "刘禅",
+      "公嗣",
+      "刘公嗣",
+      "蜀汉后主"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/038_关平.md",
+    "sha256": "a62ddddb08995c6e5aca32383055392e6286274d7a8990cffe95c821b45dda15",
+    "comment": "角色:关平",
+    "order": 262,
+    "keys": [
+      "关平"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/039_黄月英.md",
+    "sha256": "86d2744cc9d8258c284291bfe7b9b256f16f589ed46f7560fa94219bca1ba9d5",
+    "comment": "角色:黄月英",
+    "order": 261,
+    "keys": [
+      "黄月英",
+      "月英"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/040_星彩.md",
+    "sha256": "140de1a249078ee6754fd75751f4ecf5f5b277fa5c444e3fee6dfd63b0f2682a",
+    "comment": "角色:星彩",
+    "order": 260,
+    "keys": [
+      "星彩"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/041_鲁肃.md",
+    "sha256": "a72f1132aaef94b3517b61c0a86f2420ea6722ce4042cdb32bbfb036f5ae96b7",
+    "comment": "角色:鲁肃",
+    "order": 259,
+    "keys": [
+      "鲁肃",
+      "子敬",
+      "鲁子敬"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/042_吕蒙.md",
+    "sha256": "1b76d7344ea23db650be977cf19690e948b088efc809e2c6006ae4b09542a614",
+    "comment": "角色:吕蒙",
+    "order": 258,
+    "keys": [
+      "吕蒙",
+      "子明",
+      "吕子明"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/043_陆逊.md",
+    "sha256": "3c4b7cf7c63ac79bb48a31af2b2bfaa883bcb9f55baefdc5bfb191d1f47cb923",
+    "comment": "角色:陆逊",
+    "order": 257,
+    "keys": [
+      "陆逊",
+      "伯言",
+      "陆伯言"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/044_甘宁.md",
+    "sha256": "8c2cabbade795fba595f987e9048b41a49f736ca579cc5a8e5fa4ee59754bbc7",
+    "comment": "角色:甘宁",
+    "order": 256,
+    "keys": [
+      "甘宁",
+      "兴霸",
+      "甘兴霸",
+      "锦帆"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/045_黄盖.md",
+    "sha256": "72ab91aa131cd11ca6bcebf4176e2ec113c869fdebc65695deefab68b8c3af23",
+    "comment": "角色:黄盖",
+    "order": 255,
+    "keys": [
+      "黄盖",
+      "公覆",
+      "黄公覆"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/046_周泰.md",
+    "sha256": "99e9958c412770ca88f671ef4a7e32da0cbe07fe2f4f21950b5429d4482ed63d",
+    "comment": "角色:周泰",
+    "order": 254,
+    "keys": [
+      "周泰",
+      "幼平",
+      "周幼平"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/047_孙尚香.md",
+    "sha256": "5c5d5bed3674765d9226758be7aa1a3e1d852170c20b89ebdebd3c098209c190",
+    "comment": "角色:孙尚香",
+    "order": 253,
+    "keys": [
+      "孙尚香",
+      "弓腰姬"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/048_大乔.md",
+    "sha256": "b9800d2d983d281a63f44fe5b1e3ef4aa465939a2e1e6caba761b9e83f0bdffb",
+    "comment": "角色:大乔",
+    "order": 252,
+    "keys": [
+      "大乔"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/049_小乔.md",
+    "sha256": "20251d705a84ca44e1a58e06e917ffd43a0c1a6e1d977bcf5555dd02a6d57793",
+    "comment": "角色:小乔",
+    "order": 251,
+    "keys": [
+      "小乔"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/050_练师.md",
+    "sha256": "e243a04a1f1277a1af7d0c55d848b5072134a99809654896e9bf41eff85b00c4",
+    "comment": "角色:练师",
+    "order": 250,
+    "keys": [
+      "练师"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/051_司马师.md",
+    "sha256": "1dade5dc87c8e580e6b5437159a6e4a22fccf414399eeb1560a04028c50a524c",
+    "comment": "角色:司马师",
+    "order": 249,
+    "keys": [
+      "司马师",
+      "子元",
+      "司马子元"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/052_司马昭.md",
+    "sha256": "fe9678ea2dd8c586680c0478d207c812482d7f29ab7e0366f4b5fc7c61055c5b",
+    "comment": "角色:司马昭",
+    "order": 248,
+    "keys": [
+      "司马昭",
+      "子上",
+      "司马子上"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/053_邓艾.md",
+    "sha256": "9edbacf8044172d2b865510c78e321f932c2933e2687f9c25cf9f82b1543fb91",
+    "comment": "角色:邓艾",
+    "order": 247,
+    "keys": [
+      "邓艾",
+      "士载",
+      "邓士载"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/054_钟会.md",
+    "sha256": "b086e292ec45162739bc36657decf758f7644517f4c8fccac7e3123c275ce0d5",
+    "comment": "角色:钟会",
+    "order": 246,
+    "keys": [
+      "钟会",
+      "士季",
+      "钟士季"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/055_诸葛诞.md",
+    "sha256": "4fa99bfcf6e0ec2db6d009b8a415d5d6ed87043c78f87fd2d38301c93c3053be",
+    "comment": "角色:诸葛诞",
+    "order": 245,
+    "keys": [
+      "诸葛诞",
+      "公休",
+      "诸葛公休"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/056_夏侯霸.md",
+    "sha256": "d945ce5ae247af8b179ecbbbf84d1ca21025fdb24199b8533651c995cf2ca37a",
+    "comment": "角色:夏侯霸",
+    "order": 244,
+    "keys": [
+      "夏侯霸",
+      "仲权",
+      "夏侯仲权"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/057_郭淮.md",
+    "sha256": "8770b62e0e88ceecf2dba0e9356c9ddd3b4ee6a39200718890f0be285a7a16ea",
+    "comment": "角色:郭淮",
+    "order": 243,
+    "keys": [
+      "郭淮",
+      "伯济",
+      "郭伯济"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/058_王元姬.md",
+    "sha256": "2f73602397623415c04403de0fd9f662e6a4c5d99e1d91c67aa7c91f4a9efeda",
+    "comment": "角色:王元姬",
+    "order": 242,
+    "keys": [
+      "王元姬"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/059_张春华.md",
+    "sha256": "d996c1b62172f44ca9cb0e1cc9bf3825564cd72bca964c44a4cce0db118b79e4",
+    "comment": "角色:张春华",
+    "order": 241,
+    "keys": [
+      "张春华"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/060_辛宪英.md",
+    "sha256": "d708236d8cd7797bca941d341121142a421b7238a6852b26334b04c5ffd630ca",
+    "comment": "角色:辛宪英",
+    "order": 240,
+    "keys": [
+      "辛宪英"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/061_曹丕.md",
+    "sha256": "3b51310098db246d765eee58e1bb7f40e4f8be9d6717aaa99c6c1b60ba1d467a",
+    "comment": "角色:曹丕",
+    "order": 239,
+    "keys": [
+      "曹丕",
+      "子桓",
+      "曹子桓"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/062_甄姬.md",
+    "sha256": "5e37545d39ddb2e6fc898b5e1c04a5c662344b5caf0f3066d5afba766c7908b0",
+    "comment": "角色:甄姬",
+    "order": 238,
+    "keys": [
+      "甄姬",
+      "甄宓"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/063_蔡文姬.md",
+    "sha256": "8fe7cf25f268accaa11d54ef3a7a116de18572e292da2c15919be96fec55cf79",
+    "comment": "角色:蔡文姬",
+    "order": 237,
+    "keys": [
+      "蔡文姬",
+      "蔡琰",
+      "文姬"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/064_卞夫人.md",
+    "sha256": "26b97b26f9cc56fdc34431ab205e83ff66baf88ce50feb92a25fe07472775913",
+    "comment": "角色:卞夫人",
+    "order": 236,
+    "keys": [
+      "卞夫人"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/065_曹节.md",
+    "sha256": "c30d7f279d7c7678e197e48293afce644cb33bc769404ccd77e4bfe55364c316",
+    "comment": "角色:曹节",
+    "order": 235,
+    "keys": [
+      "曹节"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/066_邹氏.md",
+    "sha256": "c96cc27dfe3e5e9e489a5a5c695b4790f3a25afdfe28b14dea6824dbbd251535",
+    "comment": "角色:邹氏",
+    "order": 234,
+    "keys": [
+      "邹氏"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/067_鲍三娘.md",
+    "sha256": "4bd28722e9548d2ca9424f1d1860d6b9bcf6ae377975780b9e9bb1a773e1cf4f",
+    "comment": "角色:鲍三娘",
+    "order": 233,
+    "keys": [
+      "鲍三娘"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/068_关银屏.md",
+    "sha256": "43df3d882b29251de55c3298fffd6a156cca018272770a36ef442dc8ca37f98f",
+    "comment": "角色:关银屏",
+    "order": 232,
+    "keys": [
+      "关银屏"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/069_夏侯姬.md",
+    "sha256": "ecc0f940ed739899fcffc2025571982ec60e26d750ad9cc03ad01df4c209c567",
+    "comment": "角色:夏侯姬",
+    "order": 231,
+    "keys": [
+      "夏侯姬"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/070_甘夫人.md",
+    "sha256": "9832f796f3a88e8b5a1b18052a4df30e63f65a5705d602a036847b65c6b2cd3a",
+    "comment": "角色:甘夫人",
+    "order": 230,
+    "keys": [
+      "甘夫人"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/071_糜夫人.md",
+    "sha256": "37614339a7e75fdbc776eb71ff7c077918ebd8a2bbfc63df04dae1e909f2f603",
+    "comment": "角色:糜夫人",
+    "order": 229,
+    "keys": [
+      "糜夫人"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/072_凌统.md",
+    "sha256": "7a63ab759daea23d41da138548fd4fd21de0848fc1fb4f662e0e4c72b1a93897",
+    "comment": "角色:凌统",
+    "order": 228,
+    "keys": [
+      "凌统",
+      "公绩",
+      "凌公绩"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/073_吴国太.md",
+    "sha256": "eee3a15ea3ee6bb3187081074d7416a413d3b670b7379d7c6576564316eb507e",
+    "comment": "角色:吴国太",
+    "order": 227,
+    "keys": [
+      "吴国太"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/074_孙鲁班.md",
+    "sha256": "c40f30ff909925f414618d683176d5146faea13da67bc1afb94fc663ac99526b",
+    "comment": "角色:孙鲁班",
+    "order": 226,
+    "keys": [
+      "孙鲁班",
+      "大虎"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/075_孙鲁育.md",
+    "sha256": "5b897def3a08da75ad9d82071479893942e303b4a00a6124e4bf76f41919137a",
+    "comment": "角色:孙鲁育",
+    "order": 225,
+    "keys": [
+      "孙鲁育",
+      "小虎"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/076_羊徽瑜.md",
+    "sha256": "f4e8ceb7d34058a55e31d13e8da19f6d6c0c740f790b898e7be1b68b0cc1d1dd",
+    "comment": "角色:羊徽瑜",
+    "order": 224,
+    "keys": [
+      "羊徽瑜"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/077_夏侯徽.md",
+    "sha256": "c0973f696b0e00cd0e9f819f8d78f6ee1b0f6c5ad81a525e15658fb696e13d1b",
+    "comment": "角色:夏侯徽",
+    "order": 223,
+    "keys": [
+      "夏侯徽"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/078_貂蝉.md",
+    "sha256": "eebfe89579d680d9519f7ebe444bf9fb4d0572650055bfe74e17086adeda50e5",
+    "comment": "角色:貂蝉",
+    "order": 222,
+    "keys": [
+      "貂蝉"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/079_吕玲绮.md",
+    "sha256": "b81b96eb47e2c0d1fe2f4c043f8a930de49bcdbc0b463eed0fe872bb22db918d",
+    "comment": "角色:吕玲绮",
+    "order": 221,
+    "keys": [
+      "吕玲绮"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/080_祝融.md",
+    "sha256": "2efa60543d405c091eb622952ad633b4dc792d9ab646b23a6231d8b3a91ecf74",
+    "comment": "角色:祝融",
+    "order": 220,
+    "keys": [
+      "祝融"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/081_袁术.md",
+    "sha256": "90611591de5ad2ac54ba553a263e28a7837c5f30b43a72d5114e5e79557e3db8",
+    "comment": "角色:袁术",
+    "order": 219,
+    "keys": [
+      "袁术",
+      "公路",
+      "袁公路"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/082_陈宫.md",
+    "sha256": "8cdbcfdc3d4be5c6fd7fcc1efd3960c5fa8a9edce588fbcaab4acdbf7bb93faf",
+    "comment": "角色:陈宫",
+    "order": 218,
+    "keys": [
+      "陈宫",
+      "公台",
+      "陈公台"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/083_华雄.md",
+    "sha256": "0846a55b53f5e371f98e80e2c5018da77ce64516c78ce053a1ea5e828ec985b6",
+    "comment": "角色:华雄",
+    "order": 217,
+    "keys": [
+      "华雄"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/084_孟获.md",
+    "sha256": "630528d541a8fe4c74c0452264d3d315af33a66725f8eb6c23c8c108c52f4705",
+    "comment": "角色:孟获",
+    "order": 216,
+    "keys": [
+      "孟获"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/085_公孙瓒.md",
+    "sha256": "e69e46d364dd8fd02c1039f880bbfffae4fddb76e7188032dee33de4437c78cf",
+    "comment": "角色:公孙瓒",
+    "order": 215,
+    "keys": [
+      "公孙瓒",
+      "伯珪",
+      "公孙伯珪",
+      "白马将军"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/086_董白.md",
+    "sha256": "489ec2f7565ba7c5e8450bce27585c25f31cb89ced30bdbfa14a89a6d26f5b66",
+    "comment": "角色:董白",
+    "order": 214,
+    "keys": [
+      "董白"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/087_何太后.md",
+    "sha256": "95f2e3725a317f9527c4783bfa97c2361ce4e3a84104167afbfad8bb4efa83b4",
+    "comment": "角色:何太后",
+    "order": 213,
+    "keys": [
+      "何太后"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/088_蔡夫人.md",
+    "sha256": "61f5242a9d51d706606d09c55ce89518910ec1ba639db568080b4e8fa61397a9",
+    "comment": "角色:蔡夫人",
+    "order": 212,
+    "keys": [
+      "蔡夫人"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/main/089_樊氏.md",
+    "sha256": "4b6a349a017aaee116aaab8e3956e50b8d3932a0b6d33c342b8dfd77aa553e07",
+    "comment": "角色:樊氏",
+    "order": 211,
+    "keys": [
+      "樊氏"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/easter-eggs/090_多娜.md",
+    "sha256": "0c4f30b8d4fa0441075ab4c7e3867c107f6f0f5a730693aa889530c0d61660f8",
+    "comment": "角色:多娜",
+    "order": 199,
+    "keys": [
+      "多娜",
+      "小橘猫娘"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/characters/easter-eggs/091_咩娘.md",
+    "sha256": "b6037019ba4cf28ebb82f0fb3acfe803ad00f5220fb56538346b1c6889b8deeb",
+    "comment": "角色:咩娘",
+    "order": 198,
+    "keys": [
+      "咩娘",
+      "白发黑皮咩娘"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/001_洛阳.md",
+    "sha256": "5753fa9f5a409a9d56816253ac808d2f9714fa116df2a32f650920ac1cc717e1",
+    "comment": "地点:洛阳",
+    "order": 99,
+    "keys": [
+      "洛阳"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/002_长安.md",
+    "sha256": "3df818b0f2921a194fd8ecb1fb6a0cf12bfba9906c10e0b65242765d13bfbdb4",
+    "comment": "地点:长安",
+    "order": 98,
+    "keys": [
+      "长安"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/003_许都.md",
+    "sha256": "52483ae29d7880a0833a692a98fa609726f7f560df1dd3948135d9d2c64ba54c",
+    "comment": "地点:许都",
+    "order": 97,
+    "keys": [
+      "许都",
+      "许昌"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/004_邺城.md",
+    "sha256": "54b649a00ef53e533f3c7e612466460ae5ca92e4ca88badf1d14eaada38fa114",
+    "comment": "地点:邺城",
+    "order": 96,
+    "keys": [
+      "邺城"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/005_成都.md",
+    "sha256": "23f4c833ce2eac0dfe2c568c57b2d89796720b13954bc5b526645d8e4a593902",
+    "comment": "地点:成都",
+    "order": 95,
+    "keys": [
+      "成都"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/006_建业.md",
+    "sha256": "44e308c70b81dde1321cb83243e643819ea10267c6983404d3bc6b5ea0eee2ab",
+    "comment": "地点:建业",
+    "order": 94,
+    "keys": [
+      "建业",
+      "秣陵"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/007_襄阳.md",
+    "sha256": "36a4d00a9d46f5d3dddb656af2e36e6cf3f6d00de0a610d2967253c615db2262",
+    "comment": "地点:襄阳",
+    "order": 93,
+    "keys": [
+      "襄阳"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/008_江陵.md",
+    "sha256": "c6114dff67aa31e7abac849198de0049a13db7c9965f9f10ed0f6085039c73bf",
+    "comment": "地点:江陵",
+    "order": 92,
+    "keys": [
+      "江陵"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/009_合肥.md",
+    "sha256": "a4c5be83872d35f8ebbb4ec17107e980fd9d0dff57bf4be9f4aeb0c204d94db3",
+    "comment": "地点:合肥",
+    "order": 91,
+    "keys": [
+      "合肥"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/010_汉中.md",
+    "sha256": "1ed8fb9f64451d3e2b01404d067260eb38f68d8fb9f5747e6702251e14c2ec13",
+    "comment": "地点:汉中",
+    "order": 90,
+    "keys": [
+      "汉中"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/011_徐州.md",
+    "sha256": "360c49810385659ac549812af742b33b69ae0012c5cf0b23511d45c911e57f4c",
+    "comment": "地点:徐州",
+    "order": 89,
+    "keys": [
+      "徐州"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/012_下邳.md",
+    "sha256": "75784807fabe409e331fc8aa4153a5a9dfd2296323dbaa6fe9dd0bc0bd90b866",
+    "comment": "地点:下邳",
+    "order": 88,
+    "keys": [
+      "下邳",
+      "下邳城"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/013_濮阳.md",
+    "sha256": "83ea0b3358e8e1aa72f25ba203f83b374c7c27a72f1a3849ac54c1f16a3bae98",
+    "comment": "地点:濮阳",
+    "order": 87,
+    "keys": [
+      "濮阳"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/014_宛城.md",
+    "sha256": "d5ab55004e1518ef5fc68de2bac8616af31e958bcb7a37752a74778731c3cc84",
+    "comment": "地点:宛城",
+    "order": 86,
+    "keys": [
+      "宛城"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/015_新野.md",
+    "sha256": "dd0de03f50e82527e75a97ad27b2ab7dc5c71939477ca1dbb79963c6ff0a51b4",
+    "comment": "地点:新野",
+    "order": 85,
+    "keys": [
+      "新野"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/016_柴桑.md",
+    "sha256": "29f12c1e0d8e23cd4c488a76fc82c98bd5e5025d986d3b83898c686a9289e4b2",
+    "comment": "地点:柴桑",
+    "order": 84,
+    "keys": [
+      "柴桑"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/017_南徐.md",
+    "sha256": "5006ceb8c861aff3c38333b9518343472c853e61d6fc8918e4bb9497a0b6ffb9",
+    "comment": "地点:南徐",
+    "order": 83,
+    "keys": [
+      "南徐",
+      "京口"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/018_寿春.md",
+    "sha256": "9b4f475ae235c89fef3bccac9c4d981d93d946aac6e03e3c510e6e8666d86bcd",
+    "comment": "地点:寿春",
+    "order": 82,
+    "keys": [
+      "寿春"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/019_襄平.md",
+    "sha256": "2cdbc2446650dcbc8d3c67706b1c45733fe3d734397a61b7fc7508e80849adeb",
+    "comment": "地点:襄平",
+    "order": 81,
+    "keys": [
+      "襄平"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/020_武昌.md",
+    "sha256": "e109d7bd85be2f7933fac24d59921498327f0ddffac40d41a1c6ab08a3b27a87",
+    "comment": "地点:武昌",
+    "order": 80,
+    "keys": [
+      "武昌",
+      "鄂县"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/021_涿郡.md",
+    "sha256": "63a38e6308890053d3cb75cdf6c5a933d983c584f2396289baf8d4cec851ffe5",
+    "comment": "地点:涿郡",
+    "order": 79,
+    "keys": [
+      "涿郡",
+      "涿县",
+      "涿州"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/022_陈留.md",
+    "sha256": "1cb4b270d994a5f5b0394b7a8d7bdfe1300b4f657e1523477b880c765273385e",
+    "comment": "地点:陈留",
+    "order": 78,
+    "keys": [
+      "陈留",
+      "陈留郡"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/023_汜水关.md",
+    "sha256": "7e4fa2c8f456157fd417a0debf6a53e36f4bd4f44616a79052708ac832b143f3",
+    "comment": "地点:汜水关",
+    "order": 77,
+    "keys": [
+      "汜水关",
+      "汜水"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/024_虎牢关.md",
+    "sha256": "8640c91b5c1c7007cdfb1047c7b1bd0f959802bb28efc03170bfdfa8a295aa95",
+    "comment": "地点:虎牢关",
+    "order": 76,
+    "keys": [
+      "虎牢关",
+      "虎牢"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/025_官渡.md",
+    "sha256": "8ab954b5854f5d100751440bc2ffea96adce34c36fe09e47db3bfca375f8fafd",
+    "comment": "地点:官渡",
+    "order": 75,
+    "keys": [
+      "官渡",
+      "官渡口"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/026_乌巢.md",
+    "sha256": "6eb9b36fba7a428ceaa25d812197b01ff9a7cb3fe03a919707ce8bdef3917b05",
+    "comment": "地点:乌巢",
+    "order": 74,
+    "keys": [
+      "乌巢"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/027_白马.md",
+    "sha256": "5cd5409e56f2e48dcdadf5fb21604b67d9d2e3c8b7beb54781f6c9369cc5ddf4",
+    "comment": "地点:白马",
+    "order": 73,
+    "keys": [
+      "白马津",
+      "白马城",
+      "白马县"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/028_延津.md",
+    "sha256": "92237177a545140d25f16df42e6a7f2eb0242163eb9bd032970c68979c8274bf",
+    "comment": "地点:延津",
+    "order": 72,
+    "keys": [
+      "延津",
+      "延津渡"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/029_博望坡.md",
+    "sha256": "7824652a26fdfd23223ca9b982307d8663f423b03b7f85513132e06eed48a573",
+    "comment": "地点:博望坡",
+    "order": 71,
+    "keys": [
+      "博望坡",
+      "博望"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/030_长坂坡.md",
+    "sha256": "5ed4ca2cabca1e4d1d9dd65daede2704955fb690e6cb218a008a2e0ee6c2d7aa",
+    "comment": "地点:长坂坡",
+    "order": 70,
+    "keys": [
+      "长坂坡",
+      "长坂"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/031_赤壁.md",
+    "sha256": "18732485eaf47d2dcf10190e1bfd98fea4646ff1bb603067de3edd30ae9db5f8",
+    "comment": "地点:赤壁",
+    "order": 69,
+    "keys": [
+      "赤壁",
+      "赤壁江面"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/032_华容道.md",
+    "sha256": "1fd85f1769856b037cb1971108e462d1900685bac33d5054ea23dfe4815f2750",
+    "comment": "地点:华容道",
+    "order": 68,
+    "keys": [
+      "华容道"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/033_濡须口.md",
+    "sha256": "040fa0a58f513c74d0cb6825f851647e184c25012714afa37a04d3607f6e5c63",
+    "comment": "地点:濡须口",
+    "order": 67,
+    "keys": [
+      "濡须口",
+      "濡须"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/034_逍遥津.md",
+    "sha256": "c991cfa055dd4fd99607c1448ec7d549ea0ccc6c20e13e9476f3c1da363ae416",
+    "comment": "地点:逍遥津",
+    "order": 66,
+    "keys": [
+      "逍遥津"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/035_瓦口隘.md",
+    "sha256": "6ef070786e19ff3462e6606f5a1020869da13f6d4b8d075f899ff948d897a8fc",
+    "comment": "地点:瓦口隘",
+    "order": 65,
+    "keys": [
+      "瓦口隘",
+      "瓦口关"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/036_天荡山.md",
+    "sha256": "01ef0f7c9adb25b322fc1eede8455680071e7d30bd04d74924f4ff2fe507a117",
+    "comment": "地点:天荡山",
+    "order": 64,
+    "keys": [
+      "天荡山"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/037_定军山.md",
+    "sha256": "2d9ca2b567ea25e0c98dfb9c8f3c9d89a82f9dea1f611aae4fb307e190caaea7",
+    "comment": "地点:定军山",
+    "order": 63,
+    "keys": [
+      "定军山"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/038_葭萌关.md",
+    "sha256": "27d884cb1e5deeb4a2be9c143f65b29e5203a9c58153b3da0f4e603ed6ec3806",
+    "comment": "地点:葭萌关",
+    "order": 62,
+    "keys": [
+      "葭萌关",
+      "葭萌"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/039_樊城.md",
+    "sha256": "997184c5e056df925fef1fa52fe6a0e7389589a1998ae406e1e6ca6d8e0d1efe",
+    "comment": "地点:樊城",
+    "order": 61,
+    "keys": [
+      "樊城"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/040_麦城.md",
+    "sha256": "489237a953f66cd0abc6284773f087358578994272639a2b0b057d1bb47bd5c7",
+    "comment": "地点:麦城",
+    "order": 60,
+    "keys": [
+      "麦城"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/041_夷陵·猇亭.md",
+    "sha256": "c956489b61d17806137a96010f41294f12d6b90f841dc3b9c5eab60a28b6856a",
+    "comment": "地点:夷陵·猇亭",
+    "order": 59,
+    "keys": [
+      "夷陵",
+      "猇亭",
+      "夷陵猇亭"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/042_白帝城.md",
+    "sha256": "b04ae3bfd085c41e92792db0608111eb75cc4281f43e39c43ace4052588b6990",
+    "comment": "地点:白帝城",
+    "order": 58,
+    "keys": [
+      "白帝城",
+      "白帝"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/043_南中.md",
+    "sha256": "c617e2c8c355f5af8949252f699653dce90ab43da9a7f62bd7166f881618e664",
+    "comment": "地点:南中",
+    "order": 57,
+    "keys": [
+      "南中",
+      "南中地区"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/044_泸水.md",
+    "sha256": "8a5508011ab20531270b9b24642c6b34fcd6e2d272ba3e70d5fee8b895acf5b2",
+    "comment": "地点:泸水",
+    "order": 56,
+    "keys": [
+      "泸水",
+      "泸水河"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/045_街亭.md",
+    "sha256": "8ef82a12187caa5efa058d7930fbcbae6a4223afe3ff2b4e4634c795f335ac40",
+    "comment": "地点:街亭",
+    "order": 55,
+    "keys": [
+      "街亭",
+      "街亭古道"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/046_陈仓.md",
+    "sha256": "dd183532b1f497f3ddbd249671d9ebf4833cf017722fe4b31a3f128bbe7883e9",
+    "comment": "地点:陈仓",
+    "order": 54,
+    "keys": [
+      "陈仓",
+      "陈仓城"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/047_祁山.md",
+    "sha256": "401e527fc3bdaf38ac5975fef1a616fbde9dd71aafc0e60eaf3a9fa687c6d0b7",
+    "comment": "地点:祁山",
+    "order": 53,
+    "keys": [
+      "祁山",
+      "祁山堡"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/048_木门道.md",
+    "sha256": "63d32674d3621f0654fb15c4d801c5e77da280b95e1a728b3db09deeca83d980",
+    "comment": "地点:木门道",
+    "order": 52,
+    "keys": [
+      "木门道",
+      "木门峡谷"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/049_上方谷.md",
+    "sha256": "f48523d81908d2a31a95020d2ef4c48bac519427fe367abd8f2822561abb0464",
+    "comment": "地点:上方谷",
+    "order": 51,
+    "keys": [
+      "上方谷"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/050_五丈原.md",
+    "sha256": "2631daa97e2782eb2254a25e511c83e34ac9dccadb6d81403fbd88902889e1c5",
+    "comment": "地点:五丈原",
+    "order": 50,
+    "keys": [
+      "五丈原"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/051_铁笼山.md",
+    "sha256": "530a1c7d8aa78f836ccf4529fa5ebf3bb32695087591af87244f77af57d792c0",
+    "comment": "地点:铁笼山",
+    "order": 49,
+    "keys": [
+      "铁笼山"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/052_剑阁.md",
+    "sha256": "02120db19c6d58abac884abd8664eb44ca8b3360ee2e758b32e59ef524a7967b",
+    "comment": "地点:剑阁",
+    "order": 48,
+    "keys": [
+      "剑阁",
+      "剑门关",
+      "剑门"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/053_阴平道.md",
+    "sha256": "9a749e24a798bc1137cd25ee9cdc47a696cd426b294ea758facac7856178c2b5",
+    "comment": "地点:阴平道",
+    "order": 47,
+    "keys": [
+      "阴平道",
+      "阴平古道"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/054_江油.md",
+    "sha256": "5c34dbd6484996bc3c322ac468afd5792be1d4c497003efc87c2b45627df3795",
+    "comment": "地点:江油",
+    "order": 46,
+    "keys": [
+      "江油",
+      "江油关"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/055_绵竹.md",
+    "sha256": "6045b173f0d095079e352dfc4d42c2ea948c679c27b1f68c5ca49519f723a409",
+    "comment": "地点:绵竹",
+    "order": 45,
+    "keys": [
+      "绵竹",
+      "绵竹关"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/056_沓中.md",
+    "sha256": "fa72d5439bb9345ba084ea627018019d6aa51ee24a4139ad775218e1d5f50fb6",
+    "comment": "地点:沓中",
+    "order": 44,
+    "keys": [
+      "沓中",
+      "沓中屯田"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/057_石头城.md",
+    "sha256": "642f5a8a0fefa1efc94b9392f06c73a62cf0b775979b2238f356691e9e5ea7d2",
+    "comment": "地点:石头城",
+    "order": 43,
+    "keys": [
+      "石头城",
+      "石城"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/058_荆州地区.md",
+    "sha256": "e6af34f8a527ba4b3d3ab5e13692eb54aa5b8f6a0a5cf4eaf421016ccff23b72",
+    "comment": "地点:荆州地区",
+    "order": 42,
+    "keys": [
+      "荆州地区",
+      "荆襄",
+      "荆州"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/059_益州·西川.md",
+    "sha256": "25ec75b3637eef2163ac6e9acdef9eaf21f7fbb4372199ca9df080b01a32360e",
+    "comment": "地点:益州·西川",
+    "order": 41,
+    "keys": [
+      "益州",
+      "西川",
+      "益州西川"
+    ],
+    "constant": false,
+    "enabled": true
+  },
+  {
+    "source": "worldbook/locations/060_江东.md",
+    "sha256": "dfb54bb1825df5745b76fe4a6d66b58b780a92c2bedf89c7906027b8f58cc24f",
+    "comment": "地点:江东",
+    "order": 40,
+    "keys": [
+      "江东",
+      "江东地区"
+    ],
+    "constant": false,
+    "enabled": true
+  }
+]

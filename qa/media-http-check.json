@@ -1,0 +1,32 @@
+[
+  {
+    "name": "曹魏",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "name": "蜀汉",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "name": "孙吴",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "name": "晋",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "name": "群雄",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "name": "咩姬×多娜",
+    "status": 200,
+    "type": "image/png"
+  }
+]
