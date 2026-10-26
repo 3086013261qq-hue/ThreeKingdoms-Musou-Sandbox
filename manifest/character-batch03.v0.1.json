@@ -1,0 +1,29 @@
+{
+  "version":"0.1",
+  "status":"complete",
+  "batch":"character-batch03-wei-core10",
+  "source_roster":"manifest/character-roster.v0.3.json",
+  "appearance":"manifest/appearance/wei.v0.1.json",
+  "character_order_range":[280,271],
+  "ability_order_range":[310,301],
+  "ability_activation":"green-triggered",
+  "entries":[
+    {"name":"夏侯惇","character_source":"worldbook/characters/main/021_夏侯惇.md","character_order_hint":280,"ability_source":"worldbook/settings/green-triggered/characters/021_夏侯惇·能力.md","ability_order_hint":310,"ability_keywords":["夏侯惇","元让","夏侯元让"]},
+    {"name":"夏侯渊","character_source":"worldbook/characters/main/022_夏侯渊.md","character_order_hint":279,"ability_source":"worldbook/settings/green-triggered/characters/022_夏侯渊·能力.md","ability_order_hint":309,"ability_keywords":["夏侯渊","妙才","夏侯妙才"]},
+    {"name":"徐晃","character_source":"worldbook/characters/main/023_徐晃.md","character_order_hint":278,"ability_source":"worldbook/settings/green-triggered/characters/023_徐晃·能力.md","ability_order_hint":308,"ability_keywords":["徐晃","公明","徐公明"]},
+    {"name":"张郃","character_source":"worldbook/characters/main/024_张郃.md","character_order_hint":277,"ability_source":"worldbook/settings/green-triggered/characters/024_张郃·能力.md","ability_order_hint":307,"ability_keywords":["张郃","儁乂","张儁乂"]},
+    {"name":"曹仁","character_source":"worldbook/characters/main/025_曹仁.md","character_order_hint":276,"ability_source":"worldbook/settings/green-triggered/characters/025_曹仁·能力.md","ability_order_hint":306,"ability_keywords":["曹仁","子孝","曹子孝"]},
+    {"name":"郭嘉","character_source":"worldbook/characters/main/026_郭嘉.md","character_order_hint":275,"ability_source":"worldbook/settings/green-triggered/characters/026_郭嘉·能力.md","ability_order_hint":305,"ability_keywords":["郭嘉","奉孝","郭奉孝"]},
+    {"name":"荀彧","character_source":"worldbook/characters/main/027_荀彧.md","character_order_hint":274,"ability_source":"worldbook/settings/green-triggered/characters/027_荀彧·能力.md","ability_order_hint":304,"ability_keywords":["荀彧","文若","荀文若"]},
+    {"name":"贾诩","character_source":"worldbook/characters/main/028_贾诩.md","character_order_hint":273,"ability_source":"worldbook/settings/green-triggered/characters/028_贾诩·能力.md","ability_order_hint":303,"ability_keywords":["贾诩","文和","贾文和"]},
+    {"name":"庞德","character_source":"worldbook/characters/main/029_庞德.md","character_order_hint":272,"ability_source":"worldbook/settings/green-triggered/characters/029_庞德·能力.md","ability_order_hint":302,"ability_keywords":["庞德","令明","庞令明"]},
+    {"name":"王异","character_source":"worldbook/characters/main/030_王异.md","character_order_hint":271,"ability_source":"worldbook/settings/green-triggered/characters/030_王异·能力.md","ability_order_hint":301,"ability_keywords":["王异"]}
+  ],
+  "rules":[
+    "人物正文继续使用chara-v1加项目四字段",
+    "外貌严格继承魏国appearance anchors",
+    "能力绿灯保持个人专属，不复制核心公共机制",
+    "军师能力不得写成法术或超自然预知",
+    "人物与能力编号连续承接Batch02"
+  ]
+}
