@@ -1,0 +1,30 @@
+{
+  "version":"0.1",
+  "status":"complete",
+  "batch":"character-batch05-wu-core10",
+  "source_roster":"manifest/character-roster.v0.3.json",
+  "appearance":"manifest/appearance/wu.v0.1.json",
+  "character_order_range":[260,251],
+  "ability_order_range":[290,281],
+  "ability_activation":"green-triggered",
+  "entries":[
+    {"name":"鲁肃","character_source":"worldbook/characters/main/041_鲁肃.md","character_order_hint":260,"ability_source":"worldbook/settings/green-triggered/characters/041_鲁肃·能力.md","ability_order_hint":290,"ability_keywords":["鲁肃","子敬","鲁子敬"]},
+    {"name":"吕蒙","character_source":"worldbook/characters/main/042_吕蒙.md","character_order_hint":259,"ability_source":"worldbook/settings/green-triggered/characters/042_吕蒙·能力.md","ability_order_hint":289,"ability_keywords":["吕蒙","子明","吕子明"]},
+    {"name":"陆逊","character_source":"worldbook/characters/main/043_陆逊.md","character_order_hint":258,"ability_source":"worldbook/settings/green-triggered/characters/043_陆逊·能力.md","ability_order_hint":288,"ability_keywords":["陆逊","伯言","陆伯言"]},
+    {"name":"甘宁","character_source":"worldbook/characters/main/044_甘宁.md","character_order_hint":257,"ability_source":"worldbook/settings/green-triggered/characters/044_甘宁·能力.md","ability_order_hint":287,"ability_keywords":["甘宁","兴霸","甘兴霸","锦帆"]},
+    {"name":"黄盖","character_source":"worldbook/characters/main/045_黄盖.md","character_order_hint":256,"ability_source":"worldbook/settings/green-triggered/characters/045_黄盖·能力.md","ability_order_hint":286,"ability_keywords":["黄盖","公覆","黄公覆"]},
+    {"name":"周泰","character_source":"worldbook/characters/main/046_周泰.md","character_order_hint":255,"ability_source":"worldbook/settings/green-triggered/characters/046_周泰·能力.md","ability_order_hint":285,"ability_keywords":["周泰","幼平","周幼平"]},
+    {"name":"孙尚香","character_source":"worldbook/characters/main/047_孙尚香.md","character_order_hint":254,"ability_source":"worldbook/settings/green-triggered/characters/047_孙尚香·能力.md","ability_order_hint":284,"ability_keywords":["孙尚香","弓腰姬"]},
+    {"name":"大乔","character_source":"worldbook/characters/main/048_大乔.md","character_order_hint":253,"ability_source":"worldbook/settings/green-triggered/characters/048_大乔·能力.md","ability_order_hint":283,"ability_keywords":["大乔"]},
+    {"name":"小乔","character_source":"worldbook/characters/main/049_小乔.md","character_order_hint":252,"ability_source":"worldbook/settings/green-triggered/characters/049_小乔·能力.md","ability_order_hint":282,"ability_keywords":["小乔"]},
+    {"name":"练师","character_source":"worldbook/characters/main/050_练师.md","character_order_hint":251,"ability_source":"worldbook/settings/green-triggered/characters/050_练师·能力.md","ability_order_hint":281,"ability_keywords":["练师"]}
+  ],
+  "rules":[
+    "人物正文继续使用chara-v1加项目四字段",
+    "外貌严格继承孙吴appearance anchors",
+    "大乔与小乔必须保持身高、发型、心理和战斗方式差异",
+    "火攻必须遵守真实燃料、风向、点火与撤离条件",
+    "甘宁无双打法不得复制孙策或太史慈",
+    "人物与能力编号连续承接Batch04"
+  ]
+}
