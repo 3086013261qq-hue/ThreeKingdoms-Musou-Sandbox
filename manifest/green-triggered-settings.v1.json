@@ -1,5 +1,5 @@
 {
-  "version": "1.2",
+  "version": "1.3",
   "kind": "worldbook-core-settings-green-triggered",
   "activation_policy": "keyword_triggered",
   "format": "咩咩制卡·全栈 v1.0.0 / <核心设定:名称>",
@@ -183,6 +183,78 @@
       "activation": "green-triggered",
       "keywords": ["群雄", "诸侯势力", "地方军阀", "群雄阵营", "诸侯割据", "地方诸侯"],
       "order_hint": 361
+    },
+    {
+      "id": "green-combat-001",
+      "name": "兵器类别与战斗距离",
+      "source": "worldbook/settings/green-triggered/combat/001_兵器类别与战斗距离.md",
+      "parent_blue": "blue-006",
+      "activation": "green-triggered",
+      "keywords": ["战斗距离", "兵器距离", "长兵", "短兵", "长柄兵器", "贴身战"],
+      "order_hint": 360
+    },
+    {
+      "id": "green-combat-002",
+      "name": "骑战与马上武艺",
+      "source": "worldbook/settings/green-triggered/combat/002_骑战与马上武艺.md",
+      "parent_blue": "blue-006",
+      "activation": "green-triggered",
+      "keywords": ["骑战", "马上武艺", "马上作战", "骑将", "冲锋骑战", "回马"],
+      "order_hint": 359
+    },
+    {
+      "id": "green-combat-003",
+      "name": "弓战与投射武艺",
+      "source": "worldbook/settings/green-triggered/combat/003_弓战与投射武艺.md",
+      "parent_blue": "blue-006",
+      "activation": "green-triggered",
+      "keywords": ["弓战", "骑射", "远射", "投射武艺", "投枪", "飞刀", "飞轮"],
+      "order_hint": 358
+    },
+    {
+      "id": "green-combat-004",
+      "name": "重兵器与巨型兵装",
+      "source": "worldbook/settings/green-triggered/combat/004_重兵器与巨型兵装.md",
+      "parent_blue": "blue-006",
+      "activation": "green-triggered",
+      "keywords": ["重兵器", "巨型兵器", "大斧", "重锤", "巨刀", "重型兵装"],
+      "order_hint": 357
+    },
+    {
+      "id": "green-combat-005",
+      "name": "奇门兵器与特殊操控",
+      "source": "worldbook/settings/green-triggered/combat/005_奇门兵器与特殊操控.md",
+      "parent_blue": "blue-006",
+      "activation": "green-triggered",
+      "keywords": ["奇门兵器", "链刃", "钩爪", "节鞭", "双钺", "伞刃", "特殊兵器"],
+      "order_hint": 356
+    },
+    {
+      "id": "green-combat-006",
+      "name": "双持连段与连续攻防",
+      "source": "worldbook/settings/green-triggered/combat/006_双持连段与连续攻防.md",
+      "parent_blue": "blue-006",
+      "activation": "green-triggered",
+      "keywords": ["双持", "双兵", "连段", "连续攻防", "连击", "双武器"],
+      "order_hint": 355
+    },
+    {
+      "id": "green-combat-007",
+      "name": "破阵与斩将",
+      "source": "worldbook/settings/green-triggered/combat/007_破阵与斩将.md",
+      "parent_blue": "blue-006",
+      "activation": "green-triggered",
+      "keywords": ["破阵", "斩将", "冲阵", "阵中斩将", "突破军阵", "突入敌阵"],
+      "order_hint": 354
+    },
+    {
+      "id": "green-combat-008",
+      "name": "无双乱舞与终结技",
+      "source": "worldbook/settings/green-triggered/combat/008_无双乱舞与终结技.md",
+      "parent_blue": "blue-006",
+      "activation": "green-triggered",
+      "keywords": ["无双乱舞", "终结技", "无双终结", "决胜技", "无双杀招"],
+      "order_hint": 353
     }
   ]
 }
