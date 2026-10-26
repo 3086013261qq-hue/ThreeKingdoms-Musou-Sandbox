@@ -62,7 +62,7 @@ def assemble():
  for i,x in enumerate(formal):
   out=add(19,'角色:'+x['name'],read(x['character_source']),299-i,x['ability_keywords'],source=x['character_source'])
   if x['name'] not in out['keys']: out['keys'].insert(0,x['name'])
-  out['extensions'].update(excludeRecursion=False,exclude_recursion=False,preventRecursion=True,prevent_recursion=True)
+  out['extensions'].update(excludeRecursion=True,exclude_recursion=True,preventRecursion=True,prevent_recursion=True)
  for idx in [20,21]:
   e=base(idx);e['content']='';result.append(embed.convert_entry(e,len(result)))
  for i,x in enumerate(eggs):

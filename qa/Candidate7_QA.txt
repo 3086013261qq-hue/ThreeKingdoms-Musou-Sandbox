@@ -1,0 +1,26 @@
+Candidate7 QA PASS
+
+Candidate6 JSON SHA256: 00ccedb502a95ef703d65ed428b4d04b5c5b091696d55a5ff09ba7cfeb7d9876
+Candidate6 PNG  SHA256: e171dd7d98e64beef64b2630887ce5ee5c4d9b76c286b0302404eb41cf010f79
+Candidate7 JSON SHA256: 26e0eb303991cb4cbcd6950d2112fd048ebbbab136c8974551833943d21f4f54
+Candidate7 PNG  SHA256: db381be02a9f4350454b48f9a8b331fd0b82a4bb8604c83ef01d0ab3375a4f7b
+
+Candidate7 JSON size: 1437754 bytes
+Candidate7 PNG  size: 4980770 bytes
+
+APPEARANCE GATE:
+- 91/91 character entries recursion closed: PASS
+- 009 first-appearance appearance gate embedded: PASS
+- MAIN01 Liu Bei / Zhang Fei / Guan Yu minimal anchors: PASS
+- untriggered NPC concrete appearance invention prohibited: PASS
+- formal character entry overrides conflicting old memory: PASS
+
+REGRESSION:
+- 刘备 151cm / 粉红 / 双马尾 / 翠绿: PASS
+- 张飞 175cm / 黑褐 / 双丸子 / 琥珀黑: PASS
+- 关羽 183cm / 深青 / 超长高马尾 / 墨绿: PASS
+- Candidate4 faction beautifier inherited: PASS
+- PNG IDAT image layer unchanged: PASS
+IDAT SHA256: 3eac43b4e91b88a5f23358bd814323bb436bd966dad3a5537c4a72389b1aec02
+- embedded chara == Candidate7 JSON: PASS
+- embedded ccv3 == Candidate7 JSON: PASS
