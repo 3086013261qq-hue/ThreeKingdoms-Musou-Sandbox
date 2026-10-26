@@ -1,0 +1,29 @@
+{
+  "version":"0.1",
+  "status":"complete",
+  "batch":"character-batch01-core10",
+  "source_roster":"manifest/character-roster.v0.3.json",
+  "appearance":"manifest/character-appearance-anchors.v0.1.json",
+  "character_order_range":[300,291],
+  "ability_order_range":[330,321],
+  "ability_activation":"green-triggered",
+  "entries":[
+    {"name":"曹操","character_source":"worldbook/characters/main/001_曹操.md","character_order_hint":300,"ability_source":"worldbook/settings/green-triggered/characters/001_曹操·能力.md","ability_order_hint":330,"ability_keywords":["曹操","孟德","曹孟德","魏王","魏武"]},
+    {"name":"刘备","character_source":"worldbook/characters/main/002_刘备.md","character_order_hint":299,"ability_source":"worldbook/settings/green-triggered/characters/002_刘备·能力.md","ability_order_hint":329,"ability_keywords":["刘备","玄德","刘玄德","刘皇叔"]},
+    {"name":"孙权","character_source":"worldbook/characters/main/003_孙权.md","character_order_hint":298,"ability_source":"worldbook/settings/green-triggered/characters/003_孙权·能力.md","ability_order_hint":328,"ability_keywords":["孙权","仲谋","孙仲谋","吴侯"]},
+    {"name":"吕布","character_source":"worldbook/characters/main/004_吕布.md","character_order_hint":297,"ability_source":"worldbook/settings/green-triggered/characters/004_吕布·能力.md","ability_order_hint":327,"ability_keywords":["吕布","奉先","吕奉先","飞将"]},
+    {"name":"关羽","character_source":"worldbook/characters/main/005_关羽.md","character_order_hint":296,"ability_source":"worldbook/settings/green-triggered/characters/005_关羽·能力.md","ability_order_hint":326,"ability_keywords":["关羽","云长","关云长","关二将军"]},
+    {"name":"张飞","character_source":"worldbook/characters/main/006_张飞.md","character_order_hint":295,"ability_source":"worldbook/settings/green-triggered/characters/006_张飞·能力.md","ability_order_hint":325,"ability_keywords":["张飞","翼德","张翼德"]},
+    {"name":"赵云","character_source":"worldbook/characters/main/007_赵云.md","character_order_hint":294,"ability_source":"worldbook/settings/green-triggered/characters/007_赵云·能力.md","ability_order_hint":324,"ability_keywords":["赵云","子龙","赵子龙"]},
+    {"name":"诸葛亮","character_source":"worldbook/characters/main/008_诸葛亮.md","character_order_hint":293,"ability_source":"worldbook/settings/green-triggered/characters/008_诸葛亮·能力.md","ability_order_hint":323,"ability_keywords":["诸葛亮","孔明","诸葛孔明","卧龙"]},
+    {"name":"周瑜","character_source":"worldbook/characters/main/009_周瑜.md","character_order_hint":292,"ability_source":"worldbook/settings/green-triggered/characters/009_周瑜·能力.md","ability_order_hint":322,"ability_keywords":["周瑜","公瑾","周公瑾","大都督"]},
+    {"name":"司马懿","character_source":"worldbook/characters/main/010_司马懿.md","character_order_hint":291,"ability_source":"worldbook/settings/green-triggered/characters/010_司马懿·能力.md","ability_order_hint":321,"ability_keywords":["司马懿","仲达","司马仲达"]}
+  ],
+  "rules":[
+    "人物正文使用chara-v1加项目四字段",
+    "角色姓名保留原名，性别固定为女",
+    "外貌基础字段锁定自appearance anchors，不重新随机",
+    "角色能力绿灯独立于50条核心设定绿灯，不修改core-settings-freeze计数",
+    "能力触发使用角色姓名与明确别名，不使用高频裸姓氏"
+  ]
+}
