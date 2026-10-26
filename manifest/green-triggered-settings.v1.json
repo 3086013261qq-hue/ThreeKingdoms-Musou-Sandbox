@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "kind": "worldbook-core-settings-green-triggered",
   "activation_policy": "keyword_triggered",
   "format": "咩咩制卡·全栈 v1.0.0 / <核心设定:名称>",
@@ -93,6 +93,96 @@
       "activation": "green-triggered",
       "keywords": ["军师参战", "军师上阵", "军师亲临战场", "军师亲征", "军师护身", "军师近战"],
       "order_hint": 371
+    },
+    {
+      "id": "green-faction-001",
+      "name": "归附转阵营与忠诚",
+      "source": "worldbook/settings/green-triggered/factions/001_归附转阵营与忠诚.md",
+      "parent_blue": "blue-005",
+      "activation": "green-triggered",
+      "keywords": ["转阵营", "归附", "择主", "投降归顺", "降将", "忠诚冲突", "改换门庭"],
+      "order_hint": 370
+    },
+    {
+      "id": "green-faction-002",
+      "name": "主君将领与军师关系",
+      "source": "worldbook/settings/green-triggered/factions/002_主君将领与军师关系.md",
+      "parent_blue": "blue-005",
+      "activation": "green-triggered",
+      "keywords": ["主君与将领", "君臣关系", "主从关系", "功臣关系", "主君与军师", "阵营内斗"],
+      "order_hint": 369
+    },
+    {
+      "id": "green-faction-003",
+      "name": "军制兵种与军团",
+      "source": "worldbook/settings/green-triggered/factions/003_军制兵种与军团.md",
+      "parent_blue": "blue-005",
+      "activation": "green-triggered",
+      "keywords": ["军制", "兵种", "军团编制", "精锐军团", "亲卫军", "骑兵军团", "水军编制"],
+      "order_hint": 368
+    },
+    {
+      "id": "green-faction-004",
+      "name": "粮草后勤与地盘",
+      "source": "worldbook/settings/green-triggered/factions/004_粮草后勤与地盘.md",
+      "parent_blue": "blue-005",
+      "activation": "green-triggered",
+      "keywords": ["粮草后勤", "粮道", "断粮", "烧仓", "辎重", "地盘经营", "补给线"],
+      "order_hint": 367
+    },
+    {
+      "id": "green-faction-005",
+      "name": "联盟外交与临时共同体",
+      "source": "worldbook/settings/green-triggered/factions/005_联盟外交与临时共同体.md",
+      "parent_blue": "blue-005",
+      "activation": "green-triggered",
+      "keywords": ["诸侯联盟", "临时联盟", "外交盟约", "联军", "借兵", "借道", "政治联姻", "背盟"],
+      "order_hint": 366
+    },
+    {
+      "id": "green-faction-006",
+      "name": "曹魏势力",
+      "source": "worldbook/settings/green-triggered/factions/006_曹魏势力.md",
+      "parent_blue": "blue-005",
+      "activation": "green-triggered",
+      "keywords": ["曹魏", "魏军", "魏势力", "曹操军", "曹氏势力", "魏国阵营"],
+      "order_hint": 365
+    },
+    {
+      "id": "green-faction-007",
+      "name": "蜀汉势力",
+      "source": "worldbook/settings/green-triggered/factions/007_蜀汉势力.md",
+      "parent_blue": "blue-005",
+      "activation": "green-triggered",
+      "keywords": ["蜀汉", "蜀军", "蜀势力", "刘备军", "刘氏势力", "蜀国阵营"],
+      "order_hint": 364
+    },
+    {
+      "id": "green-faction-008",
+      "name": "孙吴势力",
+      "source": "worldbook/settings/green-triggered/factions/008_孙吴势力.md",
+      "parent_blue": "blue-005",
+      "activation": "green-triggered",
+      "keywords": ["孙吴", "东吴", "吴军", "吴势力", "孙权军", "江东军", "江东势力"],
+      "order_hint": 363
+    },
+    {
+      "id": "green-faction-009",
+      "name": "晋势力",
+      "source": "worldbook/settings/green-triggered/factions/009_晋势力.md",
+      "parent_blue": "blue-005",
+      "activation": "green-triggered",
+      "keywords": ["晋军", "晋势力", "司马氏", "司马家", "晋国阵营", "西晋"],
+      "order_hint": 362
+    },
+    {
+      "id": "green-faction-010",
+      "name": "群雄诸侯",
+      "source": "worldbook/settings/green-triggered/factions/010_群雄诸侯.md",
+      "parent_blue": "blue-005",
+      "activation": "green-triggered",
+      "keywords": ["群雄", "诸侯势力", "地方军阀", "群雄阵营", "诸侯割据", "地方诸侯"],
+      "order_hint": 361
     }
   ]
 }
