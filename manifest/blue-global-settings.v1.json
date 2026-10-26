@@ -1,5 +1,5 @@
 {
-  "version": "1.2",
+  "version": "1.3",
   "kind": "worldbook-core-settings-blue-global",
   "activation_policy": "always_on",
   "format": "咩咩制卡·全栈 v1.0.0 / <核心设定:名称>",
@@ -59,6 +59,14 @@
       "activation": "blue-global",
       "keywords": [],
       "order_hint": 392
+    },
+    {
+      "id": "blue-008",
+      "name": "文武并立与军师之道",
+      "source": "worldbook/settings/blue-global/008_文武并立与军师之道.md",
+      "activation": "blue-global",
+      "keywords": [],
+      "order_hint": 391
     }
   ]
 }
