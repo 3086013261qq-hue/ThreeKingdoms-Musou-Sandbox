@@ -1,377 +1,54 @@
 {
-  "version": "1.5",
+  "version": "1.6",
   "kind": "worldbook-core-settings-green-triggered",
   "activation_policy": "keyword_triggered",
   "format": "咩咩制卡·全栈 v1.0.0 / <核心设定:名称>",
   "entries": [
-    {
-      "id": "green-qi-001",
-      "name": "气的运行与外显",
-      "source": "worldbook/settings/green-triggered/qi-wujing/001_气的运行与外显.md",
-      "parent_blue": "blue-007",
-      "activation": "green-triggered",
-      "keywords": ["气的运行", "运气", "行气", "气势外显", "气的外显", "气性"],
-      "order_hint": 380
-    },
-    {
-      "id": "green-qi-002",
-      "name": "武境五阶",
-      "source": "worldbook/settings/green-triggered/qi-wujing/002_武境五阶.md",
-      "parent_blue": "blue-007",
-      "activation": "green-triggered",
-      "keywords": ["武境", "五阶武境", "武卒境", "武人境", "骁将境", "名将境", "无双境"],
-      "order_hint": 379
-    },
-    {
-      "id": "green-qi-003",
-      "name": "无双爆发",
-      "source": "worldbook/settings/green-triggered/qi-wujing/003_无双爆发.md",
-      "parent_blue": "blue-007",
-      "activation": "green-triggered",
-      "keywords": ["无双爆发", "无双状态", "无双乱舞", "爆发无双", "进入无双"],
-      "order_hint": 378
-    },
-    {
-      "id": "green-qi-004",
-      "name": "气的消耗与恢复",
-      "source": "worldbook/settings/green-triggered/qi-wujing/004_气的消耗与恢复.md",
-      "parent_blue": "blue-007",
-      "activation": "green-triggered",
-      "keywords": ["耗气", "气竭", "回气", "调息", "气力耗尽", "恢复气力"],
-      "order_hint": 377
-    },
-    {
-      "id": "green-qi-005",
-      "name": "越境战与克制",
-      "source": "worldbook/settings/green-triggered/qi-wujing/005_越境战与克制.md",
-      "parent_blue": "blue-007",
-      "activation": "green-triggered",
-      "keywords": ["越境战", "越境挑战", "越境取胜", "以弱胜强", "兵器克制", "武境克制"],
-      "order_hint": 376
-    },
-    {
-      "id": "green-strategy-001",
-      "name": "军师之气",
-      "source": "worldbook/settings/green-triggered/junshi/001_军师之气.md",
-      "parent_blue": "blue-008",
-      "activation": "green-triggered",
-      "keywords": ["军师之气", "谋士之气", "军师气感", "军师气场", "定心行气"],
-      "order_hint": 375
-    },
-    {
-      "id": "green-strategy-002",
-      "name": "阵法与军势",
-      "source": "worldbook/settings/green-triggered/junshi/002_阵法与军势.md",
-      "parent_blue": "blue-008",
-      "activation": "green-triggered",
-      "keywords": ["军阵", "阵法", "变阵", "阵型", "军势压迫", "军势"],
-      "order_hint": 374
-    },
-    {
-      "id": "green-strategy-003",
-      "name": "情报与谋略",
-      "source": "worldbook/settings/green-triggered/junshi/003_情报与谋略.md",
-      "parent_blue": "blue-008",
-      "activation": "green-triggered",
-      "keywords": ["情报网", "谍报", "细作", "探马情报", "斥候情报", "情报误判"],
-      "order_hint": 373
-    },
-    {
-      "id": "green-strategy-004",
-      "name": "计策成立条件",
-      "source": "worldbook/settings/green-triggered/junshi/004_计策成立条件.md",
-      "parent_blue": "blue-008",
-      "activation": "green-triggered",
-      "keywords": ["计策条件", "计策成立", "计策失败", "伏兵条件", "火攻条件", "诱敌条件", "离间条件"],
-      "order_hint": 372
-    },
-    {
-      "id": "green-strategy-005",
-      "name": "军师亲临战场",
-      "source": "worldbook/settings/green-triggered/junshi/005_军师亲临战场.md",
-      "parent_blue": "blue-008",
-      "activation": "green-triggered",
-      "keywords": ["军师参战", "军师上阵", "军师亲临战场", "军师亲征", "军师护身", "军师近战"],
-      "order_hint": 371
-    },
-    {
-      "id": "green-faction-001",
-      "name": "归附转阵营与忠诚",
-      "source": "worldbook/settings/green-triggered/factions/001_归附转阵营与忠诚.md",
-      "parent_blue": "blue-005",
-      "activation": "green-triggered",
-      "keywords": ["转阵营", "归附", "择主", "投降归顺", "降将", "忠诚冲突", "改换门庭"],
-      "order_hint": 370
-    },
-    {
-      "id": "green-faction-002",
-      "name": "主君将领与军师关系",
-      "source": "worldbook/settings/green-triggered/factions/002_主君将领与军师关系.md",
-      "parent_blue": "blue-005",
-      "activation": "green-triggered",
-      "keywords": ["主君与将领", "君臣关系", "主从关系", "功臣关系", "主君与军师", "阵营内斗"],
-      "order_hint": 369
-    },
-    {
-      "id": "green-faction-003",
-      "name": "军制兵种与军团",
-      "source": "worldbook/settings/green-triggered/factions/003_军制兵种与军团.md",
-      "parent_blue": "blue-005",
-      "activation": "green-triggered",
-      "keywords": ["军制", "兵种", "军团编制", "精锐军团", "亲卫军", "骑兵军团", "水军编制"],
-      "order_hint": 368
-    },
-    {
-      "id": "green-faction-004",
-      "name": "粮草后勤与地盘",
-      "source": "worldbook/settings/green-triggered/factions/004_粮草后勤与地盘.md",
-      "parent_blue": "blue-005",
-      "activation": "green-triggered",
-      "keywords": ["粮草后勤", "粮道", "断粮", "烧仓", "辎重", "地盘经营", "补给线"],
-      "order_hint": 367
-    },
-    {
-      "id": "green-faction-005",
-      "name": "联盟外交与临时共同体",
-      "source": "worldbook/settings/green-triggered/factions/005_联盟外交与临时共同体.md",
-      "parent_blue": "blue-005",
-      "activation": "green-triggered",
-      "keywords": ["诸侯联盟", "临时联盟", "外交盟约", "联军", "借兵", "借道", "政治联姻", "背盟"],
-      "order_hint": 366
-    },
-    {
-      "id": "green-faction-006",
-      "name": "曹魏势力",
-      "source": "worldbook/settings/green-triggered/factions/006_曹魏势力.md",
-      "parent_blue": "blue-005",
-      "activation": "green-triggered",
-      "keywords": ["曹魏", "魏军", "魏势力", "曹操军", "曹氏势力", "魏国阵营"],
-      "order_hint": 365
-    },
-    {
-      "id": "green-faction-007",
-      "name": "蜀汉势力",
-      "source": "worldbook/settings/green-triggered/factions/007_蜀汉势力.md",
-      "parent_blue": "blue-005",
-      "activation": "green-triggered",
-      "keywords": ["蜀汉", "蜀军", "蜀势力", "刘备军", "刘氏势力", "蜀国阵营"],
-      "order_hint": 364
-    },
-    {
-      "id": "green-faction-008",
-      "name": "孙吴势力",
-      "source": "worldbook/settings/green-triggered/factions/008_孙吴势力.md",
-      "parent_blue": "blue-005",
-      "activation": "green-triggered",
-      "keywords": ["孙吴", "东吴", "吴军", "吴势力", "孙权军", "江东军", "江东势力"],
-      "order_hint": 363
-    },
-    {
-      "id": "green-faction-009",
-      "name": "晋势力",
-      "source": "worldbook/settings/green-triggered/factions/009_晋势力.md",
-      "parent_blue": "blue-005",
-      "activation": "green-triggered",
-      "keywords": ["晋军", "晋势力", "司马氏", "司马家", "晋国阵营", "西晋"],
-      "order_hint": 362
-    },
-    {
-      "id": "green-faction-010",
-      "name": "群雄诸侯",
-      "source": "worldbook/settings/green-triggered/factions/010_群雄诸侯.md",
-      "parent_blue": "blue-005",
-      "activation": "green-triggered",
-      "keywords": ["群雄", "诸侯势力", "地方军阀", "群雄阵营", "诸侯割据", "地方诸侯"],
-      "order_hint": 361
-    },
-    {
-      "id": "green-combat-001",
-      "name": "兵器类别与战斗距离",
-      "source": "worldbook/settings/green-triggered/combat/001_兵器类别与战斗距离.md",
-      "parent_blue": "blue-006",
-      "activation": "green-triggered",
-      "keywords": ["战斗距离", "兵器距离", "长兵", "短兵", "长柄兵器", "贴身战"],
-      "order_hint": 360
-    },
-    {
-      "id": "green-combat-002",
-      "name": "骑战与马上武艺",
-      "source": "worldbook/settings/green-triggered/combat/002_骑战与马上武艺.md",
-      "parent_blue": "blue-006",
-      "activation": "green-triggered",
-      "keywords": ["骑战", "马上武艺", "马上作战", "骑将", "冲锋骑战", "回马"],
-      "order_hint": 359
-    },
-    {
-      "id": "green-combat-003",
-      "name": "弓战与投射武艺",
-      "source": "worldbook/settings/green-triggered/combat/003_弓战与投射武艺.md",
-      "parent_blue": "blue-006",
-      "activation": "green-triggered",
-      "keywords": ["弓战", "骑射", "远射", "投射武艺", "投枪", "飞刀", "飞轮"],
-      "order_hint": 358
-    },
-    {
-      "id": "green-combat-004",
-      "name": "重兵器与巨型兵装",
-      "source": "worldbook/settings/green-triggered/combat/004_重兵器与巨型兵装.md",
-      "parent_blue": "blue-006",
-      "activation": "green-triggered",
-      "keywords": ["重兵器", "巨型兵器", "大斧", "重锤", "巨刀", "重型兵装"],
-      "order_hint": 357
-    },
-    {
-      "id": "green-combat-005",
-      "name": "奇门兵器与特殊操控",
-      "source": "worldbook/settings/green-triggered/combat/005_奇门兵器与特殊操控.md",
-      "parent_blue": "blue-006",
-      "activation": "green-triggered",
-      "keywords": ["奇门兵器", "链刃", "钩爪", "节鞭", "双钺", "伞刃", "特殊兵器"],
-      "order_hint": 356
-    },
-    {
-      "id": "green-combat-006",
-      "name": "双持连段与连续攻防",
-      "source": "worldbook/settings/green-triggered/combat/006_双持连段与连续攻防.md",
-      "parent_blue": "blue-006",
-      "activation": "green-triggered",
-      "keywords": ["双持", "双兵", "连段", "连续攻防", "连击", "双武器"],
-      "order_hint": 355
-    },
-    {
-      "id": "green-combat-007",
-      "name": "破阵与斩将",
-      "source": "worldbook/settings/green-triggered/combat/007_破阵与斩将.md",
-      "parent_blue": "blue-006",
-      "activation": "green-triggered",
-      "keywords": ["破阵", "斩将", "冲阵", "阵中斩将", "突破军阵", "突入敌阵"],
-      "order_hint": 354
-    },
-    {
-      "id": "green-combat-008",
-      "name": "无双乱舞与终结技",
-      "source": "worldbook/settings/green-triggered/combat/008_无双乱舞与终结技.md",
-      "parent_blue": "blue-006",
-      "activation": "green-triggered",
-      "keywords": ["无双乱舞", "终结技", "无双终结", "决胜技", "无双杀招"],
-      "order_hint": 353
-    },
-    {
-      "id": "green-battlefield-001",
-      "name": "攻城与守城",
-      "source": "worldbook/settings/green-triggered/battlefield/001_攻城与守城.md",
-      "parent_blue": "blue-004",
-      "activation": "green-triggered",
-      "keywords": ["攻城战", "守城战", "攻城", "守城", "城防", "围城", "攻城器械"],
-      "order_hint": 352
-    },
-    {
-      "id": "green-battlefield-002",
-      "name": "先登夺旗",
-      "source": "worldbook/settings/green-triggered/battlefield/002_先登夺旗.md",
-      "parent_blue": "blue-004",
-      "activation": "green-triggered",
-      "keywords": ["先登", "先登夺旗", "夺旗", "立旗", "夺门", "斩关", "登城先登"],
-      "order_hint": 351
-    },
-    {
-      "id": "green-battlefield-003",
-      "name": "战阵压制",
-      "source": "worldbook/settings/green-triggered/battlefield/003_战阵压制.md",
-      "parent_blue": "blue-004",
-      "activation": "green-triggered",
-      "keywords": ["战阵压制", "阵压强者", "长兵阵", "盾阵", "军阵压制", "阵型压迫"],
-      "order_hint": 350
-    },
-    {
-      "id": "green-battlefield-004",
-      "name": "围攻强者",
-      "source": "worldbook/settings/green-triggered/battlefield/004_围攻强者.md",
-      "parent_blue": "blue-004",
-      "activation": "green-triggered",
-      "keywords": ["围攻强者", "围攻名将", "围攻无双", "围杀名将", "轮换围攻", "封锁强者"],
-      "order_hint": 349
-    },
-    {
-      "id": "green-battlefield-005",
-      "name": "士气崩溃",
-      "source": "worldbook/settings/green-triggered/battlefield/005_士气崩溃.md",
-      "parent_blue": "blue-004",
-      "activation": "green-triggered",
-      "keywords": ["士气崩溃", "军心崩溃", "全军溃败", "军心动摇", "士气低落", "军旗倒下"],
-      "order_hint": 348
-    },
-    {
-      "id": "green-battlefield-006",
-      "name": "战场伤亡与救治",
-      "source": "worldbook/settings/green-triggered/battlefield/006_战场伤亡与救治.md",
-      "parent_blue": "blue-004",
-      "activation": "green-triggered",
-      "keywords": ["战场救治", "战场伤亡", "军医", "伤兵", "重伤后送", "战伤", "伤兵营"],
-      "order_hint": 347
-    },
-    {
-      "id": "green-battlefield-007",
-      "name": "撤退追击与断后",
-      "source": "worldbook/settings/green-triggered/battlefield/007_撤退追击与断后.md",
-      "parent_blue": "blue-004",
-      "activation": "green-triggered",
-      "keywords": ["有序撤退", "追击", "断后", "诈退", "溃退", "撤军", "断后战"],
-      "order_hint": 346
-    },
-    {
-      "id": "green-family-001",
-      "name": "妻妻婚姻与配偶关系",
-      "source": "worldbook/settings/green-triggered/family/001_妻妻婚姻与配偶关系.md",
-      "parent_blue": "blue-003",
-      "activation": "green-triggered",
-      "keywords": ["妻妻婚姻", "妻妻配偶", "妻妻成婚", "婚书", "配偶关系", "再婚", "守寡"],
-      "order_hint": 345
-    },
-    {
-      "id": "green-family-002",
-      "name": "生育与血脉",
-      "source": "worldbook/settings/green-triggered/family/002_生育与血脉.md",
-      "parent_blue": "blue-003",
-      "activation": "green-triggered",
-      "keywords": ["双母血脉", "双母受孕", "双母生育", "孕母", "血亲母亲", "血脉结合", "共同孕育"],
-      "order_hint": 344
-    },
-    {
-      "id": "green-family-003",
-      "name": "宗族与继承",
-      "source": "worldbook/settings/green-triggered/family/003_宗族与继承.md",
-      "parent_blue": "blue-003",
-      "activation": "green-triggered",
-      "keywords": ["宗族继承", "家族继承", "继承顺位", "嫡系", "旁支", "过继", "承嗣", "宗祧"],
-      "order_hint": 343
-    },
-    {
-      "id": "green-family-004",
-      "name": "母亲与亲属称谓",
-      "source": "worldbook/settings/green-triggered/family/004_母亲与亲属称谓.md",
-      "parent_blue": "blue-003",
-      "activation": "green-triggered",
-      "keywords": ["双母称谓", "母亲称谓", "阿母", "娘亲", "大母", "二母", "亲属称谓"],
-      "order_hint": 342
-    },
-    {
-      "id": "green-family-005",
-      "name": "政治联姻",
-      "source": "worldbook/settings/green-triggered/family/005_政治联姻.md",
-      "parent_blue": "blue-003",
-      "activation": "green-triggered",
-      "keywords": ["政治联姻", "婚盟", "联姻婚约", "家族联姻", "婚约联盟", "联姻关系"],
-      "order_hint": 341
-    },
-    {
-      "id": "green-family-006",
-      "name": "子嗣归属与家族抚养",
-      "source": "worldbook/settings/green-triggered/family/006_子嗣归属与家族抚养.md",
-      "parent_blue": "blue-003",
-      "activation": "green-triggered",
-      "keywords": ["子嗣归属", "家族抚养", "子嗣抚养", "寄养", "过继抚养", "继承子嗣", "家族教育"],
-      "order_hint": 340
-    }
+    {"id":"green-qi-001","name":"气的运行与外显","source":"worldbook/settings/green-triggered/qi-wujing/001_气的运行与外显.md","parent_blue":"blue-007","activation":"green-triggered","keywords":["气的运行","运气","行气","气势外显","气的外显","气性"],"order_hint":380},
+    {"id":"green-qi-002","name":"武境五阶","source":"worldbook/settings/green-triggered/qi-wujing/002_武境五阶.md","parent_blue":"blue-007","activation":"green-triggered","keywords":["武境","五阶武境","武卒境","武人境","骁将境","名将境","无双境"],"order_hint":379},
+    {"id":"green-qi-003","name":"无双爆发","source":"worldbook/settings/green-triggered/qi-wujing/003_无双爆发.md","parent_blue":"blue-007","activation":"green-triggered","keywords":["无双爆发","无双状态","无双乱舞","爆发无双","进入无双"],"order_hint":378},
+    {"id":"green-qi-004","name":"气的消耗与恢复","source":"worldbook/settings/green-triggered/qi-wujing/004_气的消耗与恢复.md","parent_blue":"blue-007","activation":"green-triggered","keywords":["耗气","气竭","回气","调息","气力耗尽","恢复气力"],"order_hint":377},
+    {"id":"green-qi-005","name":"越境战与克制","source":"worldbook/settings/green-triggered/qi-wujing/005_越境战与克制.md","parent_blue":"blue-007","activation":"green-triggered","keywords":["越境战","越境挑战","越境取胜","以弱胜强","兵器克制","武境克制"],"order_hint":376},
+    {"id":"green-strategy-001","name":"军师之气","source":"worldbook/settings/green-triggered/junshi/001_军师之气.md","parent_blue":"blue-008","activation":"green-triggered","keywords":["军师之气","谋士之气","军师气感","军师气场","定心行气"],"order_hint":375},
+    {"id":"green-strategy-002","name":"阵法与军势","source":"worldbook/settings/green-triggered/junshi/002_阵法与军势.md","parent_blue":"blue-008","activation":"green-triggered","keywords":["军阵","阵法","变阵","阵型","军势压迫","军势"],"order_hint":374},
+    {"id":"green-strategy-003","name":"情报与谋略","source":"worldbook/settings/green-triggered/junshi/003_情报与谋略.md","parent_blue":"blue-008","activation":"green-triggered","keywords":["情报网","谍报","细作","探马情报","斥候情报","情报误判"],"order_hint":373},
+    {"id":"green-strategy-004","name":"计策成立条件","source":"worldbook/settings/green-triggered/junshi/004_计策成立条件.md","parent_blue":"blue-008","activation":"green-triggered","keywords":["计策条件","计策成立","计策失败","伏兵条件","火攻条件","诱敌条件","离间条件"],"order_hint":372},
+    {"id":"green-strategy-005","name":"军师亲临战场","source":"worldbook/settings/green-triggered/junshi/005_军师亲临战场.md","parent_blue":"blue-008","activation":"green-triggered","keywords":["军师参战","军师上阵","军师亲临战场","军师亲征","军师护身","军师近战"],"order_hint":371},
+    {"id":"green-faction-001","name":"归附转阵营与忠诚","source":"worldbook/settings/green-triggered/factions/001_归附转阵营与忠诚.md","parent_blue":"blue-005","activation":"green-triggered","keywords":["转阵营","归附","择主","投降归顺","降将","忠诚冲突","改换门庭"],"order_hint":370},
+    {"id":"green-faction-002","name":"主君将领与军师关系","source":"worldbook/settings/green-triggered/factions/002_主君将领与军师关系.md","parent_blue":"blue-005","activation":"green-triggered","keywords":["主君与将领","君臣关系","主从关系","功臣关系","主君与军师","阵营内斗"],"order_hint":369},
+    {"id":"green-faction-003","name":"军制兵种与军团","source":"worldbook/settings/green-triggered/factions/003_军制兵种与军团.md","parent_blue":"blue-005","activation":"green-triggered","keywords":["军制","兵种","军团编制","精锐军团","亲卫军","骑兵军团","水军编制"],"order_hint":368},
+    {"id":"green-faction-004","name":"粮草后勤与地盘","source":"worldbook/settings/green-triggered/factions/004_粮草后勤与地盘.md","parent_blue":"blue-005","activation":"green-triggered","keywords":["粮草后勤","粮道","断粮","烧仓","辎重","地盘经营","补给线"],"order_hint":367},
+    {"id":"green-faction-005","name":"联盟外交与临时共同体","source":"worldbook/settings/green-triggered/factions/005_联盟外交与临时共同体.md","parent_blue":"blue-005","activation":"green-triggered","keywords":["诸侯联盟","临时联盟","外交盟约","联军","借兵","借道","政治联姻","背盟"],"order_hint":366},
+    {"id":"green-faction-006","name":"曹魏势力","source":"worldbook/settings/green-triggered/factions/006_曹魏势力.md","parent_blue":"blue-005","activation":"green-triggered","keywords":["曹魏","魏军","魏势力","曹操军","曹氏势力","魏国阵营"],"order_hint":365},
+    {"id":"green-faction-007","name":"蜀汉势力","source":"worldbook/settings/green-triggered/factions/007_蜀汉势力.md","parent_blue":"blue-005","activation":"green-triggered","keywords":["蜀汉","蜀军","蜀势力","刘备军","刘氏势力","蜀国阵营"],"order_hint":364},
+    {"id":"green-faction-008","name":"孙吴势力","source":"worldbook/settings/green-triggered/factions/008_孙吴势力.md","parent_blue":"blue-005","activation":"green-triggered","keywords":["孙吴","东吴","吴军","吴势力","孙权军","江东军","江东势力"],"order_hint":363},
+    {"id":"green-faction-009","name":"晋势力","source":"worldbook/settings/green-triggered/factions/009_晋势力.md","parent_blue":"blue-005","activation":"green-triggered","keywords":["晋军","晋势力","司马氏","司马家","晋国阵营","西晋"],"order_hint":362},
+    {"id":"green-faction-010","name":"群雄诸侯","source":"worldbook/settings/green-triggered/factions/010_群雄诸侯.md","parent_blue":"blue-005","activation":"green-triggered","keywords":["群雄","诸侯势力","地方军阀","群雄阵营","诸侯割据","地方诸侯"],"order_hint":361},
+    {"id":"green-combat-001","name":"兵器类别与战斗距离","source":"worldbook/settings/green-triggered/combat/001_兵器类别与战斗距离.md","parent_blue":"blue-006","activation":"green-triggered","keywords":["战斗距离","兵器距离","长兵","短兵","长柄兵器","贴身战"],"order_hint":360},
+    {"id":"green-combat-002","name":"骑战与马上武艺","source":"worldbook/settings/green-triggered/combat/002_骑战与马上武艺.md","parent_blue":"blue-006","activation":"green-triggered","keywords":["骑战","马上武艺","马上作战","骑将","冲锋骑战","回马"],"order_hint":359},
+    {"id":"green-combat-003","name":"弓战与投射武艺","source":"worldbook/settings/green-triggered/combat/003_弓战与投射武艺.md","parent_blue":"blue-006","activation":"green-triggered","keywords":["弓战","骑射","远射","投射武艺","投枪","飞刀","飞轮"],"order_hint":358},
+    {"id":"green-combat-004","name":"重兵器与巨型兵装","source":"worldbook/settings/green-triggered/combat/004_重兵器与巨型兵装.md","parent_blue":"blue-006","activation":"green-triggered","keywords":["重兵器","巨型兵器","大斧","重锤","巨刀","重型兵装"],"order_hint":357},
+    {"id":"green-combat-005","name":"奇门兵器与特殊操控","source":"worldbook/settings/green-triggered/combat/005_奇门兵器与特殊操控.md","parent_blue":"blue-006","activation":"green-triggered","keywords":["奇门兵器","链刃","钩爪","节鞭","双钺","伞刃","特殊兵器"],"order_hint":356},
+    {"id":"green-combat-006","name":"双持连段与连续攻防","source":"worldbook/settings/green-triggered/combat/006_双持连段与连续攻防.md","parent_blue":"blue-006","activation":"green-triggered","keywords":["双持","双兵","连段","连续攻防","连击","双武器"],"order_hint":355},
+    {"id":"green-combat-007","name":"破阵与斩将","source":"worldbook/settings/green-triggered/combat/007_破阵与斩将.md","parent_blue":"blue-006","activation":"green-triggered","keywords":["破阵","斩将","冲阵","阵中斩将","突破军阵","突入敌阵"],"order_hint":354},
+    {"id":"green-combat-008","name":"无双乱舞与终结技","source":"worldbook/settings/green-triggered/combat/008_无双乱舞与终结技.md","parent_blue":"blue-006","activation":"green-triggered","keywords":["无双乱舞","终结技","无双终结","决胜技","无双杀招"],"order_hint":353},
+    {"id":"green-battlefield-001","name":"攻城与守城","source":"worldbook/settings/green-triggered/battlefield/001_攻城与守城.md","parent_blue":"blue-004","activation":"green-triggered","keywords":["攻城战","守城战","攻城","守城","城防","围城","攻城器械"],"order_hint":352},
+    {"id":"green-battlefield-002","name":"先登夺旗","source":"worldbook/settings/green-triggered/battlefield/002_先登夺旗.md","parent_blue":"blue-004","activation":"green-triggered","keywords":["先登","先登夺旗","夺旗","立旗","夺门","斩关","登城先登"],"order_hint":351},
+    {"id":"green-battlefield-003","name":"战阵压制","source":"worldbook/settings/green-triggered/battlefield/003_战阵压制.md","parent_blue":"blue-004","activation":"green-triggered","keywords":["战阵压制","阵压强者","长兵阵","盾阵","军阵压制","阵型压迫"],"order_hint":350},
+    {"id":"green-battlefield-004","name":"围攻强者","source":"worldbook/settings/green-triggered/battlefield/004_围攻强者.md","parent_blue":"blue-004","activation":"green-triggered","keywords":["围攻强者","围攻名将","围攻无双","围杀名将","轮换围攻","封锁强者"],"order_hint":349},
+    {"id":"green-battlefield-005","name":"士气崩溃","source":"worldbook/settings/green-triggered/battlefield/005_士气崩溃.md","parent_blue":"blue-004","activation":"green-triggered","keywords":["士气崩溃","军心崩溃","全军溃败","军心动摇","士气低落","军旗倒下"],"order_hint":348},
+    {"id":"green-battlefield-006","name":"战场伤亡与救治","source":"worldbook/settings/green-triggered/battlefield/006_战场伤亡与救治.md","parent_blue":"blue-004","activation":"green-triggered","keywords":["战场救治","战场伤亡","军医","伤兵","重伤后送","战伤","伤兵营"],"order_hint":347},
+    {"id":"green-battlefield-007","name":"撤退追击与断后","source":"worldbook/settings/green-triggered/battlefield/007_撤退追击与断后.md","parent_blue":"blue-004","activation":"green-triggered","keywords":["有序撤退","追击","断后","诈退","溃退","撤军","断后战"],"order_hint":346},
+    {"id":"green-family-001","name":"妻妻婚姻与配偶关系","source":"worldbook/settings/green-triggered/family/001_妻妻婚姻与配偶关系.md","parent_blue":"blue-003","activation":"green-triggered","keywords":["妻妻婚姻","妻妻配偶","妻妻成婚","婚书","配偶关系","再婚","守寡"],"order_hint":345},
+    {"id":"green-family-002","name":"生育与血脉","source":"worldbook/settings/green-triggered/family/002_生育与血脉.md","parent_blue":"blue-003","activation":"green-triggered","keywords":["双母血脉","双母受孕","双母生育","孕母","血亲母亲","血脉结合","共同孕育"],"order_hint":344},
+    {"id":"green-family-003","name":"宗族与继承","source":"worldbook/settings/green-triggered/family/003_宗族与继承.md","parent_blue":"blue-003","activation":"green-triggered","keywords":["宗族继承","家族继承","继承顺位","嫡系","旁支","过继","承嗣","宗祧"],"order_hint":343},
+    {"id":"green-family-004","name":"母亲与亲属称谓","source":"worldbook/settings/green-triggered/family/004_母亲与亲属称谓.md","parent_blue":"blue-003","activation":"green-triggered","keywords":["双母称谓","母亲称谓","阿母","娘亲","大母","二母","亲属称谓"],"order_hint":342},
+    {"id":"green-family-005","name":"政治联姻","source":"worldbook/settings/green-triggered/family/005_政治联姻.md","parent_blue":"blue-003","activation":"green-triggered","keywords":["政治联姻","婚盟","联姻婚约","家族联姻","婚约联盟","联姻关系"],"order_hint":341},
+    {"id":"green-family-006","name":"子嗣归属与家族抚养","source":"worldbook/settings/green-triggered/family/006_子嗣归属与家族抚养.md","parent_blue":"blue-003","activation":"green-triggered","keywords":["子嗣归属","家族抚养","子嗣抚养","寄养","过继抚养","继承子嗣","家族教育"],"order_hint":340},
+    {"id":"green-female-001","name":"女性体态差异","source":"worldbook/settings/green-triggered/female-world/001_女性体态差异.md","parent_blue":"blue-002","activation":"green-triggered","keywords":["女性体态","体态差异","身材差异","体型差异","身高差异","胸围差异"],"order_hint":339},
+    {"id":"green-female-002","name":"武姬体魄与力量表现","source":"worldbook/settings/green-triggered/female-world/002_武姬体魄与力量表现.md","parent_blue":"blue-002","activation":"green-triggered","keywords":["武姬体魄","武姬力量","女性强者体魄","高武体魄","武姬身材","女性力量表现"],"order_hint":338},
+    {"id":"green-female-003","name":"年龄阶段与成熟感","source":"worldbook/settings/green-triggered/female-world/003_年龄阶段与成熟感.md","parent_blue":"blue-002","activation":"green-triggered","keywords":["年龄阶段","年龄感","成熟感","中年气质","年龄变化","人物年龄感"],"order_hint":337},
+    {"id":"green-female-004","name":"老年御姐化","source":"worldbook/settings/green-triggered/female-world/004_老年御姐化.md","parent_blue":"blue-002","activation":"green-triggered","keywords":["老年御姐","老年御姐化","威严美妇","老练女将","高龄武姬","白发御姐"],"order_hint":336},
+    {"id":"green-female-005","name":"甲胄服饰与女性身体适配","source":"worldbook/settings/green-triggered/female-world/005_甲胄服饰与女性身体适配.md","parent_blue":"blue-002","activation":"green-triggered","keywords":["女性甲胄","女武将甲胄","甲胄适配","女性战甲","骑装适配","女性军装"],"order_hint":335}
   ]
 }
