@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "kind": "worldbook-core-settings-green-triggered",
   "activation_policy": "keyword_triggered",
   "format": "咩咩制卡·全栈 v1.0.0 / <核心设定:名称>",
@@ -48,6 +48,51 @@
       "activation": "green-triggered",
       "keywords": ["越境战", "越境挑战", "越境取胜", "以弱胜强", "兵器克制", "武境克制"],
       "order_hint": 376
+    },
+    {
+      "id": "green-strategy-001",
+      "name": "军师之气",
+      "source": "worldbook/settings/green-triggered/junshi/001_军师之气.md",
+      "parent_blue": "blue-008",
+      "activation": "green-triggered",
+      "keywords": ["军师之气", "谋士之气", "军师气感", "军师气场", "定心行气"],
+      "order_hint": 375
+    },
+    {
+      "id": "green-strategy-002",
+      "name": "阵法与军势",
+      "source": "worldbook/settings/green-triggered/junshi/002_阵法与军势.md",
+      "parent_blue": "blue-008",
+      "activation": "green-triggered",
+      "keywords": ["军阵", "阵法", "变阵", "阵型", "军势压迫", "军势"],
+      "order_hint": 374
+    },
+    {
+      "id": "green-strategy-003",
+      "name": "情报与谋略",
+      "source": "worldbook/settings/green-triggered/junshi/003_情报与谋略.md",
+      "parent_blue": "blue-008",
+      "activation": "green-triggered",
+      "keywords": ["情报网", "谍报", "细作", "探马情报", "斥候情报", "情报误判"],
+      "order_hint": 373
+    },
+    {
+      "id": "green-strategy-004",
+      "name": "计策成立条件",
+      "source": "worldbook/settings/green-triggered/junshi/004_计策成立条件.md",
+      "parent_blue": "blue-008",
+      "activation": "green-triggered",
+      "keywords": ["计策条件", "计策成立", "计策失败", "伏兵条件", "火攻条件", "诱敌条件", "离间条件"],
+      "order_hint": 372
+    },
+    {
+      "id": "green-strategy-005",
+      "name": "军师亲临战场",
+      "source": "worldbook/settings/green-triggered/junshi/005_军师亲临战场.md",
+      "parent_blue": "blue-008",
+      "activation": "green-triggered",
+      "keywords": ["军师参战", "军师上阵", "军师亲临战场", "军师亲征", "军师护身", "军师近战"],
+      "order_hint": 371
     }
   ]
 }
