@@ -1,0 +1,149 @@
+name: Candidate7 appearance gate publisher
+
+'on':
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    if: github.event.head_commit.message == 'Prepare Candidate7 appearance gate publish'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Build Candidate7 from Candidate6
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, base64, hashlib, zlib
+          from pathlib import Path
+
+          src_json=Path('build/三国无双姬_v1.0.0-candidate6.json')
+          src_png=Path('build/三国无双姬_v1.0.0-candidate6.png')
+          out_json=Path('build/三国无双姬_v1.0.0-candidate7.json')
+          out_png=Path('build/三国无双姬_v1.0.0-candidate7.png')
+          qa=Path('qa/Candidate7_QA.txt')
+          authority_src=Path('worldbook/settings/blue-global/009_人物外貌与角色设定权威.md').read_text(encoding='utf-8')
+
+          card=json.loads(src_json.read_text(encoding='utf-8'))
+          entries=card['data']['character_book']['entries']
+          authority=next(e for e in entries if e.get('comment')=='核心设定:人物外貌与角色设定权威')
+          authority['content']=authority_src
+
+          chars=[e for e in entries if str(e.get('comment','')).startswith('角色:')]
+          assert len(chars)==91, len(chars)
+          for e in chars:
+              ext=e.setdefault('extensions',{})
+              ext['excludeRecursion']=True
+              ext['exclude_recursion']=True
+              ext['preventRecursion']=True
+              ext['prevent_recursion']=True
+
+          card['data']['character_version']='1.0.0-candidate7'
+          card['data']['creator_notes']='Candidate7：关闭人物递归，改用设定层首登场外貌门禁。009蓝灯加入MAIN01刘备/张飞/关羽最小保险锚点；未载入正式人物条目时禁止编造具体外貌与状态栏数值；正式人物条目触发后强制覆盖旧memory冲突。继承Candidate6其余修复，待Android/SillyTavern实机验收。'
+          out_json.write_text(json.dumps(card,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          # Persist recursion-off behavior in normal assembler.
+          bp=Path('tools/build_candidate.py')
+          text=bp.read_text(encoding='utf-8')
+          old="  out['extensions'].update(excludeRecursion=False,exclude_recursion=False,preventRecursion=True,prevent_recursion=True)"
+          new="  out['extensions'].update(excludeRecursion=True,exclude_recursion=True,preventRecursion=True,prevent_recursion=True)"
+          assert old in text, 'recursion-on assembler anchor missing'
+          text=text.replace(old,new,1)
+          bp.write_text(text,encoding='utf-8')
+
+          compact=json.dumps(card,ensure_ascii=False).encode('utf-8')
+          payload=base64.b64encode(compact)
+          png=src_png.read_bytes(); assert png[:8]==b'\x89PNG\r\n\x1a\n'
+          def chunk(t,d):
+              body=t+d
+              return len(d).to_bytes(4,'big')+body+(zlib.crc32(body)&0xffffffff).to_bytes(4,'big')
+          out=bytearray(png[:8]); pos=8; before=hashlib.sha256(); after=hashlib.sha256(); seen=set()
+          while pos<len(png):
+              n=int.from_bytes(png[pos:pos+4],'big'); t=png[pos+4:pos+8]; d=png[pos+8:pos+8+n]
+              whole=png[pos:pos+12+n]
+              if t==b'tEXt':
+                  key,_,val=d.partition(b'\x00')
+                  if key in (b'chara',b'ccv3'):
+                      whole=chunk(b'tEXt',key+b'\x00'+payload); seen.add(key)
+              if t==b'IDAT': before.update(d)
+              out.extend(whole)
+              if t==b'IDAT': after.update(d)
+              pos+=12+n
+          assert seen=={b'chara',b'ccv3'}
+          out_png.write_bytes(out); assert before.hexdigest()==after.hexdigest()
+
+          def embedded(path):
+              b=Path(path).read_bytes(); pos=8; got={}
+              while pos<len(b):
+                  n=int.from_bytes(b[pos:pos+4],'big'); t=b[pos+4:pos+8]; d=b[pos+8:pos+8+n]
+                  if t==b'tEXt':
+                      k,_,v=d.partition(b'\x00')
+                      if k in (b'chara',b'ccv3'): got[k.decode()]=json.loads(base64.b64decode(v))
+                  pos+=12+n
+              return got
+          emb=embedded(out_png); assert emb['chara']==card and emb['ccv3']==card
+
+          # Regression checks.
+          assert '【首登场外貌门禁】' in authority['content']
+          assert '【MAIN01开局三英保险锚点】' in authority['content']
+          assert '正式条目覆盖旧记忆' in authority['content']
+          assert '应递归召回' not in authority['content']
+          assert all(e['extensions'].get('excludeRecursion') is True for e in chars)
+          assert all(e['extensions'].get('exclude_recursion') is True for e in chars)
+          assert all(e['extensions'].get('preventRecursion') is True for e in chars)
+          assert all(e['extensions'].get('prevent_recursion') is True for e in chars)
+          for anchor in ['刘备：151cm','粉红双马尾','张飞：175cm','黑褐双丸子','关羽：183cm','深青超长高马尾']:
+              assert anchor in authority['content'], anchor
+          for name, anchors in {
+              '刘备':['151cm','发色:粉红','发型:双马尾','瞳色:翠绿'],
+              '张飞':['175cm','发色:黑褐','发型:双丸子','瞳色:琥珀黑'],
+              '关羽':['183cm','发色:深青','发型:超长高马尾','瞳色:墨绿']
+          }.items():
+              e=next(e for e in chars if e.get('comment')=='角色:'+name)
+              for a in anchors: assert a in e['content'], (name,a)
+          assert any(x.get('id')=='tkm-faction-beautify' for x in card['data']['extensions']['regex_scripts'])
+
+          def sha(p): return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+          report=[
+              'Candidate7 QA PASS','',
+              f'Candidate6 JSON SHA256: {sha(src_json)}',
+              f'Candidate6 PNG  SHA256: {sha(src_png)}',
+              f'Candidate7 JSON SHA256: {sha(out_json)}',
+              f'Candidate7 PNG  SHA256: {sha(out_png)}','',
+              f'Candidate7 JSON size: {out_json.stat().st_size} bytes',
+              f'Candidate7 PNG  size: {out_png.stat().st_size} bytes','',
+              'APPEARANCE GATE:',
+              '- 91/91 character entries recursion closed: PASS',
+              '- 009 first-appearance appearance gate embedded: PASS',
+              '- MAIN01 Liu Bei / Zhang Fei / Guan Yu minimal anchors: PASS',
+              '- untriggered NPC concrete appearance invention prohibited: PASS',
+              '- formal character entry overrides conflicting old memory: PASS','',
+              'REGRESSION:',
+              '- 刘备 151cm / 粉红 / 双马尾 / 翠绿: PASS',
+              '- 张飞 175cm / 黑褐 / 双丸子 / 琥珀黑: PASS',
+              '- 关羽 183cm / 深青 / 超长高马尾 / 墨绿: PASS',
+              '- Candidate4 faction beautifier inherited: PASS',
+              '- PNG IDAT image layer unchanged: PASS',
+              f'IDAT SHA256: {before.hexdigest()}',
+              '- embedded chara == Candidate7 JSON: PASS',
+              '- embedded ccv3 == Candidate7 JSON: PASS'
+          ]
+          qa.write_text('\n'.join(report)+'\n',encoding='utf-8')
+          PY
+      - name: Commit Candidate7 and clean one-shot files
+        shell: bash
+        run: |
+          rm -f .candidate7-trigger .github/workflows/candidate7-appearance-gate.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'Close character recursion and publish Candidate7'
+          git push origin HEAD:main
