@@ -1,0 +1,63 @@
+{
+  "schema": "three-kingdoms-musou-mvu-media-v1",
+  "version": "1.0.0",
+  "status": "FROZEN",
+  "repository": "3086013261qq-hue/ThreeKingdoms-Musou-Sandbox",
+  "source_commit": "904a20d68e6ec84773a46cae023a441df01fbca4",
+  "cdn_base": "https://cdn.jsdelivr.net/gh/3086013261qq-hue/ThreeKingdoms-Musou-Sandbox@904a20d68e6ec84773a46cae023a441df01fbca4/",
+  "lockscreen": [
+    {
+      "index": 1,
+      "faction": "曹魏",
+      "key": "caowei",
+      "path": "mvu/media/lockscreen/file_000000008fd082078b02461936d36d8b.png",
+      "blob_sha": "71be37277268c72a4db022a103a07456c0edbe60",
+      "url": "https://cdn.jsdelivr.net/gh/3086013261qq-hue/ThreeKingdoms-Musou-Sandbox@904a20d68e6ec84773a46cae023a441df01fbca4/mvu/media/lockscreen/file_000000008fd082078b02461936d36d8b.png"
+    },
+    {
+      "index": 2,
+      "faction": "蜀汉",
+      "key": "shuhan",
+      "path": "mvu/media/lockscreen/file_00000000f4048211964151601f11f055.png",
+      "blob_sha": "5862ded29420bdbd9b4af9fff1adbd7cb63d17a6",
+      "url": "https://cdn.jsdelivr.net/gh/3086013261qq-hue/ThreeKingdoms-Musou-Sandbox@904a20d68e6ec84773a46cae023a441df01fbca4/mvu/media/lockscreen/file_00000000f4048211964151601f11f055.png"
+    },
+    {
+      "index": 3,
+      "faction": "孙吴",
+      "key": "sunwu",
+      "path": "mvu/media/lockscreen/file_00000000dc508211b26c244a012a8c0f.png",
+      "blob_sha": "cd824d3058165795dd145ccab4fbf441cc15f8ce",
+      "url": "https://cdn.jsdelivr.net/gh/3086013261qq-hue/ThreeKingdoms-Musou-Sandbox@904a20d68e6ec84773a46cae023a441df01fbca4/mvu/media/lockscreen/file_00000000dc508211b26c244a012a8c0f.png"
+    },
+    {
+      "index": 4,
+      "faction": "晋",
+      "key": "jin",
+      "path": "mvu/media/lockscreen/file_00000000ed5c8211a215bd90cb86d19f.png",
+      "blob_sha": "16117840f1e64a9360459ee7ee75ead988384c88",
+      "url": "https://cdn.jsdelivr.net/gh/3086013261qq-hue/ThreeKingdoms-Musou-Sandbox@904a20d68e6ec84773a46cae023a441df01fbca4/mvu/media/lockscreen/file_00000000ed5c8211a215bd90cb86d19f.png"
+    },
+    {
+      "index": 5,
+      "faction": "群雄",
+      "key": "qunxiong",
+      "path": "mvu/media/lockscreen/file_0000000082cc82119af1704096bb081c.png",
+      "blob_sha": "4f8313ebd62f5bf849d378004a02f2b368fa1ae3",
+      "url": "https://cdn.jsdelivr.net/gh/3086013261qq-hue/ThreeKingdoms-Musou-Sandbox@904a20d68e6ec84773a46cae023a441df01fbca4/mvu/media/lockscreen/file_0000000082cc82119af1704096bb081c.png"
+    }
+  ],
+  "mvu_background": {
+    "name": "咩姬×多娜",
+    "path": "mvu/media/background/file_00000000f1188211864d359302685b88.png",
+    "blob_sha": "68c38480c63088f38ecae3e1e75528af9ee17d7b",
+    "url": "https://cdn.jsdelivr.net/gh/3086013261qq-hue/ThreeKingdoms-Musou-Sandbox@904a20d68e6ec84773a46cae023a441df01fbca4/mvu/media/background/file_00000000f1188211864d359302685b88.png"
+  },
+  "loading_policy": {
+    "transport": "GitHub -> jsDelivr CDN",
+    "pin_commit": true,
+    "embed_base64": false,
+    "lockscreen_preload": "current-and-adjacent-only",
+    "fallback": "dark-ink-vermilion-gold-gradient"
+  }
+}
